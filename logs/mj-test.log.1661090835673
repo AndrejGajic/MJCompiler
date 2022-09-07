@@ -1,0 +1,389 @@
+INFO  16:04:08,469 - Compiling source file: C:\Users\Andrej\eclipse-workspace\MJCompiler\test\test3.mj
+INFO  16:04:08,609 - #2 program
+INFO  16:04:08,609 - #48 p
+INFO  16:04:08,610 - #7 const
+INFO  16:04:08,611 - #48 int
+INFO  16:04:08,611 - #48 x
+INFO  16:04:08,612 - #35 =
+INFO  16:04:08,612 - #49 5
+INFO  16:04:08,612 - #38 ;
+INFO  16:04:08,613 - #48 int
+INFO  16:04:08,613 - #48 x
+INFO  16:04:08,613 - #40 ,
+INFO  16:04:08,616 - #48 y
+INFO  16:04:08,616 - #38 ;
+INFO  16:04:08,616 - #48 int
+INFO  16:04:08,616 - #48 z
+INFO  16:04:08,616 - #38 ;
+INFO  16:04:08,617 - #46 {
+INFO  16:04:08,617 - #48 int
+INFO  16:04:08,618 - #48 k
+INFO  16:04:08,618 - #42 (
+INFO  16:04:08,620 - #43 )
+INFO  16:04:08,621 - #48 int
+INFO  16:04:08,624 - #48 c
+INFO  16:04:08,624 - #38 ;
+INFO  16:04:08,625 - #46 {
+INFO  16:04:08,625 - #48 c
+INFO  16:04:08,626 - #35 =
+INFO  16:04:08,629 - #49 2
+INFO  16:04:08,634 - #38 ;
+INFO  16:04:08,638 - #14 return
+INFO  16:04:08,639 - #48 c
+INFO  16:04:08,639 - #22 +
+INFO  16:04:08,640 - #49 2
+INFO  16:04:08,643 - #38 ;
+INFO  16:04:08,644 - #47 }
+INFO  16:04:08,645 - #48 int
+INFO  16:04:08,645 - #48 main
+INFO  16:04:08,646 - #42 (
+INFO  16:04:08,646 - #43 )
+INFO  16:04:08,646 - #46 {
+INFO  16:04:08,646 - #12 print
+INFO  16:04:08,646 - #42 (
+INFO  16:04:08,646 - #49 1
+INFO  16:04:08,646 - #43 )
+INFO  16:04:08,648 - #38 ;
+INFO  16:04:08,649 - #48 x
+INFO  16:04:08,649 - #35 =
+INFO  16:04:08,649 - #48 y
+INFO  16:04:08,649 - #22 +
+INFO  16:04:08,649 - #49 5
+INFO  16:04:08,651 - #22 +
+INFO  16:04:08,651 - #49 3
+INFO  16:04:08,651 - #38 ;
+INFO  16:04:08,651 - #12 print
+INFO  16:04:08,652 - #42 (
+INFO  16:04:08,652 - #48 x
+INFO  16:04:08,652 - #43 )
+INFO  16:04:08,652 - #38 ;
+INFO  16:04:08,652 - #48 k
+INFO  16:04:08,653 - #42 (
+INFO  16:04:08,653 - #43 )
+INFO  16:04:08,654 - #38 ;
+INFO  16:04:08,654 - #47 }
+INFO  16:04:08,655 - #47 }
+INFO  16:04:08,658 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  ProgramVariablesList(
+    ProgramVariablesList(
+      ProgramVariablesList(
+        EmptyProgramVariablesList(
+        ) [EmptyProgramVariablesList]
+        ProgramConstants(
+          ConstantsClass(
+            Type(
+             int
+            ) [Type]
+            SingleConstantList(
+              ConstantDeclaration(
+               x
+                NumConstClass(
+                  NumberConstant(
+                   5
+                  ) [NumberConstant]
+                ) [NumConstClass]
+              ) [ConstantDeclaration]
+            ) [SingleConstantList]
+          ) [ConstantsClass]
+        ) [ProgramConstants]
+      ) [ProgramVariablesList]
+      ProgramVariables(
+        GlobalVariables(
+          Type(
+           int
+          ) [Type]
+          MultipleGlobalVariablesList(
+            SingleGlobalVariableList(
+              GlobalVariableDeclaration(
+               x
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [GlobalVariableDeclaration]
+            ) [SingleGlobalVariableList]
+            GlobalVariableDeclaration(
+             y
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [GlobalVariableDeclaration]
+          ) [MultipleGlobalVariablesList]
+        ) [GlobalVariables]
+      ) [ProgramVariables]
+    ) [ProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        Type(
+         int
+        ) [Type]
+        SingleGlobalVariableList(
+          GlobalVariableDeclaration(
+           z
+            VarIsNotArray(
+            ) [VarIsNotArray]
+          ) [GlobalVariableDeclaration]
+        ) [SingleGlobalVariableList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  ProgramMethodsList(
+    ProgramMethodsList(
+      EmptyProgramMethodsList(
+      ) [EmptyProgramMethodsList]
+      MethodDeclaration(
+        MethodTypeNotVoid(
+          Type(
+           int
+          ) [Type]
+        ) [MethodTypeNotVoid]
+        MethodName(
+         k
+        ) [MethodName]
+        EmptyFormalParametersList(
+        ) [EmptyFormalParametersList]
+        VariablesDeclarationList(
+          EmptyVariablesDeclarationList(
+          ) [EmptyVariablesDeclarationList]
+          LocalVariables(
+            Type(
+             int
+            ) [Type]
+            SingleLocalVariableList(
+              VariableDeclaration(
+               c
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [VariableDeclaration]
+            ) [SingleLocalVariableList]
+          ) [LocalVariables]
+        ) [VariablesDeclarationList]
+        StatementListClass(
+          StatementListClass(
+            EmptyStatementList(
+            ) [EmptyStatementList]
+            SingleStatementClass(
+              SSDesignatorStatement(
+                DesignatorStatementClass(
+                  Designator(
+                   c
+                    DesignatorNotArray(
+                    ) [DesignatorNotArray]
+                  ) [Designator]
+                  DesignatorAssign(
+                    DesignatorAssignOperation(
+                      AssignOperation(
+                      ) [AssignOperation]
+                      Expression(
+                        ExpressionPositive(
+                        ) [ExpressionPositive]
+                        Terminal(
+                          FactorNumberConstant(
+                            NumberConstant(
+                             2
+                            ) [NumberConstant]
+                          ) [FactorNumberConstant]
+                          EmptyTerminalMultiplicationList(
+                          ) [EmptyTerminalMultiplicationList]
+                        ) [Terminal]
+                        EmptyExpressionAdditionList(
+                        ) [EmptyExpressionAdditionList]
+                      ) [Expression]
+                    ) [DesignatorAssignOperation]
+                  ) [DesignatorAssign]
+                ) [DesignatorStatementClass]
+              ) [SSDesignatorStatement]
+            ) [SingleStatementClass]
+          ) [StatementListClass]
+          SingleStatementClass(
+            ReturnStatement(
+              HasReturnExpression(
+                Expression(
+                  ExpressionPositive(
+                  ) [ExpressionPositive]
+                  Terminal(
+                    FactorDesignator(
+                      Designator(
+                       c
+                        DesignatorNotArray(
+                        ) [DesignatorNotArray]
+                      ) [Designator]
+                      FactorNoFunctionCall(
+                      ) [FactorNoFunctionCall]
+                    ) [FactorDesignator]
+                    EmptyTerminalMultiplicationList(
+                    ) [EmptyTerminalMultiplicationList]
+                  ) [Terminal]
+                  ExpressionAdditionList(
+                    EmptyExpressionAdditionList(
+                    ) [EmptyExpressionAdditionList]
+                    AdditionOperation(
+                    ) [AdditionOperation]
+                    Terminal(
+                      FactorNumberConstant(
+                        NumberConstant(
+                         2
+                        ) [NumberConstant]
+                      ) [FactorNumberConstant]
+                      EmptyTerminalMultiplicationList(
+                      ) [EmptyTerminalMultiplicationList]
+                    ) [Terminal]
+                  ) [ExpressionAdditionList]
+                ) [Expression]
+              ) [HasReturnExpression]
+            ) [ReturnStatement]
+          ) [SingleStatementClass]
+        ) [StatementListClass]
+      ) [MethodDeclaration]
+    ) [ProgramMethodsList]
+    MethodDeclaration(
+      MethodTypeNotVoid(
+        Type(
+         int
+        ) [Type]
+      ) [MethodTypeNotVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      EmptyFormalParametersList(
+      ) [EmptyFormalParametersList]
+      EmptyVariablesDeclarationList(
+      ) [EmptyVariablesDeclarationList]
+      StatementListClass(
+        StatementListClass(
+          StatementListClass(
+            StatementListClass(
+              EmptyStatementList(
+              ) [EmptyStatementList]
+              SingleStatementClass(
+                PrintStatement(
+                  Expression(
+                    ExpressionPositive(
+                    ) [ExpressionPositive]
+                    Terminal(
+                      FactorNumberConstant(
+                        NumberConstant(
+                         1
+                        ) [NumberConstant]
+                      ) [FactorNumberConstant]
+                      EmptyTerminalMultiplicationList(
+                      ) [EmptyTerminalMultiplicationList]
+                    ) [Terminal]
+                    EmptyExpressionAdditionList(
+                    ) [EmptyExpressionAdditionList]
+                  ) [Expression]
+                  HasNotPrintConstant(
+                  ) [HasNotPrintConstant]
+                ) [PrintStatement]
+              ) [SingleStatementClass]
+            ) [StatementListClass]
+            SingleStatementClass(
+              SSDesignatorStatement(
+                DesignatorStatementClass(
+                  Designator(
+                   x
+                    DesignatorNotArray(
+                    ) [DesignatorNotArray]
+                  ) [Designator]
+                  DesignatorAssign(
+                    DesignatorAssignOperation(
+                      AssignOperation(
+                      ) [AssignOperation]
+                      Expression(
+                        ExpressionPositive(
+                        ) [ExpressionPositive]
+                        Terminal(
+                          FactorDesignator(
+                            Designator(
+                             y
+                              DesignatorNotArray(
+                              ) [DesignatorNotArray]
+                            ) [Designator]
+                            FactorNoFunctionCall(
+                            ) [FactorNoFunctionCall]
+                          ) [FactorDesignator]
+                          EmptyTerminalMultiplicationList(
+                          ) [EmptyTerminalMultiplicationList]
+                        ) [Terminal]
+                        ExpressionAdditionList(
+                          ExpressionAdditionList(
+                            EmptyExpressionAdditionList(
+                            ) [EmptyExpressionAdditionList]
+                            AdditionOperation(
+                            ) [AdditionOperation]
+                            Terminal(
+                              FactorNumberConstant(
+                                NumberConstant(
+                                 5
+                                ) [NumberConstant]
+                              ) [FactorNumberConstant]
+                              EmptyTerminalMultiplicationList(
+                              ) [EmptyTerminalMultiplicationList]
+                            ) [Terminal]
+                          ) [ExpressionAdditionList]
+                          AdditionOperation(
+                          ) [AdditionOperation]
+                          Terminal(
+                            FactorNumberConstant(
+                              NumberConstant(
+                               3
+                              ) [NumberConstant]
+                            ) [FactorNumberConstant]
+                            EmptyTerminalMultiplicationList(
+                            ) [EmptyTerminalMultiplicationList]
+                          ) [Terminal]
+                        ) [ExpressionAdditionList]
+                      ) [Expression]
+                    ) [DesignatorAssignOperation]
+                  ) [DesignatorAssign]
+                ) [DesignatorStatementClass]
+              ) [SSDesignatorStatement]
+            ) [SingleStatementClass]
+          ) [StatementListClass]
+          SingleStatementClass(
+            PrintStatement(
+              Expression(
+                ExpressionPositive(
+                ) [ExpressionPositive]
+                Terminal(
+                  FactorDesignator(
+                    Designator(
+                     x
+                      DesignatorNotArray(
+                      ) [DesignatorNotArray]
+                    ) [Designator]
+                    FactorNoFunctionCall(
+                    ) [FactorNoFunctionCall]
+                  ) [FactorDesignator]
+                  EmptyTerminalMultiplicationList(
+                  ) [EmptyTerminalMultiplicationList]
+                ) [Terminal]
+                EmptyExpressionAdditionList(
+                ) [EmptyExpressionAdditionList]
+              ) [Expression]
+              HasNotPrintConstant(
+              ) [HasNotPrintConstant]
+            ) [PrintStatement]
+          ) [SingleStatementClass]
+        ) [StatementListClass]
+        SingleStatementClass(
+          SSDesignatorStatement(
+            DesignatorStatementClass(
+              Designator(
+               k
+                DesignatorNotArray(
+                ) [DesignatorNotArray]
+              ) [Designator]
+              DesignatorFunctionCall(
+                FunctionCallNoArguments(
+                ) [FunctionCallNoArguments]
+              ) [DesignatorFunctionCall]
+            ) [DesignatorStatementClass]
+          ) [SSDesignatorStatement]
+        ) [SingleStatementClass]
+      ) [StatementListClass]
+    ) [MethodDeclaration]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  16:04:08,659 - ===================================
+INFO  16:04:08,659 - Parsing completed successfully!.

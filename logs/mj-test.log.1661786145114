@@ -1,0 +1,42 @@
+INFO  17:14:37,503 - Starting compilation of a file test/test1.mj
+INFO  17:14:37,504 - Starting lexical analysis....
+INFO  17:14:37,510 - Lexical analysis finished successfully!
+INFO  17:14:37,510 - =========================================
+INFO  17:14:37,510 - Starting syntax analysis....
+INFO  17:14:37,616 - #2 program
+INFO  17:14:37,617 - #52 P
+INFO  17:14:37,617 - #52 int
+INFO  17:14:37,618 - #52 x
+INFO  17:14:37,619 - #40 ,
+INFO  17:14:37,620 - #52 y
+INFO  17:14:37,620 - #38 ;
+INFO  17:14:37,620 - #7 const
+INFO  17:14:37,620 - #52 int
+INFO  17:14:37,620 - #52 N
+INFO  17:14:37,620 - #35 =
+INFO  17:14:37,621 - #53 5
+INFO  17:14:37,621 - #38 ;
+INFO  17:14:37,621 - #52 int
+INFO  17:14:37,622 - #52 arr
+INFO  17:14:37,626 - #44 [
+INFO  17:14:37,626 - #45 ]
+INFO  17:14:37,626 - #51 #
+ERROR 17:14:37,626 - 
+Syntax error! at line 4
+INFO  17:14:37,626 - #52 N
+INFO  17:14:37,626 - #38 ;
+INFO  17:14:37,626 - #46 {
+INFO  17:14:37,627 - #15 void
+INFO  17:14:37,627 - #52 main
+ERROR 17:14:37,627 - Syntax error in DEFINING GLOBAL VARIABLE at line 4
+INFO  17:14:37,629 - #42 (
+INFO  17:14:37,630 - #43 )
+INFO  17:14:37,631 - #46 {
+INFO  17:14:37,632 - #47 }
+INFO  17:14:37,633 - #47 }
+ERROR 17:14:37,634 - An error occured in syntax analysis!
+ERROR 17:14:37,634 - 
+Syntax error!
+Syntax error in DEFINING GLOBAL VARIABLE at line 4
+
+ERROR 17:14:37,635 - Terminating program...

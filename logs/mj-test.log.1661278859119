@@ -1,0 +1,219 @@
+INFO  20:20:50,007 - Compiling source file: C:\Users\Andrej\eclipse-workspace\MJCompiler\test\test3.mj
+INFO  20:20:50,129 - #2 program
+INFO  20:20:50,129 - #48 p
+INFO  20:20:50,129 - #7 const
+INFO  20:20:50,131 - #48 int
+INFO  20:20:50,131 - #48 x
+INFO  20:20:50,132 - #35 =
+INFO  20:20:50,133 - #49 50
+INFO  20:20:50,133 - #38 ;
+INFO  20:20:50,133 - #48 int
+INFO  20:20:50,134 - #48 i1
+INFO  20:20:50,134 - #40 ,
+INFO  20:20:50,136 - #48 arr
+INFO  20:20:50,136 - #44 [
+INFO  20:20:50,136 - #45 ]
+INFO  20:20:50,137 - #40 ,
+INFO  20:20:50,138 - #48 arr2
+INFO  20:20:50,138 - #44 [
+INFO  20:20:50,138 - #45 ]
+INFO  20:20:50,138 - #38 ;
+INFO  20:20:50,138 - #48 int
+INFO  20:20:50,139 - #48 i2
+INFO  20:20:50,139 - #38 ;
+INFO  20:20:50,143 - #48 char
+INFO  20:20:50,143 - #48 c1
+INFO  20:20:50,143 - #40 ,
+INFO  20:20:50,143 - #48 c2
+INFO  20:20:50,143 - #38 ;
+INFO  20:20:50,143 - #48 bool
+INFO  20:20:50,143 - #48 b
+INFO  20:20:50,143 - #38 ;
+INFO  20:20:50,144 - #46 {
+INFO  20:20:50,144 - #48 int
+INFO  20:20:50,145 - #48 f
+INFO  20:20:50,145 - #42 (
+INFO  20:20:50,147 - #43 )
+INFO  20:20:50,148 - #48 int
+INFO  20:20:50,149 - #48 l
+INFO  20:20:50,149 - #40 ,
+INFO  20:20:50,149 - #48 int
+INFO  20:20:50,149 - #48 s
+ERROR 20:20:50,150 - 
+Syntax error! at line 9
+INFO  20:20:50,150 - #46 {
+INFO  20:20:50,150 - #48 i1
+INFO  20:20:50,150 - #35 =
+INFO  20:20:50,151 - #49 5
+INFO  20:20:50,151 - #38 ;
+INFO  20:20:50,151 - #47 }
+INFO  20:20:50,151 - #15 void
+INFO  20:20:50,151 - #48 main
+INFO  20:20:50,152 - #42 (
+INFO  20:20:50,152 - #43 )
+INFO  20:20:50,152 - #46 {
+INFO  20:20:50,152 - #14 return
+INFO  20:20:50,152 - #38 ;
+ERROR 20:20:50,153 - Syntax error in DECLARING FORMAL PARAMETER at line 9
+INFO  20:20:50,157 - #47 }
+INFO  20:20:50,158 - #47 }
+INFO  20:20:50,160 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  ProgramVariablesList(
+    ProgramVariablesList(
+      ProgramVariablesList(
+        ProgramVariablesList(
+          ProgramVariablesList(
+            EmptyProgramVariablesList(
+            ) [EmptyProgramVariablesList]
+            ProgramConstants(
+              ConstantsClass(
+                Type(
+                 int
+                ) [Type]
+                SingleConstantList(
+                  ConstantDeclaration(
+                   x
+                    NumConstClass(
+                      NumberConstant(
+                       50
+                      ) [NumberConstant]
+                    ) [NumConstClass]
+                  ) [ConstantDeclaration]
+                ) [SingleConstantList]
+              ) [ConstantsClass]
+            ) [ProgramConstants]
+          ) [ProgramVariablesList]
+          ProgramVariables(
+            GlobalVariables(
+              Type(
+               int
+              ) [Type]
+              MultipleGlobalVariablesList(
+                MultipleGlobalVariablesList(
+                  SingleGlobalVariableList(
+                    GlobalVariableDeclaration(
+                     i1
+                      VarIsNotArray(
+                      ) [VarIsNotArray]
+                    ) [GlobalVariableDeclaration]
+                  ) [SingleGlobalVariableList]
+                  GlobalVariableDeclaration(
+                   arr
+                    VarIsArray(
+                    ) [VarIsArray]
+                  ) [GlobalVariableDeclaration]
+                ) [MultipleGlobalVariablesList]
+                GlobalVariableDeclaration(
+                 arr2
+                  VarIsArray(
+                  ) [VarIsArray]
+                ) [GlobalVariableDeclaration]
+              ) [MultipleGlobalVariablesList]
+            ) [GlobalVariables]
+          ) [ProgramVariables]
+        ) [ProgramVariablesList]
+        ProgramVariables(
+          GlobalVariables(
+            Type(
+             int
+            ) [Type]
+            SingleGlobalVariableList(
+              GlobalVariableDeclaration(
+               i2
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [GlobalVariableDeclaration]
+            ) [SingleGlobalVariableList]
+          ) [GlobalVariables]
+        ) [ProgramVariables]
+      ) [ProgramVariablesList]
+      ProgramVariables(
+        GlobalVariables(
+          Type(
+           char
+          ) [Type]
+          MultipleGlobalVariablesList(
+            SingleGlobalVariableList(
+              GlobalVariableDeclaration(
+               c1
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [GlobalVariableDeclaration]
+            ) [SingleGlobalVariableList]
+            GlobalVariableDeclaration(
+             c2
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [GlobalVariableDeclaration]
+          ) [MultipleGlobalVariablesList]
+        ) [GlobalVariables]
+      ) [ProgramVariables]
+    ) [ProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        Type(
+         bool
+        ) [Type]
+        SingleGlobalVariableList(
+          GlobalVariableDeclaration(
+           b
+            VarIsNotArray(
+            ) [VarIsNotArray]
+          ) [GlobalVariableDeclaration]
+        ) [SingleGlobalVariableList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  ProgramMethodsList(
+    EmptyProgramMethodsList(
+    ) [EmptyProgramMethodsList]
+    MethodDeclaration(
+      MethodTypeNotVoid(
+        Type(
+         int
+        ) [Type]
+      ) [MethodTypeNotVoid]
+      MethodName(
+       f
+      ) [MethodName]
+      FormalParametersList(
+        SingleFormalParameter(
+          FormalParameterError(
+          ) [FormalParameterError]
+        ) [SingleFormalParameter]
+      ) [FormalParametersList]
+      EmptyVariablesDeclarationList(
+      ) [EmptyVariablesDeclarationList]
+      StatementListClass(
+        EmptyStatementList(
+        ) [EmptyStatementList]
+        SingleStatementClass(
+          ReturnStatement(
+            NoReturnExpression(
+            ) [NoReturnExpression]
+          ) [ReturnStatement]
+        ) [SingleStatementClass]
+      ) [StatementListClass]
+    ) [MethodDeclaration]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  20:20:50,161 - ===================================
+ERROR 20:20:50,161 - Parser encountered error while parsing!
+ERROR 20:20:50,161 - 
+Syntax error!
+Syntax error in DECLARING FORMAL PARAMETER at line 9
+
+INFO  20:20:50,185 - Constant x declared  at line 2
+INFO  20:20:50,185 - Global variable i1 declared at line 3
+INFO  20:20:50,185 - Global array arr[] declared at line 3
+INFO  20:20:50,185 - Global array arr2[] declared at line 3
+INFO  20:20:50,185 - Global variable i2 declared at line 4
+INFO  20:20:50,186 - Global variable c1 declared at line 5
+INFO  20:20:50,189 - Global variable c2 declared at line 5
+INFO  20:20:50,190 - Global variable b declared at line 6
+INFO  20:20:50,190 - Function f is being parsed  at line 9
+INFO  20:20:50,190 - Error! Type of return expression is not equivalent to method return type at line 2
+INFO  20:20:50,190 - Error! Main is not declared in program!

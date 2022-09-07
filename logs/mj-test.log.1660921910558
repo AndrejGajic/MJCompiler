@@ -1,0 +1,64 @@
+INFO  17:11:38,984 - Compiling source file: C:\Users\Andrej\eclipse-workspace\MJCompiler\test\test2.mj
+INFO  17:11:39,072 - #2 program
+INFO  17:11:39,072 - #48 p
+INFO  17:11:39,072 - #7 const
+INFO  17:11:39,073 - #48 int
+INFO  17:11:39,073 - #48 x
+INFO  17:11:39,074 - #35 =
+INFO  17:11:39,074 - #49 10
+INFO  17:11:39,074 - #38 ;
+INFO  17:11:39,074 - #48 int
+INFO  17:11:39,075 - #48 y
+INFO  17:11:39,075 - #40 ,
+INFO  17:11:39,078 - #48 z
+INFO  17:11:39,078 - #38 ;
+INFO  17:11:39,078 - #48 bool
+INFO  17:11:39,079 - #48 b
+INFO  17:11:39,079 - #38 ;
+INFO  17:11:39,079 - #46 {
+INFO  17:11:39,079 - #48 char
+INFO  17:11:39,081 - #48 function
+INFO  17:11:39,081 - #42 (
+INFO  17:11:39,081 - #48 int
+INFO  17:11:39,082 - #48 param1
+INFO  17:11:39,085 - #40 ,
+INFO  17:11:39,086 - #48 char
+INFO  17:11:39,086 - #48 param2
+INFO  17:11:39,086 - #44 [
+INFO  17:11:39,086 - #45 ]
+INFO  17:11:39,086 - #40 ,
+INFO  17:11:39,088 - #48 bool
+INFO  17:11:39,088 - #48 param3
+INFO  17:11:39,088 - #43 )
+INFO  17:11:39,089 - #48 int
+INFO  17:11:39,090 - #48 local1
+INFO  17:11:39,090 - #44 [
+INFO  17:11:39,090 - #45 ]
+INFO  17:11:39,090 - #40 ,
+INFO  17:11:39,091 - #48 local2
+INFO  17:11:39,091 - #38 ;
+INFO  17:11:39,091 - #48 bool
+INFO  17:11:39,093 - #48 local3
+INFO  17:11:39,093 - #38 ;
+INFO  17:11:39,094 - #46 {
+INFO  17:11:39,095 - #47 }
+ERROR 17:11:39,095 - 
+Syntax error! at line 6
+INFO  17:11:39,096 - #48 int
+INFO  17:11:39,096 - #48 function2
+INFO  17:11:39,096 - #42 (
+INFO  17:11:39,097 - #48 int
+INFO  17:11:39,097 - #48 param1
+INFO  17:11:39,098 - #44 [
+INFO  17:11:39,098 - #45 ]
+INFO  17:11:39,098 - #40 ,
+INFO  17:11:39,098 - #48 int
+INFO  17:11:39,098 - #48 param2
+INFO  17:11:39,098 - #43 )
+ERROR 17:11:39,098 - Syntax error in DECLARING FORMAL PARAMETER at line 6
+INFO  17:11:39,100 - #46 {
+INFO  17:11:39,100 - #47 }
+ERROR 17:11:39,100 - 
+Syntax error! at line 8
+INFO  17:11:39,100 - #47 }
+ERROR 17:11:39,101 - Fatal error, parsing cannot continue! at line 10

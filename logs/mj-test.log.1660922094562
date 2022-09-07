@@ -1,0 +1,314 @@
+INFO  17:14:38,795 - Compiling source file: C:\Users\Andrej\eclipse-workspace\MJCompiler\test\test2.mj
+INFO  17:14:38,901 - #2 program
+INFO  17:14:38,901 - #48 p
+INFO  17:14:38,901 - #7 const
+INFO  17:14:38,902 - #48 int
+INFO  17:14:38,902 - #48 x
+INFO  17:14:38,902 - #35 =
+INFO  17:14:38,902 - #49 10
+INFO  17:14:38,903 - #38 ;
+INFO  17:14:38,903 - #48 int
+INFO  17:14:38,904 - #48 y
+INFO  17:14:38,904 - #40 ,
+INFO  17:14:38,906 - #48 z
+INFO  17:14:38,906 - #38 ;
+INFO  17:14:38,906 - #48 bool
+INFO  17:14:38,906 - #48 b
+INFO  17:14:38,906 - #38 ;
+INFO  17:14:38,907 - #46 {
+INFO  17:14:38,907 - #48 char
+INFO  17:14:38,908 - #48 function
+INFO  17:14:38,908 - #42 (
+INFO  17:14:38,908 - #48 int
+INFO  17:14:38,908 - #48 param1
+INFO  17:14:38,912 - #40 ,
+INFO  17:14:38,912 - #48 char
+INFO  17:14:38,912 - #48 param2
+INFO  17:14:38,912 - #44 [
+INFO  17:14:38,912 - #45 ]
+INFO  17:14:38,912 - #40 ,
+INFO  17:14:38,914 - #48 bool
+INFO  17:14:38,914 - #48 param3
+INFO  17:14:38,914 - #43 )
+INFO  17:14:38,914 - #48 int
+INFO  17:14:38,915 - #48 local1
+INFO  17:14:38,915 - #44 [
+INFO  17:14:38,915 - #45 ]
+INFO  17:14:38,915 - #40 ,
+INFO  17:14:38,915 - #48 local2
+INFO  17:14:38,915 - #38 ;
+INFO  17:14:38,915 - #48 bool
+INFO  17:14:38,916 - #48 local3
+INFO  17:14:38,916 - #38 ;
+INFO  17:14:38,916 - #46 {
+INFO  17:14:38,916 - #48 local2
+INFO  17:14:38,917 - #35 =
+INFO  17:14:38,918 - #49 4
+INFO  17:14:38,921 - #38 ;
+INFO  17:14:38,923 - #47 }
+INFO  17:14:38,923 - #48 int
+INFO  17:14:38,923 - #48 function2
+INFO  17:14:38,924 - #42 (
+INFO  17:14:38,924 - #48 int
+INFO  17:14:38,924 - #48 param1
+INFO  17:14:38,924 - #44 [
+INFO  17:14:38,924 - #45 ]
+INFO  17:14:38,924 - #40 ,
+INFO  17:14:38,924 - #48 int
+INFO  17:14:38,924 - #48 param2
+INFO  17:14:38,924 - #43 )
+INFO  17:14:38,924 - #48 int
+INFO  17:14:38,924 - #48 local1
+INFO  17:14:38,925 - #38 ;
+INFO  17:14:38,925 - #48 bool
+INFO  17:14:38,925 - #48 local2
+INFO  17:14:38,925 - #44 [
+INFO  17:14:38,925 - #45 ]
+INFO  17:14:38,925 - #38 ;
+INFO  17:14:38,925 - #46 {
+INFO  17:14:38,925 - #47 }
+INFO  17:14:38,925 - #47 }
+INFO  17:14:38,928 - Program(
+ p
+  ProgramVariablesList(
+    ProgramVariablesList(
+      ProgramVariablesList(
+        EmptyProgramVariablesList(
+        ) [EmptyProgramVariablesList]
+        ProgramConstants(
+          ConstantsClass(
+            TypeClass(
+             int
+            ) [TypeClass]
+            SingleConstantList(
+              ConstantDeclaration(
+               x
+                NumConstClass(
+                  NumberConstant(
+                   10
+                  ) [NumberConstant]
+                ) [NumConstClass]
+              ) [ConstantDeclaration]
+            ) [SingleConstantList]
+          ) [ConstantsClass]
+        ) [ProgramConstants]
+      ) [ProgramVariablesList]
+      ProgramVariables(
+        GlobalVariables(
+          TypeClass(
+           int
+          ) [TypeClass]
+          MultipleGlobalVariablesList(
+            SingleGlobalVariableList(
+              GlobalVariableDeclaration(
+               y
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [GlobalVariableDeclaration]
+            ) [SingleGlobalVariableList]
+            GlobalVariableDeclaration(
+             z
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [GlobalVariableDeclaration]
+          ) [MultipleGlobalVariablesList]
+        ) [GlobalVariables]
+      ) [ProgramVariables]
+    ) [ProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        TypeClass(
+         bool
+        ) [TypeClass]
+        SingleGlobalVariableList(
+          GlobalVariableDeclaration(
+           b
+            VarIsNotArray(
+            ) [VarIsNotArray]
+          ) [GlobalVariableDeclaration]
+        ) [SingleGlobalVariableList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  ProgramMethodsList(
+    ProgramMethodsList(
+      EmptyProgramMethodsList(
+      ) [EmptyProgramMethodsList]
+      MethodDeclaration(
+        MethodTypeNotVoid(
+          TypeClass(
+           char
+          ) [TypeClass]
+        ) [MethodTypeNotVoid]
+       function
+        FormalParametersList(
+          MultipleFormalParameters(
+            MultipleFormalParameters(
+              SingleFormalParameter(
+                FormalParameter(
+                  TypeClass(
+                   int
+                  ) [TypeClass]
+                 param1
+                  VarIsNotArray(
+                  ) [VarIsNotArray]
+                ) [FormalParameter]
+              ) [SingleFormalParameter]
+              FormalParameter(
+                TypeClass(
+                 char
+                ) [TypeClass]
+               param2
+                VarIsArray(
+                ) [VarIsArray]
+              ) [FormalParameter]
+            ) [MultipleFormalParameters]
+            FormalParameter(
+              TypeClass(
+               bool
+              ) [TypeClass]
+             param3
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [FormalParameter]
+          ) [MultipleFormalParameters]
+        ) [FormalParametersList]
+        VariablesDeclarationList(
+          VariablesDeclarationList(
+            EmptyVariablesDeclarationList(
+            ) [EmptyVariablesDeclarationList]
+            LocalVariables(
+              TypeClass(
+               int
+              ) [TypeClass]
+              MultipleLocalVariablesList(
+                SingleLocalVariableList(
+                  VariableDeclaration(
+                   local1
+                    VarIsArray(
+                    ) [VarIsArray]
+                  ) [VariableDeclaration]
+                ) [SingleLocalVariableList]
+                VariableDeclaration(
+                 local2
+                  VarIsNotArray(
+                  ) [VarIsNotArray]
+                ) [VariableDeclaration]
+              ) [MultipleLocalVariablesList]
+            ) [LocalVariables]
+          ) [VariablesDeclarationList]
+          LocalVariables(
+            TypeClass(
+             bool
+            ) [TypeClass]
+            SingleLocalVariableList(
+              VariableDeclaration(
+               local3
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [VariableDeclaration]
+            ) [SingleLocalVariableList]
+          ) [LocalVariables]
+        ) [VariablesDeclarationList]
+        StatementListClass(
+          EmptyStatementList(
+          ) [EmptyStatementList]
+          SingleStatementClass(
+            SSDesignatorStatement(
+              DesignatorStatementClass(
+                DesignatorClass(
+                 local2
+                  EmptyDesignatorList(
+                  ) [EmptyDesignatorList]
+                ) [DesignatorClass]
+                DesignatorAssignOperation(
+                  AssignOperation(
+                  ) [AssignOperation]
+                  Expression(
+                    ExpressionPositive(
+                    ) [ExpressionPositive]
+                    Terminal(
+                      FactorNumberConstant(
+                        NumberConstant(
+                         4
+                        ) [NumberConstant]
+                      ) [FactorNumberConstant]
+                      EmptyTerminalMultiplicationList(
+                      ) [EmptyTerminalMultiplicationList]
+                    ) [Terminal]
+                    EmptyExpressionAdditionList(
+                    ) [EmptyExpressionAdditionList]
+                  ) [Expression]
+                ) [DesignatorAssignOperation]
+              ) [DesignatorStatementClass]
+            ) [SSDesignatorStatement]
+          ) [SingleStatementClass]
+        ) [StatementListClass]
+      ) [MethodDeclaration]
+    ) [ProgramMethodsList]
+    MethodDeclaration(
+      MethodTypeNotVoid(
+        TypeClass(
+         int
+        ) [TypeClass]
+      ) [MethodTypeNotVoid]
+     function2
+      FormalParametersList(
+        MultipleFormalParameters(
+          SingleFormalParameter(
+            FormalParameter(
+              TypeClass(
+               int
+              ) [TypeClass]
+             param1
+              VarIsArray(
+              ) [VarIsArray]
+            ) [FormalParameter]
+          ) [SingleFormalParameter]
+          FormalParameter(
+            TypeClass(
+             int
+            ) [TypeClass]
+           param2
+            VarIsNotArray(
+            ) [VarIsNotArray]
+          ) [FormalParameter]
+        ) [MultipleFormalParameters]
+      ) [FormalParametersList]
+      VariablesDeclarationList(
+        VariablesDeclarationList(
+          EmptyVariablesDeclarationList(
+          ) [EmptyVariablesDeclarationList]
+          LocalVariables(
+            TypeClass(
+             int
+            ) [TypeClass]
+            SingleLocalVariableList(
+              VariableDeclaration(
+               local1
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [VariableDeclaration]
+            ) [SingleLocalVariableList]
+          ) [LocalVariables]
+        ) [VariablesDeclarationList]
+        LocalVariables(
+          TypeClass(
+           bool
+          ) [TypeClass]
+          SingleLocalVariableList(
+            VariableDeclaration(
+             local2
+              VarIsArray(
+              ) [VarIsArray]
+            ) [VariableDeclaration]
+          ) [SingleLocalVariableList]
+        ) [LocalVariables]
+      ) [VariablesDeclarationList]
+      EmptyStatementList(
+      ) [EmptyStatementList]
+    ) [MethodDeclaration]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  17:14:38,929 - ===================================
+INFO  17:14:38,929 - Parsing completed successfully!.

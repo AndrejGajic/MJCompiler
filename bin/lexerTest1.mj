@@ -1,0 +1,42 @@
+program MJLexerTest1 
+	const int MAX = 10;
+	int x;
+	boolean b;
+	char c;
+	int array[];
+{
+
+
+	
+	int sumOfArray(int array[]) {
+		int sum = 0;
+		for(int i = 0; i < array.length; i++) {
+			sum = sum + array[i];
+		}
+		return sum;
+	}
+	
+	int main() {
+		b = false;
+		int cnt = 0;
+		do {
+			if(cnt % 2 == 0) {
+				array[cnt] = x++;
+			}
+			else {
+				array[cnt] = y++;
+			}
+			int sum = sumOfArray(array);
+			if(sum > 100) {
+				b = true;
+			}
+			cnt++;
+			if(cnt == MAX) {
+				print(Exceeded limit);
+				b = true;
+			}
+		} while(b == false);
+		!
+		return 0;
+	}			
+}

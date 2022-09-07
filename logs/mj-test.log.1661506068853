@@ -1,0 +1,50 @@
+INFO  11:27:29,373 - Starting compilation of a file test/test4.mj
+INFO  11:27:29,373 - Starting lexical analysis....
+INFO  11:27:29,376 - Lexical analysis finished successfully!
+INFO  11:27:29,376 - =========================================
+INFO  11:27:29,376 - Starting syntax analysis....
+INFO  11:27:29,481 - #2 program
+INFO  11:27:29,481 - #49 Test4
+INFO  11:27:29,481 - #49 int
+INFO  11:27:29,482 - #49 x
+INFO  11:27:29,483 - #40 ,
+INFO  11:27:29,485 - #49 y
+INFO  11:27:29,485 - #38 ;
+INFO  11:27:29,485 - #46 {
+INFO  11:27:29,486 - #15 void
+INFO  11:27:29,487 - #49 main
+INFO  11:27:29,488 - #42 (
+INFO  11:27:29,489 - #43 )
+INFO  11:27:29,490 - #46 {
+INFO  11:27:29,491 - #49 x
+INFO  11:27:29,492 - #35 =
+INFO  11:27:29,496 - #50 0
+INFO  11:27:29,499 - #38 ;
+INFO  11:27:29,502 - #49 y
+INFO  11:27:29,503 - #35 =
+INFO  11:27:29,503 - #50 0
+INFO  11:27:29,503 - #38 ;
+INFO  11:27:29,503 - #49 y
+INFO  11:27:29,503 - #35 =
+INFO  11:27:29,503 - #49 x
+INFO  11:27:29,503 - #48 ??
+INFO  11:27:29,503 - #50 0
+INFO  11:27:29,503 - #48 ??
+ERROR 11:27:29,504 - 
+Syntax error! at line 9
+INFO  11:27:29,504 - #50 3
+INFO  11:27:29,504 - #38 ;
+INFO  11:27:29,504 - #12 print
+INFO  11:27:29,505 - #42 (
+INFO  11:27:29,505 - #49 y
+ERROR 11:27:29,505 - Syntax error in ASSIGN OPERATION at line 9
+INFO  11:27:29,506 - #43 )
+INFO  11:27:29,507 - #38 ;
+INFO  11:27:29,507 - #47 }
+INFO  11:27:29,507 - #47 }
+ERROR 11:27:29,509 - An error occured in syntax analysis!
+ERROR 11:27:29,509 - 
+Syntax error!
+Syntax error in ASSIGN OPERATION at line 9
+
+ERROR 11:27:29,509 - Terminating program...

@@ -1,0 +1,156 @@
+INFO  14:33:47,579 - Starting compilation of a file test/test1err.mj
+INFO  14:33:47,579 - Starting lexical analysis....
+INFO  14:33:47,583 - Lexical analysis finished successfully!
+INFO  14:33:47,583 - =========================================
+INFO  14:33:47,583 - Starting syntax analysis....
+INFO  14:33:47,741 - #2 program
+INFO  14:33:47,741 - #49 p
+INFO  14:33:47,741 - #7 const
+INFO  14:33:47,743 - #49 int
+INFO  14:33:47,743 - #49 N
+INFO  14:33:47,744 - #35 =
+INFO  14:33:47,744 - #50 10
+INFO  14:33:47,744 - #38 ;
+INFO  14:33:47,745 - #49 int
+INFO  14:33:47,745 - #49 x
+INFO  14:33:47,745 - #40 ,
+INFO  14:33:47,748 - #49 y
+INFO  14:33:47,748 - #38 ;
+INFO  14:33:47,748 - #49 char
+INFO  14:33:47,748 - #49 c
+INFO  14:33:47,752 - #38 ;
+INFO  14:33:47,752 - #49 int
+INFO  14:33:47,752 - #49 arr
+INFO  14:33:47,752 - #44 [
+INFO  14:33:47,752 - #45 ]
+INFO  14:33:47,753 - #38 ;
+INFO  14:33:47,754 - #46 {
+INFO  14:33:47,754 - #49 int
+INFO  14:33:47,755 - #49 main
+INFO  14:33:47,755 - #42 (
+INFO  14:33:47,757 - #43 )
+INFO  14:33:47,758 - #49 int
+INFO  14:33:47,759 - #49 local1
+INFO  14:33:47,759 - #38 ;
+INFO  14:33:47,759 - #49 int
+INFO  14:33:47,760 - #49 local2
+INFO  14:33:47,760 - #38 ;
+INFO  14:33:47,760 - #46 {
+INFO  14:33:47,760 - #49 c
+INFO  14:33:47,761 - #35 =
+INFO  14:33:47,762 - #51 a
+INFO  14:33:47,767 - #38 ;
+INFO  14:33:47,769 - #49 x
+INFO  14:33:47,770 - #35 =
+INFO  14:33:47,770 - #50 3
+INFO  14:33:47,770 - #38 ;
+INFO  14:33:47,770 - #49 y
+INFO  14:33:47,770 - #35 =
+INFO  14:33:47,770 - #49 x
+INFO  14:33:47,771 - #22 +
+INFO  14:33:47,771 - #50 4
+INFO  14:33:47,773 - #24 *
+INFO  14:33:47,773 - #50 2
+INFO  14:33:47,775 - #22 +
+INFO  14:33:47,775 - #22 +
+ERROR 14:33:47,776 - 
+Syntax error! at line 10
+INFO  14:33:47,776 - #49 N
+INFO  14:33:47,776 - #38 ;
+INFO  14:33:47,776 - #12 print
+INFO  14:33:47,778 - #42 (
+INFO  14:33:47,778 - #49 y
+ERROR 14:33:47,778 - Syntax error in ASSIGN OPERATION at line 10
+INFO  14:33:47,780 - #43 )
+INFO  14:33:47,781 - #38 ;
+INFO  14:33:47,782 - #49 arr
+INFO  14:33:47,782 - #35 =
+INFO  14:33:47,782 - #11 new
+INFO  14:33:47,782 - #49 int
+INFO  14:33:47,782 - #44 [
+INFO  14:33:47,782 - #49 N
+INFO  14:33:47,782 - #23 -
+INFO  14:33:47,782 - #50 2
+INFO  14:33:47,784 - #45 ]
+INFO  14:33:47,784 - #38 ;
+INFO  14:33:47,784 - #49 arr
+INFO  14:33:47,784 - #44 [
+INFO  14:33:47,784 - #50 0
+INFO  14:33:47,784 - #45 ]
+INFO  14:33:47,784 - #35 =
+INFO  14:33:47,784 - #49 x
+INFO  14:33:47,784 - #38 ;
+INFO  14:33:47,785 - #49 arr
+INFO  14:33:47,785 - #44 [
+INFO  14:33:47,785 - #50 1
+INFO  14:33:47,785 - #45 ]
+INFO  14:33:47,785 - #35 =
+INFO  14:33:47,785 - #49 y
+INFO  14:33:47,785 - #38 ;
+INFO  14:33:47,785 - #49 local1
+INFO  14:33:47,785 - #35 =
+INFO  14:33:47,785 - #49 arr
+INFO  14:33:47,785 - #44 [
+INFO  14:33:47,785 - #50 1
+INFO  14:33:47,785 - #45 ]
+INFO  14:33:47,785 - #26 %
+INFO  14:33:47,785 - #25 /
+ERROR 14:33:47,785 - 
+Syntax error! at line 15
+INFO  14:33:47,786 - #49 arr
+INFO  14:33:47,786 - #44 [
+INFO  14:33:47,786 - #50 0
+INFO  14:33:47,786 - #45 ]
+INFO  14:33:47,786 - #22 +
+INFO  14:33:47,786 - #50 1
+INFO  14:33:47,786 - #38 ;
+INFO  14:33:47,786 - #12 print
+INFO  14:33:47,786 - #42 (
+INFO  14:33:47,786 - #49 local1
+ERROR 14:33:47,786 - Syntax error in ASSIGN OPERATION at line 15
+INFO  14:33:47,786 - #43 )
+INFO  14:33:47,786 - #38 ;
+INFO  14:33:47,786 - #49 arr
+INFO  14:33:47,786 - #44 [
+INFO  14:33:47,786 - #50 3
+INFO  14:33:47,786 - #45 ]
+INFO  14:33:47,787 - #35 =
+INFO  14:33:47,787 - #50 5
+INFO  14:33:47,787 - #38 ;
+INFO  14:33:47,787 - #49 local2
+INFO  14:33:47,787 - #35 =
+INFO  14:33:47,787 - #49 arr
+INFO  14:33:47,787 - #44 [
+INFO  14:33:47,787 - #49 arr
+INFO  14:33:47,787 - #44 [
+INFO  14:33:47,787 - #50 0
+INFO  14:33:47,788 - #45 ]
+INFO  14:33:47,788 - #45 ]
+INFO  14:33:47,788 - #25 /
+INFO  14:33:47,788 - #50 2
+INFO  14:33:47,789 - #22 +
+INFO  14:33:47,789 - #50 1
+INFO  14:33:47,789 - #23 -
+INFO  14:33:47,789 - #38 ;
+ERROR 14:33:47,793 - 
+Syntax error! at line 18
+INFO  14:33:47,794 - #12 print
+INFO  14:33:47,794 - #42 (
+INFO  14:33:47,794 - #49 local2
+ERROR 14:33:47,795 - Syntax error in ASSIGN OPERATION at line 18
+INFO  14:33:47,795 - #43 )
+INFO  14:33:47,795 - #38 ;
+INFO  14:33:47,795 - #47 }
+INFO  14:33:47,795 - #47 }
+ERROR 14:33:47,797 - An error occured in syntax analysis!
+ERROR 14:33:47,797 - 
+Syntax error!
+Syntax error in ASSIGN OPERATION at line 10
+
+Syntax error!
+Syntax error in ASSIGN OPERATION at line 15
+
+Syntax error!
+Syntax error in ASSIGN OPERATION at line 18
+
+ERROR 14:33:47,797 - Terminating program...

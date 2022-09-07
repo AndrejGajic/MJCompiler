@@ -1,0 +1,102 @@
+INFO  15:21:13,635 - Starting compilation of a file test/test4.mj
+INFO  15:21:13,636 - Starting lexical analysis....
+INFO  15:21:13,638 - Lexical analysis finished successfully!
+INFO  15:21:13,639 - =========================================
+INFO  15:21:13,639 - Starting syntax analysis....
+INFO  15:21:13,749 - #2 program
+INFO  15:21:13,750 - #48 Test4
+INFO  15:21:13,750 - #46 {
+INFO  15:21:13,752 - #15 void
+INFO  15:21:13,753 - #48 main
+INFO  15:21:13,754 - #42 (
+INFO  15:21:13,756 - #43 )
+INFO  15:21:13,757 - #46 {
+INFO  15:21:13,758 - #12 print
+INFO  15:21:13,759 - #42 (
+INFO  15:21:13,760 - #49 1
+INFO  15:21:13,762 - #43 )
+INFO  15:21:13,764 - #38 ;
+INFO  15:21:13,765 - #12 print
+INFO  15:21:13,765 - #42 (
+INFO  15:21:13,766 - #49 2
+INFO  15:21:13,766 - #43 )
+INFO  15:21:13,766 - #38 ;
+INFO  15:21:13,766 - #47 }
+INFO  15:21:13,766 - #47 }
+INFO  15:21:13,768 - Syntax analysis finished successfully!
+INFO  15:21:13,768 - Syntax tree: 
+INFO  15:21:13,769 - Program(
+  ProgramName(
+   Test4
+  ) [ProgramName]
+  EmptyProgramVariablesList(
+  ) [EmptyProgramVariablesList]
+  ProgramMethodsList(
+    EmptyProgramMethodsList(
+    ) [EmptyProgramMethodsList]
+    MethodDeclaration(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      EmptyFormalParametersList(
+      ) [EmptyFormalParametersList]
+      EmptyVariablesDeclarationList(
+      ) [EmptyVariablesDeclarationList]
+      StatementListClass(
+        StatementListClass(
+          EmptyStatementList(
+          ) [EmptyStatementList]
+          SingleStatementClass(
+            PrintStatement(
+              Expr(
+                ExpressionClass(
+                  ExpressionPositive(
+                  ) [ExpressionPositive]
+                  Terminal(
+                    FactorNumberConstant(
+                      NumberConstant(
+                       1
+                      ) [NumberConstant]
+                    ) [FactorNumberConstant]
+                  ) [Terminal]
+                ) [ExpressionClass]
+              ) [Expr]
+              HasNotPrintConstant(
+              ) [HasNotPrintConstant]
+            ) [PrintStatement]
+          ) [SingleStatementClass]
+        ) [StatementListClass]
+        SingleStatementClass(
+          PrintStatement(
+            Expr(
+              ExpressionClass(
+                ExpressionPositive(
+                ) [ExpressionPositive]
+                Terminal(
+                  FactorNumberConstant(
+                    NumberConstant(
+                     2
+                    ) [NumberConstant]
+                  ) [FactorNumberConstant]
+                ) [Terminal]
+              ) [ExpressionClass]
+            ) [Expr]
+            HasNotPrintConstant(
+            ) [HasNotPrintConstant]
+          ) [PrintStatement]
+        ) [SingleStatementClass]
+      ) [StatementListClass]
+    ) [MethodDeclaration]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  15:21:13,769 - =========================================
+INFO  15:21:13,770 - Starting semantic analysis....
+INFO  15:21:13,785 - Function main is being parsed  at line 3
+INFO  15:21:13,785 - Semantic analysis completed.
+INFO  15:21:13,785 - Semantic analysis finished successfully!
+INFO  15:21:13,786 - Symbol table: 
+INFO  15:21:13,787 - =========================================
+INFO  15:21:13,787 - Started generating code....
+ERROR 15:21:13,790 - An error occured while generating code!

@@ -1,0 +1,159 @@
+INFO  16:11:33,064 - Starting compilation of a file test/test4.mj
+INFO  16:11:33,064 - Starting lexical analysis....
+INFO  16:11:33,067 - Lexical analysis finished successfully!
+INFO  16:11:33,067 - =========================================
+INFO  16:11:33,067 - Starting syntax analysis....
+INFO  16:11:33,175 - #2 program
+INFO  16:11:33,175 - #48 Test4
+INFO  16:11:33,175 - #7 const
+INFO  16:11:33,176 - #48 int
+INFO  16:11:33,176 - #48 N
+INFO  16:11:33,177 - #35 =
+INFO  16:11:33,177 - #49 50
+INFO  16:11:33,177 - #38 ;
+INFO  16:11:33,177 - #46 {
+INFO  16:11:33,178 - #15 void
+INFO  16:11:33,179 - #48 main
+INFO  16:11:33,180 - #42 (
+INFO  16:11:33,181 - #43 )
+INFO  16:11:33,182 - #46 {
+INFO  16:11:33,183 - #12 print
+INFO  16:11:33,184 - #42 (
+INFO  16:11:33,184 - #48 N
+INFO  16:11:33,186 - #43 )
+INFO  16:11:33,191 - #38 ;
+INFO  16:11:33,191 - #12 print
+INFO  16:11:33,191 - #42 (
+INFO  16:11:33,191 - #50  
+INFO  16:11:33,191 - #43 )
+INFO  16:11:33,191 - #38 ;
+INFO  16:11:33,192 - #12 print
+INFO  16:11:33,192 - #42 (
+INFO  16:11:33,192 - #49 2
+INFO  16:11:33,192 - #43 )
+INFO  16:11:33,192 - #38 ;
+INFO  16:11:33,192 - #47 }
+INFO  16:11:33,192 - #47 }
+INFO  16:11:33,194 - Syntax analysis finished successfully!
+INFO  16:11:33,194 - Syntax tree: 
+INFO  16:11:33,195 - Program(
+  ProgramName(
+   Test4
+  ) [ProgramName]
+  ProgramVariablesList(
+    EmptyProgramVariablesList(
+    ) [EmptyProgramVariablesList]
+    ProgramConstants(
+      ConstantsClass(
+        Type(
+         int
+        ) [Type]
+        SingleConstantList(
+          ConstantDeclaration(
+           N
+            NumConstClass(
+              NumberConstant(
+               50
+              ) [NumberConstant]
+            ) [NumConstClass]
+          ) [ConstantDeclaration]
+        ) [SingleConstantList]
+      ) [ConstantsClass]
+    ) [ProgramConstants]
+  ) [ProgramVariablesList]
+  ProgramMethodsList(
+    EmptyProgramMethodsList(
+    ) [EmptyProgramMethodsList]
+    MethodDeclaration(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      EmptyFormalParametersList(
+      ) [EmptyFormalParametersList]
+      EmptyVariablesDeclarationList(
+      ) [EmptyVariablesDeclarationList]
+      StatementListClass(
+        StatementListClass(
+          StatementListClass(
+            EmptyStatementList(
+            ) [EmptyStatementList]
+            SingleStatementClass(
+              PrintStatement(
+                Expr(
+                  ExpressionClass(
+                    ExpressionPositive(
+                    ) [ExpressionPositive]
+                    Terminal(
+                      FactorDesignator(
+                        Designator(
+                         N
+                          DesignatorNotArray(
+                          ) [DesignatorNotArray]
+                        ) [Designator]
+                        FactorNoFunctionCall(
+                        ) [FactorNoFunctionCall]
+                      ) [FactorDesignator]
+                    ) [Terminal]
+                  ) [ExpressionClass]
+                ) [Expr]
+                HasNotPrintConstant(
+                ) [HasNotPrintConstant]
+              ) [PrintStatement]
+            ) [SingleStatementClass]
+          ) [StatementListClass]
+          SingleStatementClass(
+            PrintStatement(
+              Expr(
+                ExpressionClass(
+                  ExpressionPositive(
+                  ) [ExpressionPositive]
+                  Terminal(
+                    FactorCharacterConstant(
+                      CharacterConstant(
+                        
+                      ) [CharacterConstant]
+                    ) [FactorCharacterConstant]
+                  ) [Terminal]
+                ) [ExpressionClass]
+              ) [Expr]
+              HasNotPrintConstant(
+              ) [HasNotPrintConstant]
+            ) [PrintStatement]
+          ) [SingleStatementClass]
+        ) [StatementListClass]
+        SingleStatementClass(
+          PrintStatement(
+            Expr(
+              ExpressionClass(
+                ExpressionPositive(
+                ) [ExpressionPositive]
+                Terminal(
+                  FactorNumberConstant(
+                    NumberConstant(
+                     2
+                    ) [NumberConstant]
+                  ) [FactorNumberConstant]
+                ) [Terminal]
+              ) [ExpressionClass]
+            ) [Expr]
+            HasNotPrintConstant(
+            ) [HasNotPrintConstant]
+          ) [PrintStatement]
+        ) [SingleStatementClass]
+      ) [StatementListClass]
+    ) [MethodDeclaration]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  16:11:33,195 - =========================================
+INFO  16:11:33,196 - Starting semantic analysis....
+INFO  16:11:33,208 - Constant N declared  at line 2
+INFO  16:11:33,209 - Function main is being parsed  at line 4
+INFO  16:11:33,209 - Semantic analysis completed.
+INFO  16:11:33,209 - Semantic analysis finished successfully!
+INFO  16:11:33,209 - Symbol table: 
+INFO  16:11:33,210 - =========================================
+INFO  16:11:33,210 - Started generating code....
+INFO  16:11:33,217 - Code generated successfully!
+INFO  16:11:33,217 - Compiling file successfully completed!

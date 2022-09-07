@@ -1,0 +1,317 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+
+parser code {:
+
+	Logger log = Logger.getLogger(getClass());
+	
+	boolean errorDetected;
+	StringBuilder errorMessage;
+	
+	public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+		errorDetected = true;
+		errorMessage.append(message);
+		errorMessage.append('\n');
+		done_parsing();
+		report_error(message, info);
+	}
+	
+	public void syntax_error(Symbol curr_token) {
+		report_error("\nSyntax error!", curr_token);
+	}
+	
+	public void unrecovered_syntax_error(Symbol curr_token) throws java.lang.Exception {
+		report_fatal_error("Fatal error, parsing cannot continue!", curr_token);
+	}
+	
+	public void report_error(String message, Object info) {
+		errorDetected = true;
+		errorMessage.append(message);
+		errorMessage.append('\n');
+		StringBuilder msg = new StringBuilder(message);
+		if(info instanceof Symbol) 
+			msg.append(" at line ").append(((Symbol)info).left);
+		log.error(msg.toString());
+	}	
+
+:}
+
+init with{:
+	errorDetected = false;
+	errorMessage = new StringBuilder();
+:}
+
+scan with {:
+	
+	Symbol s = this.getScanner().next_token();
+	if(s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+
+:}
+
+
+
+terminal PROG, BREAK, CLASS, ENUM, ELSE, CONST, IF, DO, WHILE, NEW, PRINT, READ, RETURN, VOID, EXTENDS, CONTINUE, THIS, SUPER, GOTO, RECORD;
+terminal PLUS, MINUS, MUL, DIV, MOD, EQUALS, NEQUALS, GREATER, GREATERE, LESS, LESSE, AND, OR, ASSIGN, INC, DEC, SEMI, COLON, COMMA, DOT;
+terminal LPAREN, RPAREN, LBRACKET, RBRACKET, LBRACE, RBRACE, BINARYOR, POWER, FACTORIEL, ARRAYINCREMENT;
+
+
+terminal String IDENT;
+terminal Integer INT;
+terminal Character CHAR;
+terminal Boolean BOOL;
+
+nonterminal ProgVarList, ProgMethList, ProgVar, Constants, ConstList, ConstDecl, CharConst, BoolConst;
+nonterminal GlobalVars, GlobalVarList, GlobalVarDecl, VarArray;
+nonterminal MethodType, FormParsList, FormPars, FormPar, VarDeclList, Statement, LocalVars, VarDecl, LocalVarList;
+nonterminal SingleStatement, Statements, DesignatorStatement, ElseClause, ReturnExpr;
+nonterminal PrintConst, StatementList;
+nonterminal DesignatorOp, Assignop, FunctionCallArgs;
+nonterminal Relop, ExprSign, Addop, Mulop;
+nonterminal DesignatorAssignop, ExprBinary;
+nonterminal OptArgs, OptArg, DoWhileStart, IfStart, ElseStart, IfClause, DoWhileCondition, DoWhileConditionStart;
+nonterminal DesignatorAdditional, ArrayIncrement;
+
+/* Added in semantic analysis */
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, MethodName, MethodDecl, Designator, ConstType, NumConst;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Expr, Factor, Term, Expression, CondFact, CondTerm, Condition, IfCondition, ActPars;
+
+precedence left ELSE;
+
+start with Program;
+
+/* Program grammar */
+
+Program ::= (Program) PROG ProgName:progName ProgVarList LBRACE ProgMethList RBRACE;
+
+ProgName ::= (ProgramName) IDENT:progName; 
+
+ProgVarList ::= (ProgramVariablesList) ProgVarList ProgVar
+			|   (EmptyProgramVariablesList) ;
+			
+ProgVar ::= (ProgramConstants) Constants
+		|   (ProgramVariables) GlobalVars;
+
+/* Constant grammar */
+
+Constants ::= (ConstantsClass) CONST Type:constType ConstList SEMI;
+
+ConstList ::= (MultipleConstantsList) ConstList COMMA ConstDecl
+		  |   (SingleConstantList) ConstDecl;
+		  
+ConstDecl ::= (ConstantDeclaration) IDENT:constName ASSIGN ConstType;
+
+ConstType ::= (NumConstClass) NumConst
+		  |   (CharConstClass) CharConst
+		  |   (BoolConstClass) BoolConst;
+		  
+NumConst ::= (NumberConstant) INT:value;
+CharConst ::= (CharacterConstant) CHAR:value;
+BoolConst ::= (BooleanConstant) BOOL:value;
+
+Type ::= (Type) IDENT:typeName;
+
+/* Global variables grammar */
+/* Global variables are done separate from local variables because of error recovery and semantic analysis */
+
+GlobalVars ::= (GlobalVariables) Type:globalVarType GlobalVarList SEMI;
+
+GlobalVarList ::= (MultipleGlobalVariablesList) GlobalVarList COMMA GlobalVarDecl
+			  |   (SingleGlobalVariableList) GlobalVarDecl;
+
+GlobalVarDecl ::= (GlobalVariableDeclaration) IDENT:globalVarName VarArray
+			  |   (GlobalVariableDeclarationError) error:l {: parser.report_error("Syntax error in DEFINING GLOBAL VARIABLE at line " + lleft, null); :};
+
+VarArray ::= (VarIsArray) LBRACKET RBRACKET ArrayIncrement
+		 |   (VarIsNotArray) ;
+
+ArrayIncrement ::= (HasArrayIncrement) ARRAYINCREMENT NumConst
+			   |   (NoArrayIncrement) ;
+
+/* Methods and functions grammar */
+
+ProgMethList ::= (ProgramMethodsList) ProgMethList MethodDecl
+			 |   (EmptyProgramMethodsList) ;
+
+MethodDecl ::= (MethodDeclaration) MethodType:methodType MethodName:methodName LPAREN FormParsList RPAREN VarDeclList LBRACE StatementList RBRACE;
+
+MethodType ::= (MethodTypeNotVoid) Type:methodType
+		   |   (MethodTypeVoid) VOID:methodType;
+
+MethodName ::= (MethodName) IDENT:methodName;		   
+		   
+/* Formal parameters grammar */
+		   
+FormParsList ::= (FormalParametersListWithOptionalArguments) FormPars COMMA OptArgs
+			 |   (FormalParametersList) FormPars
+			 |   (OptionalArgumentsList) OptArgs
+			 |   (EmptyFormalParametersList) ;
+			 
+FormPars ::= (MultipleFormalParameters) FormPars COMMA FormPar
+		 |   (SingleFormalParameter) FormPar;
+
+FormPar ::= (FormalParameter) Type:formParType IDENT:formParName VarArray
+		|   (FormalParameterError) error:l {: parser.report_error("Syntax error in DECLARING FORMAL PARAMETER at line " + lleft, null); :};
+
+
+/* Optional arguments grammar */
+
+OptArgs ::= (MultipleOptionalArguments) OptArgs COMMA OptArg
+		|   (SingleOptionalArgument) OptArg;
+
+OptArg ::= (OptionalArgument) Type IDENT:optArgName ASSIGN ConstType;
+
+/* Local variables grammar */
+
+VarDeclList ::= (VariablesDeclarationList) VarDeclList LocalVars
+			|   (EmptyVariablesDeclarationList) ;
+
+LocalVars ::= (LocalVariables) Type:localVarType LocalVarList SEMI;
+
+LocalVarList ::= (MultipleLocalVariablesList) LocalVarList COMMA VarDecl
+			 |   (SingleLocalVariableList) VarDecl;
+			 
+VarDecl ::= (VariableDeclaration) IDENT:varName VarArray;
+
+
+
+/* Statements grammar */
+
+Statement ::= (SingleStatementClass) SingleStatement
+		  |   (MultipleStatements) Statements;
+
+SingleStatement ::= (SSDesignatorStatement) DesignatorStatement SEMI
+				|   (IfStatement) IfClause ElseClause
+				|   (DoWhileStatement) DoWhileStart Statement DoWhileConditionStart LPAREN DoWhileCondition RPAREN SEMI
+				|   (BreakStatement) BREAK SEMI
+				|   (ContinueStatement) CONTINUE SEMI
+				|   (ReturnStatement) RETURN ReturnExpr SEMI
+				|   (ReadStatement) READ LPAREN Designator RPAREN SEMI
+				|   (PrintStatement) PRINT LPAREN Expr PrintConst RPAREN SEMI;
+				
+			
+DoWhileConditionStart ::= (DoWhileConditionStart) WHILE;
+
+DoWhileCondition ::= (DoWhileCondition) Condition;
+	
+IfClause ::= (IfClause) IfStart LPAREN IfCondition RPAREN Statement;
+
+IfStart ::= (IfStart) IF;
+
+ElseClause ::= (HasElseClause) ElseStart Statement
+		   |   (HasNotElseClause) ;
+		   
+ElseStart ::= (ElseStart) ELSE;
+	
+DoWhileStart ::= (DoWhileStartClass) DO;
+	   
+ReturnExpr ::= (HasReturnExpression) Expr
+		   |   (NoReturnExpression) ;
+		   
+PrintConst ::= (HasPrintConstant) COMMA NumConst
+			|  (HasNotPrintConstant) ;
+			
+Statements ::= (StatementClass) LBRACE StatementList RBRACE;
+
+StatementList ::= (StatementListClass) StatementList Statement
+			  |   (EmptyStatementList) ;
+
+
+/* Designator statement grammar */
+
+DesignatorStatement ::= (DesignatorStatementClass) Designator DesignatorOp;
+
+DesignatorOp ::= (DesignatorAssign) DesignatorAssignop
+			 |   (DesignatorFunctionCall) LPAREN FunctionCallArgs RPAREN 
+			 |   (DesignatorIncrement) INC
+			 |   (DesignatorDecrement) DEC;
+			 
+/* Added because of error recovery */
+DesignatorAssignop ::= (DesignatorAssignOperation) Assignop Expr
+				   |   (DesignatorAssignOperationError) error:l {: parser.report_error("Syntax error in ASSIGN OPERATION at line " + lleft, null); :};
+			 
+FunctionCallArgs ::= (FunctionCallHasArguments) ActPars
+				 |   (FunctionCallNoArguments) ;
+				 
+ActPars ::= (MultipleActualParameters) ActPars COMMA Expr
+		|	(SingleActualParameter) Expr;
+			
+/* Condition grammar */
+
+/* Added because of error recovery */
+IfCondition ::= (IfConditionClass) Condition
+		    |   (IfConditionError) error:l {: parser.report_error("Syntax error in IF CONDITION at line " + lleft, null); :};
+
+Condition ::= (MultipleConditions) Condition OR CondTerm
+		  |   (SingleCondition) CondTerm;
+		  
+CondTerm ::= (MultipleConditionTerms) CondTerm AND CondFact
+		 |   (SingleConditionTerm) CondFact;
+
+CondFact ::= (ConditionFactRelop) Expr Relop Expr
+		 |   (ConditionFact) Expr;
+			  
+Expr ::= (Expr) Expression ExprBinary;
+
+ExprBinary ::= (HasExprBinary) BINARYOR Expression
+		   |   (HasNotExprBinary) ;
+
+ExprSign ::= (ExpressionNegative) MINUS
+		 |   (ExpressionPositive) ;
+		 
+Expression ::= (ExpressionAddop) Expression Addop Term
+		   |   (ExpressionClass) ExprSign Term;
+
+Term ::= (TerminalMulop) Term Mulop Factor
+	 |   (Terminal) Factor;
+			  
+			  
+/* Factor grammar */
+
+Factor ::= (FactorDesignator) Designator DesignatorAdditional
+	   |   (FactorFunctionCall) Designator LPAREN FunctionCallArgs RPAREN
+	   |   (FactorNumberConstant) NumConst
+	   |   (FactorCharacterConstant) CharConst
+	   |   (FactorBooleanConstant) BoolConst
+	   |   (FactorNewOperation) NEW Type LBRACKET Expr RBRACKET
+	   |   (FactorExpression) LPAREN Expr RPAREN;
+	   
+	   
+DesignatorAdditional ::= (DesignatorPower) POWER NumConst
+					 |   (DesignatorFactoriel) FACTORIEL
+					 |   (NoDesignatorAdditional) ;
+
+/* Designator grammar */
+
+Designator ::= (DesignatorClass) IDENT:designatorName
+		   |   (DesignatorArray) Designator LBRACKET Expr RBRACKET;
+
+/* Operations grammar */
+
+Assignop ::= (AssignOperation) ASSIGN;
+
+Relop ::= (RelationEquals) EQUALS
+	  |   (RelationNotEquals) NEQUALS
+	  |   (RelationGreater) GREATER
+	  |   (RelationGreaterOrEquals) GREATERE
+	  |   (RelationLess) LESS
+	  |   (RelationLessOrEquals) LESSE;
+	  
+Addop ::= (AdditionOperation) PLUS
+	  |   (SubtractionOperation) MINUS;
+	  
+Mulop ::= (MultiplicationOperation) MUL
+	  |   (DivisionOperation) DIV
+	  |   (ModuoOperation) MOD;
+
+
+
+
+
+
+

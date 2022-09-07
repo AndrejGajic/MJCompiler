@@ -1,0 +1,188 @@
+INFO  02:40:50,504 - Starting compilation of a file test/test4.mj
+INFO  02:40:50,505 - Starting lexical analysis....
+INFO  02:40:50,508 - Lexical analysis finished successfully!
+INFO  02:40:50,508 - =========================================
+INFO  02:40:50,508 - Starting syntax analysis....
+INFO  02:40:50,591 - #2 program
+INFO  02:40:50,591 - #48 Test4
+INFO  02:40:50,591 - #7 const
+INFO  02:40:50,593 - #48 int
+INFO  02:40:50,593 - #48 N
+INFO  02:40:50,594 - #35 =
+INFO  02:40:50,594 - #49 50
+INFO  02:40:50,594 - #38 ;
+INFO  02:40:50,595 - #48 int
+INFO  02:40:50,595 - #48 x
+INFO  02:40:50,595 - #40 ,
+INFO  02:40:50,597 - #48 y
+INFO  02:40:50,597 - #40 ,
+INFO  02:40:50,598 - #48 arr
+INFO  02:40:50,598 - #44 [
+INFO  02:40:50,602 - #45 ]
+INFO  02:40:50,602 - #38 ;
+INFO  02:40:50,603 - #46 {
+INFO  02:40:50,603 - #48 int
+INFO  02:40:50,604 - #48 f
+INFO  02:40:50,605 - #42 (
+INFO  02:40:50,606 - #43 )
+INFO  02:40:50,607 - #46 {
+INFO  02:40:50,608 - #14 return
+INFO  02:40:50,609 - #49 1
+INFO  02:40:50,610 - #38 ;
+INFO  02:40:50,613 - #47 }
+INFO  02:40:50,614 - #15 void
+INFO  02:40:50,615 - #48 main
+INFO  02:40:50,616 - #42 (
+INFO  02:40:50,616 - #43 )
+INFO  02:40:50,616 - #46 {
+INFO  02:40:50,617 - #48 f
+INFO  02:40:50,618 - #42 (
+INFO  02:40:50,618 - #43 )
+INFO  02:40:50,619 - #38 ;
+INFO  02:40:50,620 - #47 }
+INFO  02:40:50,621 - #47 }
+INFO  02:40:50,622 - Syntax analysis finished successfully!
+INFO  02:40:50,623 - Syntax tree: 
+INFO  02:40:50,624 - Program(
+  ProgramName(
+   Test4
+  ) [ProgramName]
+  ProgramVariablesList(
+    ProgramVariablesList(
+      EmptyProgramVariablesList(
+      ) [EmptyProgramVariablesList]
+      ProgramConstants(
+        ConstantsClass(
+          Type(
+           int
+          ) [Type]
+          SingleConstantList(
+            ConstantDeclaration(
+             N
+              NumConstClass(
+                NumberConstant(
+                 50
+                ) [NumberConstant]
+              ) [NumConstClass]
+            ) [ConstantDeclaration]
+          ) [SingleConstantList]
+        ) [ConstantsClass]
+      ) [ProgramConstants]
+    ) [ProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        Type(
+         int
+        ) [Type]
+        MultipleGlobalVariablesList(
+          MultipleGlobalVariablesList(
+            SingleGlobalVariableList(
+              GlobalVariableDeclaration(
+               x
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [GlobalVariableDeclaration]
+            ) [SingleGlobalVariableList]
+            GlobalVariableDeclaration(
+             y
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [GlobalVariableDeclaration]
+          ) [MultipleGlobalVariablesList]
+          GlobalVariableDeclaration(
+           arr
+            VarIsArray(
+            ) [VarIsArray]
+          ) [GlobalVariableDeclaration]
+        ) [MultipleGlobalVariablesList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  ProgramMethodsList(
+    ProgramMethodsList(
+      EmptyProgramMethodsList(
+      ) [EmptyProgramMethodsList]
+      MethodDeclaration(
+        MethodTypeNotVoid(
+          Type(
+           int
+          ) [Type]
+        ) [MethodTypeNotVoid]
+        MethodName(
+         f
+        ) [MethodName]
+        EmptyFormalParametersList(
+        ) [EmptyFormalParametersList]
+        EmptyVariablesDeclarationList(
+        ) [EmptyVariablesDeclarationList]
+        StatementListClass(
+          EmptyStatementList(
+          ) [EmptyStatementList]
+          SingleStatementClass(
+            ReturnStatement(
+              HasReturnExpression(
+                Expr(
+                  ExpressionClass(
+                    ExpressionPositive(
+                    ) [ExpressionPositive]
+                    Terminal(
+                      FactorNumberConstant(
+                        NumberConstant(
+                         1
+                        ) [NumberConstant]
+                      ) [FactorNumberConstant]
+                    ) [Terminal]
+                  ) [ExpressionClass]
+                ) [Expr]
+              ) [HasReturnExpression]
+            ) [ReturnStatement]
+          ) [SingleStatementClass]
+        ) [StatementListClass]
+      ) [MethodDeclaration]
+    ) [ProgramMethodsList]
+    MethodDeclaration(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      EmptyFormalParametersList(
+      ) [EmptyFormalParametersList]
+      EmptyVariablesDeclarationList(
+      ) [EmptyVariablesDeclarationList]
+      StatementListClass(
+        EmptyStatementList(
+        ) [EmptyStatementList]
+        SingleStatementClass(
+          SSDesignatorStatement(
+            DesignatorStatementClass(
+              DesignatorClass(
+               f
+              ) [DesignatorClass]
+              DesignatorFunctionCall(
+                FunctionCallNoArguments(
+                ) [FunctionCallNoArguments]
+              ) [DesignatorFunctionCall]
+            ) [DesignatorStatementClass]
+          ) [SSDesignatorStatement]
+        ) [SingleStatementClass]
+      ) [StatementListClass]
+    ) [MethodDeclaration]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  02:40:50,625 - =========================================
+INFO  02:40:50,625 - Starting semantic analysis....
+INFO  02:40:50,639 - Constant N declared  at line 2
+INFO  02:40:50,640 - Global variable x declared at line 3
+INFO  02:40:50,640 - Global variable y declared at line 3
+INFO  02:40:50,640 - Global array arr[] declared at line 3
+INFO  02:40:50,641 - Function f is being parsed  at line 6
+INFO  02:40:50,641 - Function main is being parsed  at line 10
+INFO  02:40:50,641 - Function f is called at line 11
+INFO  02:40:50,642 - Semantic analysis completed.
+INFO  02:40:50,642 - Semantic analysis finished successfully!
+INFO  02:40:50,642 - Symbol table: 
+INFO  02:40:50,643 - =========================================
+INFO  02:40:50,643 - Started generating code....
+INFO  02:40:50,652 - Code generated successfully!
+INFO  02:40:50,652 - Compiling file successfully completed!

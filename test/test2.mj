@@ -1,0 +1,31 @@
+program p
+const int x = 10;
+int y, z;
+bool b;
+{
+	
+	
+	int sum(int z, int d) { 
+		return z + d;
+	}
+	
+	int inkrement(int a, int inc = 1) 
+		int pom;
+	{
+		pom = a;
+		return sum(a,pom);
+	}
+	
+	bool verify() {
+		print('v');
+		return false;
+	}
+	
+	void main() int local1; {
+		local1 = 10;
+		local1 = sum(10, 30);
+		local1 = inkrement(local1);
+		print(local1);
+	}
+}
+

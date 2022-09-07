@@ -1,0 +1,552 @@
+INFO  15:29:33,846 - Compiling source file: C:\Users\Andrej\eclipse-workspace\MJCompiler\test\test3.mj
+INFO  15:29:34,051 - #2 program
+INFO  15:29:34,051 - #48 p
+INFO  15:29:34,051 - #7 const
+INFO  15:29:34,053 - #48 int
+INFO  15:29:34,053 - #48 x
+INFO  15:29:34,055 - #35 =
+INFO  15:29:34,055 - #49 50
+INFO  15:29:34,055 - #38 ;
+INFO  15:29:34,056 - #48 int
+INFO  15:29:34,056 - #48 i1
+INFO  15:29:34,057 - #40 ,
+INFO  15:29:34,059 - #48 arr
+INFO  15:29:34,059 - #44 [
+INFO  15:29:34,059 - #45 ]
+INFO  15:29:34,059 - #40 ,
+INFO  15:29:34,061 - #48 arr2
+INFO  15:29:34,061 - #44 [
+INFO  15:29:34,061 - #45 ]
+INFO  15:29:34,061 - #38 ;
+INFO  15:29:34,061 - #48 int
+INFO  15:29:34,062 - #48 i2
+INFO  15:29:34,062 - #38 ;
+INFO  15:29:34,066 - #48 char
+INFO  15:29:34,066 - #48 c1
+INFO  15:29:34,066 - #40 ,
+INFO  15:29:34,066 - #48 c2
+INFO  15:29:34,067 - #38 ;
+INFO  15:29:34,067 - #48 bool
+INFO  15:29:34,067 - #48 b
+INFO  15:29:34,067 - #38 ;
+INFO  15:29:34,067 - #46 {
+INFO  15:29:34,068 - #48 int
+INFO  15:29:34,069 - #48 f
+INFO  15:29:34,070 - #42 (
+INFO  15:29:34,071 - #43 )
+INFO  15:29:34,072 - #48 int
+INFO  15:29:34,074 - #48 l
+INFO  15:29:34,074 - #38 ;
+INFO  15:29:34,075 - #48 int
+INFO  15:29:34,077 - #48 s
+INFO  15:29:34,077 - #38 ;
+INFO  15:29:34,077 - #46 {
+INFO  15:29:34,079 - #48 i1
+INFO  15:29:34,080 - #35 =
+INFO  15:29:34,083 - #49 5
+INFO  15:29:34,088 - #38 ;
+INFO  15:29:34,090 - #48 l
+INFO  15:29:34,091 - #35 =
+INFO  15:29:34,091 - #48 i1
+INFO  15:29:34,091 - #22 +
+INFO  15:29:34,093 - #49 5
+INFO  15:29:34,095 - #38 ;
+INFO  15:29:34,096 - #14 return
+INFO  15:29:34,096 - #48 l
+INFO  15:29:34,096 - #38 ;
+INFO  15:29:34,096 - #47 }
+INFO  15:29:34,096 - #48 char
+INFO  15:29:34,097 - #48 f1
+INFO  15:29:34,097 - #42 (
+INFO  15:29:34,098 - #48 int
+INFO  15:29:34,098 - #48 x
+INFO  15:29:34,098 - #40 ,
+INFO  15:29:34,099 - #48 int
+INFO  15:29:34,099 - #48 y
+INFO  15:29:34,099 - #40 ,
+INFO  15:29:34,105 - #48 int
+INFO  15:29:34,105 - #48 z
+INFO  15:29:34,105 - #35 =
+INFO  15:29:34,105 - #49 5
+INFO  15:29:34,105 - #43 )
+INFO  15:29:34,106 - #46 {
+INFO  15:29:34,106 - #14 return
+INFO  15:29:34,106 - #50 a
+INFO  15:29:34,106 - #38 ;
+INFO  15:29:34,107 - #47 }
+INFO  15:29:34,107 - #15 void
+INFO  15:29:34,107 - #48 main
+INFO  15:29:34,108 - #42 (
+INFO  15:29:34,108 - #43 )
+INFO  15:29:34,108 - #46 {
+INFO  15:29:34,108 - #48 f
+INFO  15:29:34,109 - #42 (
+INFO  15:29:34,109 - #43 )
+INFO  15:29:34,110 - #38 ;
+INFO  15:29:34,110 - #48 f1
+INFO  15:29:34,110 - #42 (
+INFO  15:29:34,111 - #49 5
+INFO  15:29:34,111 - #40 ,
+INFO  15:29:34,111 - #49 10
+INFO  15:29:34,111 - #40 ,
+INFO  15:29:34,111 - #49 15
+INFO  15:29:34,112 - #43 )
+INFO  15:29:34,112 - #38 ;
+INFO  15:29:34,112 - #47 }
+INFO  15:29:34,112 - #47 }
+INFO  15:29:34,117 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  ProgramVariablesList(
+    ProgramVariablesList(
+      ProgramVariablesList(
+        ProgramVariablesList(
+          ProgramVariablesList(
+            EmptyProgramVariablesList(
+            ) [EmptyProgramVariablesList]
+            ProgramConstants(
+              ConstantsClass(
+                Type(
+                 int
+                ) [Type]
+                SingleConstantList(
+                  ConstantDeclaration(
+                   x
+                    NumConstClass(
+                      NumberConstant(
+                       50
+                      ) [NumberConstant]
+                    ) [NumConstClass]
+                  ) [ConstantDeclaration]
+                ) [SingleConstantList]
+              ) [ConstantsClass]
+            ) [ProgramConstants]
+          ) [ProgramVariablesList]
+          ProgramVariables(
+            GlobalVariables(
+              Type(
+               int
+              ) [Type]
+              MultipleGlobalVariablesList(
+                MultipleGlobalVariablesList(
+                  SingleGlobalVariableList(
+                    GlobalVariableDeclaration(
+                     i1
+                      VarIsNotArray(
+                      ) [VarIsNotArray]
+                    ) [GlobalVariableDeclaration]
+                  ) [SingleGlobalVariableList]
+                  GlobalVariableDeclaration(
+                   arr
+                    VarIsArray(
+                    ) [VarIsArray]
+                  ) [GlobalVariableDeclaration]
+                ) [MultipleGlobalVariablesList]
+                GlobalVariableDeclaration(
+                 arr2
+                  VarIsArray(
+                  ) [VarIsArray]
+                ) [GlobalVariableDeclaration]
+              ) [MultipleGlobalVariablesList]
+            ) [GlobalVariables]
+          ) [ProgramVariables]
+        ) [ProgramVariablesList]
+        ProgramVariables(
+          GlobalVariables(
+            Type(
+             int
+            ) [Type]
+            SingleGlobalVariableList(
+              GlobalVariableDeclaration(
+               i2
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [GlobalVariableDeclaration]
+            ) [SingleGlobalVariableList]
+          ) [GlobalVariables]
+        ) [ProgramVariables]
+      ) [ProgramVariablesList]
+      ProgramVariables(
+        GlobalVariables(
+          Type(
+           char
+          ) [Type]
+          MultipleGlobalVariablesList(
+            SingleGlobalVariableList(
+              GlobalVariableDeclaration(
+               c1
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [GlobalVariableDeclaration]
+            ) [SingleGlobalVariableList]
+            GlobalVariableDeclaration(
+             c2
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [GlobalVariableDeclaration]
+          ) [MultipleGlobalVariablesList]
+        ) [GlobalVariables]
+      ) [ProgramVariables]
+    ) [ProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        Type(
+         bool
+        ) [Type]
+        SingleGlobalVariableList(
+          GlobalVariableDeclaration(
+           b
+            VarIsNotArray(
+            ) [VarIsNotArray]
+          ) [GlobalVariableDeclaration]
+        ) [SingleGlobalVariableList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  ProgramMethodsList(
+    ProgramMethodsList(
+      ProgramMethodsList(
+        EmptyProgramMethodsList(
+        ) [EmptyProgramMethodsList]
+        MethodDeclaration(
+          MethodTypeNotVoid(
+            Type(
+             int
+            ) [Type]
+          ) [MethodTypeNotVoid]
+          MethodName(
+           f
+          ) [MethodName]
+          EmptyFormalParametersList(
+          ) [EmptyFormalParametersList]
+          VariablesDeclarationList(
+            VariablesDeclarationList(
+              EmptyVariablesDeclarationList(
+              ) [EmptyVariablesDeclarationList]
+              LocalVariables(
+                Type(
+                 int
+                ) [Type]
+                SingleLocalVariableList(
+                  VariableDeclaration(
+                   l
+                    VarIsNotArray(
+                    ) [VarIsNotArray]
+                  ) [VariableDeclaration]
+                ) [SingleLocalVariableList]
+              ) [LocalVariables]
+            ) [VariablesDeclarationList]
+            LocalVariables(
+              Type(
+               int
+              ) [Type]
+              SingleLocalVariableList(
+                VariableDeclaration(
+                 s
+                  VarIsNotArray(
+                  ) [VarIsNotArray]
+                ) [VariableDeclaration]
+              ) [SingleLocalVariableList]
+            ) [LocalVariables]
+          ) [VariablesDeclarationList]
+          StatementListClass(
+            StatementListClass(
+              StatementListClass(
+                EmptyStatementList(
+                ) [EmptyStatementList]
+                SingleStatementClass(
+                  SSDesignatorStatement(
+                    DesignatorStatementClass(
+                      Designator(
+                       i1
+                        DesignatorNotArray(
+                        ) [DesignatorNotArray]
+                      ) [Designator]
+                      DesignatorAssign(
+                        DesignatorAssignOperation(
+                          AssignOperation(
+                          ) [AssignOperation]
+                          Expr(
+                            ExpressionClass(
+                              ExpressionPositive(
+                              ) [ExpressionPositive]
+                              Terminal(
+                                FactorNumberConstant(
+                                  NumberConstant(
+                                   5
+                                  ) [NumberConstant]
+                                ) [FactorNumberConstant]
+                              ) [Terminal]
+                            ) [ExpressionClass]
+                          ) [Expr]
+                        ) [DesignatorAssignOperation]
+                      ) [DesignatorAssign]
+                    ) [DesignatorStatementClass]
+                  ) [SSDesignatorStatement]
+                ) [SingleStatementClass]
+              ) [StatementListClass]
+              SingleStatementClass(
+                SSDesignatorStatement(
+                  DesignatorStatementClass(
+                    Designator(
+                     l
+                      DesignatorNotArray(
+                      ) [DesignatorNotArray]
+                    ) [Designator]
+                    DesignatorAssign(
+                      DesignatorAssignOperation(
+                        AssignOperation(
+                        ) [AssignOperation]
+                        Expr(
+                          ExpressionAddop(
+                            ExpressionClass(
+                              ExpressionPositive(
+                              ) [ExpressionPositive]
+                              Terminal(
+                                FactorDesignator(
+                                  Designator(
+                                   i1
+                                    DesignatorNotArray(
+                                    ) [DesignatorNotArray]
+                                  ) [Designator]
+                                  FactorNoFunctionCall(
+                                  ) [FactorNoFunctionCall]
+                                ) [FactorDesignator]
+                              ) [Terminal]
+                            ) [ExpressionClass]
+                            AdditionOperation(
+                            ) [AdditionOperation]
+                            Terminal(
+                              FactorNumberConstant(
+                                NumberConstant(
+                                 5
+                                ) [NumberConstant]
+                              ) [FactorNumberConstant]
+                            ) [Terminal]
+                          ) [ExpressionAddop]
+                        ) [Expr]
+                      ) [DesignatorAssignOperation]
+                    ) [DesignatorAssign]
+                  ) [DesignatorStatementClass]
+                ) [SSDesignatorStatement]
+              ) [SingleStatementClass]
+            ) [StatementListClass]
+            SingleStatementClass(
+              ReturnStatement(
+                HasReturnExpression(
+                  Expr(
+                    ExpressionClass(
+                      ExpressionPositive(
+                      ) [ExpressionPositive]
+                      Terminal(
+                        FactorDesignator(
+                          Designator(
+                           l
+                            DesignatorNotArray(
+                            ) [DesignatorNotArray]
+                          ) [Designator]
+                          FactorNoFunctionCall(
+                          ) [FactorNoFunctionCall]
+                        ) [FactorDesignator]
+                      ) [Terminal]
+                    ) [ExpressionClass]
+                  ) [Expr]
+                ) [HasReturnExpression]
+              ) [ReturnStatement]
+            ) [SingleStatementClass]
+          ) [StatementListClass]
+        ) [MethodDeclaration]
+      ) [ProgramMethodsList]
+      MethodDeclaration(
+        MethodTypeNotVoid(
+          Type(
+           char
+          ) [Type]
+        ) [MethodTypeNotVoid]
+        MethodName(
+         f1
+        ) [MethodName]
+        FormalParametersListWithOptionalArguments(
+          MultipleFormalParameters(
+            SingleFormalParameter(
+              FormalParameter(
+                Type(
+                 int
+                ) [Type]
+               x
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [FormalParameter]
+            ) [SingleFormalParameter]
+            FormalParameter(
+              Type(
+               int
+              ) [Type]
+             y
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [FormalParameter]
+          ) [MultipleFormalParameters]
+          SingleOptionalArgument(
+            OptionalArgument(
+              Type(
+               int
+              ) [Type]
+             z
+              NumConstClass(
+                NumberConstant(
+                 5
+                ) [NumberConstant]
+              ) [NumConstClass]
+            ) [OptionalArgument]
+          ) [SingleOptionalArgument]
+        ) [FormalParametersListWithOptionalArguments]
+        EmptyVariablesDeclarationList(
+        ) [EmptyVariablesDeclarationList]
+        StatementListClass(
+          EmptyStatementList(
+          ) [EmptyStatementList]
+          SingleStatementClass(
+            ReturnStatement(
+              HasReturnExpression(
+                Expr(
+                  ExpressionClass(
+                    ExpressionPositive(
+                    ) [ExpressionPositive]
+                    Terminal(
+                      FactorCharacterConstant(
+                        CharacterConstant(
+                         a
+                        ) [CharacterConstant]
+                      ) [FactorCharacterConstant]
+                    ) [Terminal]
+                  ) [ExpressionClass]
+                ) [Expr]
+              ) [HasReturnExpression]
+            ) [ReturnStatement]
+          ) [SingleStatementClass]
+        ) [StatementListClass]
+      ) [MethodDeclaration]
+    ) [ProgramMethodsList]
+    MethodDeclaration(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      EmptyFormalParametersList(
+      ) [EmptyFormalParametersList]
+      EmptyVariablesDeclarationList(
+      ) [EmptyVariablesDeclarationList]
+      StatementListClass(
+        StatementListClass(
+          EmptyStatementList(
+          ) [EmptyStatementList]
+          SingleStatementClass(
+            SSDesignatorStatement(
+              DesignatorStatementClass(
+                Designator(
+                 f
+                  DesignatorNotArray(
+                  ) [DesignatorNotArray]
+                ) [Designator]
+                DesignatorFunctionCall(
+                  FunctionCallNoArguments(
+                  ) [FunctionCallNoArguments]
+                ) [DesignatorFunctionCall]
+              ) [DesignatorStatementClass]
+            ) [SSDesignatorStatement]
+          ) [SingleStatementClass]
+        ) [StatementListClass]
+        SingleStatementClass(
+          SSDesignatorStatement(
+            DesignatorStatementClass(
+              Designator(
+               f1
+                DesignatorNotArray(
+                ) [DesignatorNotArray]
+              ) [Designator]
+              DesignatorFunctionCall(
+                FunctionCallHasArguments(
+                  MultipleActualParameters(
+                    MultipleActualParameters(
+                      SingleActualParameter(
+                        Expr(
+                          ExpressionClass(
+                            ExpressionPositive(
+                            ) [ExpressionPositive]
+                            Terminal(
+                              FactorNumberConstant(
+                                NumberConstant(
+                                 5
+                                ) [NumberConstant]
+                              ) [FactorNumberConstant]
+                            ) [Terminal]
+                          ) [ExpressionClass]
+                        ) [Expr]
+                      ) [SingleActualParameter]
+                      Expr(
+                        ExpressionClass(
+                          ExpressionPositive(
+                          ) [ExpressionPositive]
+                          Terminal(
+                            FactorNumberConstant(
+                              NumberConstant(
+                               10
+                              ) [NumberConstant]
+                            ) [FactorNumberConstant]
+                          ) [Terminal]
+                        ) [ExpressionClass]
+                      ) [Expr]
+                    ) [MultipleActualParameters]
+                    Expr(
+                      ExpressionClass(
+                        ExpressionPositive(
+                        ) [ExpressionPositive]
+                        Terminal(
+                          FactorNumberConstant(
+                            NumberConstant(
+                             15
+                            ) [NumberConstant]
+                          ) [FactorNumberConstant]
+                        ) [Terminal]
+                      ) [ExpressionClass]
+                    ) [Expr]
+                  ) [MultipleActualParameters]
+                ) [FunctionCallHasArguments]
+              ) [DesignatorFunctionCall]
+            ) [DesignatorStatementClass]
+          ) [SSDesignatorStatement]
+        ) [SingleStatementClass]
+      ) [StatementListClass]
+    ) [MethodDeclaration]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  15:29:34,118 - ===================================
+INFO  15:29:34,118 - Parsing completed successfully!.
+INFO  15:29:34,159 - Constant x declared  at line 2
+INFO  15:29:34,159 - Global variable i1 declared at line 3
+INFO  15:29:34,159 - Global array arr[] declared at line 3
+INFO  15:29:34,159 - Global array arr2[] declared at line 3
+INFO  15:29:34,159 - Global variable i2 declared at line 4
+INFO  15:29:34,160 - Global variable c1 declared at line 5
+INFO  15:29:34,160 - Global variable c2 declared at line 5
+INFO  15:29:34,160 - Global variable b declared at line 6
+INFO  15:29:34,160 - Function f is being parsed  at line 9
+INFO  15:29:34,160 - Local variable l declared at line 9
+INFO  15:29:34,160 - Local variable s declared at line 9
+INFO  15:29:34,161 - Global variable i1 accessed at line 10
+INFO  15:29:41,312 - Local variable l accessed at line 11
+INFO  15:29:41,313 - Global variable i1 accessed at line 11
+INFO  15:29:41,313 - Local variable l accessed at line 12
+INFO  15:29:41,313 - Function f1 is being parsed  at line 15
+INFO  15:29:41,316 - Local parameter x declared at line 15
+INFO  15:29:41,317 - Local parameter y declared at line 15
+INFO  15:29:41,317 - Default parameter z declared at line 15
+INFO  15:29:41,317 - Function main is being parsed  at line 19
+INFO  15:29:41,317 - 0 0
+INFO  15:29:41,317 - Function f is called at line 20
+INFO  15:30:01,065 - 3 1
+INFO  15:30:01,065 - Function f1 is called at line 21
+INFO  15:30:01,065 - Semantic analysis completed.

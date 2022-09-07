@@ -1,0 +1,151 @@
+INFO  14:28:42,556 - Compiling source file: C:\Users\Andrej\eclipse-workspace\MJCompiler\test\test3.mj
+INFO  14:28:42,816 - #2 program
+INFO  14:28:42,816 - #48 p
+INFO  14:28:42,816 - #7 const
+INFO  14:28:42,819 - #48 int
+INFO  14:28:42,819 - #48 x
+INFO  14:28:42,821 - #35 =
+INFO  14:28:42,821 - #49 50
+INFO  14:28:42,822 - #38 ;
+INFO  14:28:42,822 - #48 int
+INFO  14:28:42,823 - #48 i1
+INFO  14:28:42,824 - #40 ,
+INFO  14:28:42,828 - #48 arr
+INFO  14:28:42,828 - #44 [
+INFO  14:28:42,828 - #45 ]
+INFO  14:28:42,828 - #38 ;
+INFO  14:28:42,831 - #48 int
+INFO  14:28:42,832 - #48 i2
+INFO  14:28:42,832 - #38 ;
+INFO  14:28:42,832 - #46 {
+INFO  14:28:42,832 - #15 void
+INFO  14:28:42,834 - #48 main
+INFO  14:28:42,836 - #42 (
+INFO  14:28:42,843 - #43 )
+INFO  14:28:42,846 - #46 {
+INFO  14:28:42,848 - #48 i2
+INFO  14:28:42,851 - #35 =
+INFO  14:28:42,855 - #48 i1
+INFO  14:28:42,861 - #38 ;
+INFO  14:28:42,877 - #47 }
+INFO  14:28:42,880 - #47 }
+INFO  14:28:42,884 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  ProgramVariablesList(
+    ProgramVariablesList(
+      ProgramVariablesList(
+        EmptyProgramVariablesList(
+        ) [EmptyProgramVariablesList]
+        ProgramConstants(
+          ConstantsClass(
+            Type(
+             int
+            ) [Type]
+            SingleConstantList(
+              ConstantDeclaration(
+               x
+                NumConstClass(
+                  NumberConstant(
+                   50
+                  ) [NumberConstant]
+                ) [NumConstClass]
+              ) [ConstantDeclaration]
+            ) [SingleConstantList]
+          ) [ConstantsClass]
+        ) [ProgramConstants]
+      ) [ProgramVariablesList]
+      ProgramVariables(
+        GlobalVariables(
+          Type(
+           int
+          ) [Type]
+          MultipleGlobalVariablesList(
+            SingleGlobalVariableList(
+              GlobalVariableDeclaration(
+               i1
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [GlobalVariableDeclaration]
+            ) [SingleGlobalVariableList]
+            GlobalVariableDeclaration(
+             arr
+              VarIsArray(
+              ) [VarIsArray]
+            ) [GlobalVariableDeclaration]
+          ) [MultipleGlobalVariablesList]
+        ) [GlobalVariables]
+      ) [ProgramVariables]
+    ) [ProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        Type(
+         int
+        ) [Type]
+        SingleGlobalVariableList(
+          GlobalVariableDeclaration(
+           i2
+            VarIsNotArray(
+            ) [VarIsNotArray]
+          ) [GlobalVariableDeclaration]
+        ) [SingleGlobalVariableList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  ProgramMethodsList(
+    EmptyProgramMethodsList(
+    ) [EmptyProgramMethodsList]
+    MethodDeclaration(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      EmptyFormalParametersList(
+      ) [EmptyFormalParametersList]
+      EmptyVariablesDeclarationList(
+      ) [EmptyVariablesDeclarationList]
+      StatementListClass(
+        EmptyStatementList(
+        ) [EmptyStatementList]
+        SingleStatementClass(
+          SSDesignatorStatement(
+            DesignatorStatementClass(
+              Designator(
+               i2
+                DesignatorNotArray(
+                ) [DesignatorNotArray]
+              ) [Designator]
+              DesignatorAssign(
+                DesignatorAssignOperation(
+                  AssignOperation(
+                  ) [AssignOperation]
+                  Expr(
+                    ExpressionClass(
+                      ExpressionPositive(
+                      ) [ExpressionPositive]
+                      Terminal(
+                        FactorDesignator(
+                          Designator(
+                           i1
+                            DesignatorNotArray(
+                            ) [DesignatorNotArray]
+                          ) [Designator]
+                          FactorNoFunctionCall(
+                          ) [FactorNoFunctionCall]
+                        ) [FactorDesignator]
+                      ) [Terminal]
+                    ) [ExpressionClass]
+                  ) [Expr]
+                ) [DesignatorAssignOperation]
+              ) [DesignatorAssign]
+            ) [DesignatorStatementClass]
+          ) [SSDesignatorStatement]
+        ) [SingleStatementClass]
+      ) [StatementListClass]
+    ) [MethodDeclaration]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  14:28:42,884 - ===================================
+INFO  14:28:42,885 - Parsing completed successfully!.

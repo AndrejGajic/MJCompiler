@@ -1,0 +1,94 @@
+INFO  12:24:53,124 - Compiling source file: C:\Users\Andrej\eclipse-workspace\MJCompiler\test\test3.mj
+INFO  12:24:53,239 - #2 program
+INFO  12:24:53,239 - #48 p
+INFO  12:24:53,239 - #7 const
+INFO  12:24:53,241 - #48 int
+INFO  12:24:53,241 - #48 x
+INFO  12:24:53,243 - #35 =
+INFO  12:24:53,243 - #49 50
+INFO  12:24:53,243 - #38 ;
+INFO  12:24:53,244 - #48 int
+INFO  12:24:53,244 - #48 x
+INFO  12:24:53,245 - #40 ,
+INFO  12:24:53,247 - #48 y
+INFO  12:24:53,247 - #44 [
+INFO  12:24:53,247 - #45 ]
+INFO  12:24:53,247 - #38 ;
+INFO  12:24:53,249 - #48 int
+INFO  12:24:53,249 - #48 z
+INFO  12:24:53,249 - #38 ;
+INFO  12:24:53,250 - #46 {
+INFO  12:24:53,250 - #47 }
+INFO  12:24:53,253 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  ProgramVariablesList(
+    ProgramVariablesList(
+      ProgramVariablesList(
+        EmptyProgramVariablesList(
+        ) [EmptyProgramVariablesList]
+        ProgramConstants(
+          ConstantsClass(
+            Type(
+             int
+            ) [Type]
+            SingleConstantList(
+              ConstantDeclaration(
+               x
+                NumConstClass(
+                  NumberConstant(
+                   50
+                  ) [NumberConstant]
+                ) [NumConstClass]
+              ) [ConstantDeclaration]
+            ) [SingleConstantList]
+          ) [ConstantsClass]
+        ) [ProgramConstants]
+      ) [ProgramVariablesList]
+      ProgramVariables(
+        GlobalVariables(
+          Type(
+           int
+          ) [Type]
+          MultipleGlobalVariablesList(
+            SingleGlobalVariableList(
+              GlobalVariableDeclaration(
+               x
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [GlobalVariableDeclaration]
+            ) [SingleGlobalVariableList]
+            GlobalVariableDeclaration(
+             y
+              VarIsArray(
+              ) [VarIsArray]
+            ) [GlobalVariableDeclaration]
+          ) [MultipleGlobalVariablesList]
+        ) [GlobalVariables]
+      ) [ProgramVariables]
+    ) [ProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        Type(
+         int
+        ) [Type]
+        SingleGlobalVariableList(
+          GlobalVariableDeclaration(
+           z
+            VarIsNotArray(
+            ) [VarIsNotArray]
+          ) [GlobalVariableDeclaration]
+        ) [SingleGlobalVariableList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  EmptyProgramMethodsList(
+  ) [EmptyProgramMethodsList]
+) [Program]
+INFO  12:24:53,253 - ===================================
+INFO  12:24:53,254 - Parsing completed successfully!.
+INFO  12:24:53,276 - Constant x declared  at line 2
+INFO  12:24:53,276 - Error! Variable with this name already declared! Cannot declare global variable x at line 3
+INFO  12:24:53,277 - Global array y[] declared at line 3
+INFO  12:24:53,277 - Global variable z declared at line 4

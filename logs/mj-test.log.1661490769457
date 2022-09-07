@@ -1,0 +1,205 @@
+INFO  07:12:14,592 - Starting compilation of a file test/test4.mj
+INFO  07:12:14,593 - Starting lexical analysis....
+INFO  07:12:14,598 - Lexical analysis finished successfully!
+INFO  07:12:14,599 - =========================================
+INFO  07:12:14,599 - Starting syntax analysis....
+INFO  07:12:14,746 - #2 program
+INFO  07:12:14,746 - #48 Test4
+INFO  07:12:14,746 - #48 int
+INFO  07:12:14,747 - #48 x
+INFO  07:12:14,748 - #40 ,
+INFO  07:12:14,750 - #48 y
+INFO  07:12:14,750 - #38 ;
+INFO  07:12:14,751 - #46 {
+INFO  07:12:14,751 - #15 void
+INFO  07:12:14,752 - #48 main
+INFO  07:12:14,752 - #42 (
+INFO  07:12:14,754 - #43 )
+INFO  07:12:14,755 - #46 {
+INFO  07:12:14,756 - #48 x
+INFO  07:12:14,757 - #35 =
+INFO  07:12:14,761 - #49 5
+INFO  07:12:14,764 - #38 ;
+INFO  07:12:14,766 - #8 if
+INFO  07:12:14,767 - #42 (
+INFO  07:12:14,768 - #48 x
+INFO  07:12:14,768 - #27 ==
+INFO  07:12:14,768 - #49 10
+INFO  07:12:14,769 - #43 )
+INFO  07:12:14,770 - #46 {
+INFO  07:12:14,770 - #12 print
+INFO  07:12:14,770 - #42 (
+INFO  07:12:14,770 - #50 a
+INFO  07:12:14,770 - #43 )
+INFO  07:12:14,771 - #38 ;
+INFO  07:12:14,771 - #47 }
+INFO  07:12:14,772 - #47 }
+INFO  07:12:14,774 - #47 }
+INFO  07:12:14,776 - Syntax analysis finished successfully!
+INFO  07:12:14,776 - Syntax tree: 
+INFO  07:12:14,778 - Program(
+  ProgramName(
+   Test4
+  ) [ProgramName]
+  ProgramVariablesList(
+    EmptyProgramVariablesList(
+    ) [EmptyProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        Type(
+         int
+        ) [Type]
+        MultipleGlobalVariablesList(
+          SingleGlobalVariableList(
+            GlobalVariableDeclaration(
+             x
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [GlobalVariableDeclaration]
+          ) [SingleGlobalVariableList]
+          GlobalVariableDeclaration(
+           y
+            VarIsNotArray(
+            ) [VarIsNotArray]
+          ) [GlobalVariableDeclaration]
+        ) [MultipleGlobalVariablesList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  ProgramMethodsList(
+    EmptyProgramMethodsList(
+    ) [EmptyProgramMethodsList]
+    MethodDeclaration(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      EmptyFormalParametersList(
+      ) [EmptyFormalParametersList]
+      EmptyVariablesDeclarationList(
+      ) [EmptyVariablesDeclarationList]
+      StatementListClass(
+        StatementListClass(
+          EmptyStatementList(
+          ) [EmptyStatementList]
+          SingleStatementClass(
+            SSDesignatorStatement(
+              DesignatorStatementClass(
+                DesignatorClass(
+                 x
+                ) [DesignatorClass]
+                DesignatorAssign(
+                  DesignatorAssignOperation(
+                    AssignOperation(
+                    ) [AssignOperation]
+                    Expr(
+                      ExpressionClass(
+                        ExpressionPositive(
+                        ) [ExpressionPositive]
+                        Terminal(
+                          FactorNumberConstant(
+                            NumberConstant(
+                             5
+                            ) [NumberConstant]
+                          ) [FactorNumberConstant]
+                        ) [Terminal]
+                      ) [ExpressionClass]
+                    ) [Expr]
+                  ) [DesignatorAssignOperation]
+                ) [DesignatorAssign]
+              ) [DesignatorStatementClass]
+            ) [SSDesignatorStatement]
+          ) [SingleStatementClass]
+        ) [StatementListClass]
+        SingleStatementClass(
+          IfStatement(
+            IfClause(
+              IfStart(
+              ) [IfStart]
+              IfConditionClass(
+                SingleCondition(
+                  SingleConditionTerm(
+                    ConditionFactRelop(
+                      Expr(
+                        ExpressionClass(
+                          ExpressionPositive(
+                          ) [ExpressionPositive]
+                          Terminal(
+                            FactorDesignator(
+                              DesignatorClass(
+                               x
+                              ) [DesignatorClass]
+                            ) [FactorDesignator]
+                          ) [Terminal]
+                        ) [ExpressionClass]
+                      ) [Expr]
+                      RelationEquals(
+                      ) [RelationEquals]
+                      Expr(
+                        ExpressionClass(
+                          ExpressionPositive(
+                          ) [ExpressionPositive]
+                          Terminal(
+                            FactorNumberConstant(
+                              NumberConstant(
+                               10
+                              ) [NumberConstant]
+                            ) [FactorNumberConstant]
+                          ) [Terminal]
+                        ) [ExpressionClass]
+                      ) [Expr]
+                    ) [ConditionFactRelop]
+                  ) [SingleConditionTerm]
+                ) [SingleCondition]
+              ) [IfConditionClass]
+              MultipleStatements(
+                StatementClass(
+                  StatementListClass(
+                    EmptyStatementList(
+                    ) [EmptyStatementList]
+                    SingleStatementClass(
+                      PrintStatement(
+                        Expr(
+                          ExpressionClass(
+                            ExpressionPositive(
+                            ) [ExpressionPositive]
+                            Terminal(
+                              FactorCharacterConstant(
+                                CharacterConstant(
+                                 a
+                                ) [CharacterConstant]
+                              ) [FactorCharacterConstant]
+                            ) [Terminal]
+                          ) [ExpressionClass]
+                        ) [Expr]
+                        HasNotPrintConstant(
+                        ) [HasNotPrintConstant]
+                      ) [PrintStatement]
+                    ) [SingleStatementClass]
+                  ) [StatementListClass]
+                ) [StatementClass]
+              ) [MultipleStatements]
+            ) [IfClause]
+            HasNotElseClause(
+            ) [HasNotElseClause]
+          ) [IfStatement]
+        ) [SingleStatementClass]
+      ) [StatementListClass]
+    ) [MethodDeclaration]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  07:12:14,779 - =========================================
+INFO  07:12:14,779 - Starting semantic analysis....
+INFO  07:12:14,805 - Global variable x declared at line 2
+INFO  07:12:14,805 - Global variable y declared at line 2
+INFO  07:12:14,805 - Function main is being parsed  at line 5
+INFO  07:12:14,805 - Global variable x accessed at line 6
+INFO  07:12:14,805 - Global variable x accessed at line 7
+INFO  07:12:14,806 - Semantic analysis completed.
+INFO  07:12:14,806 - Semantic analysis finished successfully!
+INFO  07:12:14,806 - Symbol table: 
+INFO  07:12:14,808 - =========================================
+INFO  07:12:14,808 - Started generating code....
+INFO  07:12:14,817 - Code generated successfully!
+INFO  07:12:14,817 - Compiling file successfully completed!

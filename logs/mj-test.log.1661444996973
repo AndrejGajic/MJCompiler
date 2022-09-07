@@ -1,0 +1,51 @@
+INFO  18:29:10,124 - Starting compilation of a file test/test301.mj
+INFO  18:29:10,125 - Starting lexical analysis....
+INFO  18:29:10,128 - Lexical analysis finished successfully!
+INFO  18:29:10,128 - =========================================
+INFO  18:29:10,128 - Starting syntax analysis....
+INFO  18:29:10,242 - #2 program
+INFO  18:29:10,242 - #48 P
+INFO  18:29:10,243 - #46 {
+INFO  18:29:10,244 - #15 void
+INFO  18:29:10,245 - #48 main
+INFO  18:29:10,245 - #42 (
+INFO  18:29:10,246 - #43 )
+INFO  18:29:10,247 - #46 {
+INFO  18:29:10,248 - #47 }
+INFO  18:29:10,249 - #47 }
+INFO  18:29:10,250 - Syntax analysis finished successfully!
+INFO  18:29:10,250 - Syntax tree: 
+INFO  18:29:10,250 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  EmptyProgramVariablesList(
+  ) [EmptyProgramVariablesList]
+  ProgramMethodsList(
+    EmptyProgramMethodsList(
+    ) [EmptyProgramMethodsList]
+    MethodDeclaration(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      EmptyFormalParametersList(
+      ) [EmptyFormalParametersList]
+      EmptyVariablesDeclarationList(
+      ) [EmptyVariablesDeclarationList]
+      EmptyStatementList(
+      ) [EmptyStatementList]
+    ) [MethodDeclaration]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  18:29:10,254 - =========================================
+INFO  18:29:10,255 - Starting semantic analysis....
+INFO  18:29:10,277 - Function main is being parsed  at line 3
+INFO  18:29:10,278 - Semantic analysis completed.
+INFO  18:29:10,278 - Semantic analysis finished successfully!
+INFO  18:29:10,278 - Symbol table: 
+INFO  18:29:10,279 - =========================================
+INFO  18:29:10,279 - Started generating code....
+INFO  18:29:10,288 - Code generated successfully!
+INFO  18:29:10,288 - Compiling file successfully completed!

@@ -1,0 +1,265 @@
+INFO  15:48:25,625 - Compiling source file: C:\Users\Andrej\eclipse-workspace\MJCompiler\test\test2.mj
+INFO  15:48:25,662 - #2 program
+INFO  15:48:25,662 - #48 p
+INFO  15:48:25,662 - #7 const
+INFO  15:48:25,663 - #48 int
+INFO  15:48:25,663 - #48 x
+INFO  15:48:25,663 - #35 =
+INFO  15:48:25,663 - #49 10
+INFO  15:48:25,663 - #38 ;
+INFO  15:48:25,664 - #48 int
+INFO  15:48:25,664 - #48 y
+INFO  15:48:25,664 - #40 ,
+INFO  15:48:25,665 - #48 z
+INFO  15:48:25,666 - #38 ;
+INFO  15:48:25,666 - #48 bool
+INFO  15:48:25,666 - #48 b
+INFO  15:48:25,666 - #38 ;
+INFO  15:48:25,666 - #46 {
+INFO  15:48:25,666 - #48 char
+INFO  15:48:25,667 - #48 function
+INFO  15:48:25,667 - #42 (
+INFO  15:48:25,667 - #48 int
+INFO  15:48:25,667 - #48 param1
+INFO  15:48:25,671 - #40 ,
+INFO  15:48:25,672 - #48 char
+INFO  15:48:25,672 - #48 param2
+INFO  15:48:25,672 - #44 [
+INFO  15:48:25,672 - #45 ]
+INFO  15:48:25,672 - #40 ,
+INFO  15:48:25,673 - #48 bool
+INFO  15:48:25,673 - #48 param3
+INFO  15:48:25,673 - #43 )
+INFO  15:48:25,673 - #48 int
+INFO  15:48:25,674 - #48 local1
+INFO  15:48:25,674 - #44 [
+INFO  15:48:25,674 - #45 ]
+INFO  15:48:25,674 - #40 ,
+INFO  15:48:25,674 - #48 local2
+INFO  15:48:25,674 - #38 ;
+INFO  15:48:25,675 - #48 bool
+INFO  15:48:25,675 - #48 local3
+INFO  15:48:25,675 - #38 ;
+INFO  15:48:25,675 - #46 {
+INFO  15:48:25,675 - #35 =
+INFO  15:48:25,675 - #47 }
+INFO  15:48:25,678 - #48 int
+INFO  15:48:25,678 - #48 function2
+INFO  15:48:25,678 - #42 (
+INFO  15:48:25,678 - #48 int
+INFO  15:48:25,678 - #48 param1
+INFO  15:48:25,678 - #44 [
+INFO  15:48:25,679 - #45 ]
+INFO  15:48:25,679 - #35 =
+ERROR 15:48:25,679 - 
+Syntax error! at line 8
+INFO  15:48:25,679 - #43 )
+INFO  15:48:25,679 - #48 int
+INFO  15:48:25,679 - #48 local1
+INFO  15:48:25,680 - #38 ;
+ERROR 15:48:25,680 - Syntax error in DECLARING FORMAL PARAMETER at line 8
+INFO  15:48:25,681 - #48 bool
+INFO  15:48:25,681 - #48 local2
+INFO  15:48:25,681 - #44 [
+INFO  15:48:25,681 - #45 ]
+INFO  15:48:25,682 - #38 ;
+INFO  15:48:25,682 - #46 {
+INFO  15:48:25,682 - #35 =
+INFO  15:48:25,682 - #47 }
+INFO  15:48:25,682 - #47 }
+INFO  15:48:25,684 - Program(
+ p
+  ProgramVariablesList(
+    ProgramVariablesList(
+      ProgramVariablesList(
+        EmptyProgramVariablesList(
+        ) [EmptyProgramVariablesList]
+        ProgramConstants(
+          ConstantsClass(
+            TypeClass(
+             int
+            ) [TypeClass]
+            SingleConstantList(
+              ConstantDeclaration(
+               x
+                NumConstClass(
+                  NumberConstant(
+                   10
+                  ) [NumberConstant]
+                ) [NumConstClass]
+              ) [ConstantDeclaration]
+            ) [SingleConstantList]
+          ) [ConstantsClass]
+        ) [ProgramConstants]
+      ) [ProgramVariablesList]
+      ProgramVariables(
+        GlobalVariables(
+          TypeClass(
+           int
+          ) [TypeClass]
+          MultipleGlobalVariablesList(
+            SingleGlobalVariableList(
+              GlobalVariableDeclaration(
+               y
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [GlobalVariableDeclaration]
+            ) [SingleGlobalVariableList]
+            GlobalVariableDeclaration(
+             z
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [GlobalVariableDeclaration]
+          ) [MultipleGlobalVariablesList]
+        ) [GlobalVariables]
+      ) [ProgramVariables]
+    ) [ProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        TypeClass(
+         bool
+        ) [TypeClass]
+        SingleGlobalVariableList(
+          GlobalVariableDeclaration(
+           b
+            VarIsNotArray(
+            ) [VarIsNotArray]
+          ) [GlobalVariableDeclaration]
+        ) [SingleGlobalVariableList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  ProgramMethodsList(
+    ProgramMethodsList(
+      EmptyProgramMethodsList(
+      ) [EmptyProgramMethodsList]
+      MethodDeclaration(
+        MethodTypeNotVoid(
+          TypeClass(
+           char
+          ) [TypeClass]
+        ) [MethodTypeNotVoid]
+       function
+        FormalParametersList(
+          MultipleFormalParameters(
+            MultipleFormalParameters(
+              SingleFormalParameter(
+                FormalParameter(
+                  TypeClass(
+                   int
+                  ) [TypeClass]
+                 param1
+                  VarIsNotArray(
+                  ) [VarIsNotArray]
+                ) [FormalParameter]
+              ) [SingleFormalParameter]
+              FormalParameter(
+                TypeClass(
+                 char
+                ) [TypeClass]
+               param2
+                VarIsArray(
+                ) [VarIsArray]
+              ) [FormalParameter]
+            ) [MultipleFormalParameters]
+            FormalParameter(
+              TypeClass(
+               bool
+              ) [TypeClass]
+             param3
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [FormalParameter]
+          ) [MultipleFormalParameters]
+        ) [FormalParametersList]
+        VariablesDeclarationList(
+          VariablesDeclarationList(
+            EmptyVariablesDeclarationList(
+            ) [EmptyVariablesDeclarationList]
+            LocalVariables(
+              TypeClass(
+               int
+              ) [TypeClass]
+              MultipleLocalVariablesList(
+                SingleLocalVariableList(
+                  VariableDeclaration(
+                   local1
+                    VarIsArray(
+                    ) [VarIsArray]
+                  ) [VariableDeclaration]
+                ) [SingleLocalVariableList]
+                VariableDeclaration(
+                 local2
+                  VarIsNotArray(
+                  ) [VarIsNotArray]
+                ) [VariableDeclaration]
+              ) [MultipleLocalVariablesList]
+            ) [LocalVariables]
+          ) [VariablesDeclarationList]
+          LocalVariables(
+            TypeClass(
+             bool
+            ) [TypeClass]
+            SingleLocalVariableList(
+              VariableDeclaration(
+               local3
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [VariableDeclaration]
+            ) [SingleLocalVariableList]
+          ) [LocalVariables]
+        ) [VariablesDeclarationList]
+        StatementClass(
+        ) [StatementClass]
+      ) [MethodDeclaration]
+    ) [ProgramMethodsList]
+    MethodDeclaration(
+      MethodTypeNotVoid(
+        TypeClass(
+         int
+        ) [TypeClass]
+      ) [MethodTypeNotVoid]
+     function2
+      FormalParametersList(
+        SingleFormalParameter(
+          FormalParameterError(
+          ) [FormalParameterError]
+        ) [SingleFormalParameter]
+      ) [FormalParametersList]
+      VariablesDeclarationList(
+        VariablesDeclarationList(
+          EmptyVariablesDeclarationList(
+          ) [EmptyVariablesDeclarationList]
+          LocalVariables(
+            TypeClass(
+             int
+            ) [TypeClass]
+            SingleLocalVariableList(
+              VariableDeclaration(
+               local1
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [VariableDeclaration]
+            ) [SingleLocalVariableList]
+          ) [LocalVariables]
+        ) [VariablesDeclarationList]
+        LocalVariables(
+          TypeClass(
+           bool
+          ) [TypeClass]
+          SingleLocalVariableList(
+            VariableDeclaration(
+             local2
+              VarIsArray(
+              ) [VarIsArray]
+            ) [VariableDeclaration]
+          ) [SingleLocalVariableList]
+        ) [LocalVariables]
+      ) [VariablesDeclarationList]
+      StatementClass(
+      ) [StatementClass]
+    ) [MethodDeclaration]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  15:48:25,684 - ===================================
+ERROR 15:48:25,688 - Parsing did not complete due to error.

@@ -1,0 +1,33 @@
+INFO  23:03:55,649 - Compiling source file: C:\Users\Andrej\eclipse-workspace\MJCompiler\test\test2.mj
+INFO  23:03:55,739 - #2 program
+INFO  23:03:55,740 - #48 p
+INFO  23:03:55,740 - #7 const
+INFO  23:03:55,741 - #48 int
+INFO  23:03:55,741 - #48 x
+INFO  23:03:55,742 - #35 =
+INFO  23:03:55,742 - #49 10
+INFO  23:03:55,742 - #38 ;
+INFO  23:03:55,743 - #46 {
+INFO  23:03:55,744 - #47 }
+INFO  23:03:55,748 - Program(
+ p
+  ProgramConstant(
+    SingleConstantList(
+      ConstantDeclaration(
+        TypeClass(
+         int
+        ) [TypeClass]
+       x
+        NumberConst(
+          NumberConstant(
+           10
+          ) [NumberConstant]
+        ) [NumberConst]
+      ) [ConstantDeclaration]
+    ) [SingleConstantList]
+  ) [ProgramConstant]
+  EmptyProgMethList(
+  ) [EmptyProgMethList]
+) [Program]
+INFO  23:03:55,749 - ===================================
+INFO  23:03:55,749 - Parsing completed successfully!.

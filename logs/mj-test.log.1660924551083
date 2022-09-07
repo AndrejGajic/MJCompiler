@@ -1,0 +1,344 @@
+INFO  17:54:25,840 - Compiling source file: C:\Users\Andrej\eclipse-workspace\MJCompiler\test\test2.mj
+INFO  17:54:25,944 - #2 program
+INFO  17:54:25,945 - #48 p
+INFO  17:54:25,945 - #7 const
+INFO  17:54:25,946 - #48 int
+INFO  17:54:25,946 - #48 x
+INFO  17:54:25,946 - #35 =
+INFO  17:54:25,946 - #49 10
+INFO  17:54:25,946 - #38 ;
+INFO  17:54:25,947 - #48 int
+INFO  17:54:25,947 - #48 y
+INFO  17:54:25,947 - #40 ,
+INFO  17:54:25,949 - #48 z
+INFO  17:54:25,949 - #38 ;
+INFO  17:54:25,949 - #48 bool
+INFO  17:54:25,949 - #48 b
+INFO  17:54:25,950 - #38 ;
+INFO  17:54:25,950 - #46 {
+INFO  17:54:25,950 - #48 char
+INFO  17:54:25,951 - #48 function
+INFO  17:54:25,951 - #42 (
+INFO  17:54:25,951 - #48 int
+INFO  17:54:25,951 - #48 param1
+INFO  17:54:25,955 - #40 ,
+INFO  17:54:25,955 - #48 char
+INFO  17:54:25,955 - #48 param2
+INFO  17:54:25,955 - #44 [
+INFO  17:54:25,955 - #45 ]
+INFO  17:54:25,956 - #40 ,
+INFO  17:54:25,957 - #48 bool
+INFO  17:54:25,957 - #48 param3
+INFO  17:54:25,957 - #43 )
+INFO  17:54:25,957 - #48 int
+INFO  17:54:25,958 - #48 local1
+INFO  17:54:25,958 - #40 ,
+INFO  17:54:25,958 - #48 local2
+INFO  17:54:25,958 - #38 ;
+INFO  17:54:25,958 - #48 bool
+INFO  17:54:25,959 - #48 local3
+INFO  17:54:25,959 - #38 ;
+INFO  17:54:25,959 - #48 int
+INFO  17:54:25,959 - #48 array1
+INFO  17:54:25,959 - #44 [
+INFO  17:54:25,959 - #45 ]
+INFO  17:54:25,959 - #38 ;
+INFO  17:54:25,959 - #46 {
+INFO  17:54:25,959 - #48 local2
+INFO  17:54:25,960 - #35 =
+INFO  17:54:25,962 - #49 4
+INFO  17:54:25,966 - #38 ;
+INFO  17:54:25,969 - #48 local2
+INFO  17:54:25,969 - #36 ++
+INFO  17:54:25,969 - #38 ;
+INFO  17:54:25,970 - #8 if
+INFO  17:54:25,970 - #42 (
+INFO  17:54:25,970 - #48 local2
+INFO  17:54:25,970 - #29 >
+INFO  17:54:25,971 - #49 3
+INFO  17:54:25,973 - #43 )
+INFO  17:54:25,974 - #46 {
+INFO  17:54:25,974 - #48 local1
+INFO  17:54:25,974 - #35 =
+INFO  17:54:25,974 - #48 local2
+INFO  17:54:25,974 - #24 *
+INFO  17:54:25,974 - #49 5
+INFO  17:54:25,976 - #38 ;
+INFO  17:54:25,977 - #47 }
+INFO  17:54:25,977 - #6 else
+INFO  17:54:25,977 - #8 if
+INFO  17:54:25,977 - #42 (
+INFO  17:54:25,981 - #48 local2
+INFO  17:54:25,981 - #29 >
+INFO  17:54:25,981 - #49 0
+INFO  17:54:25,981 - #33 &&
+INFO  17:54:25,981 - #48 local2
+INFO  17:54:25,981 - #31 <
+INFO  17:54:25,981 - #49 3
+INFO  17:54:25,982 - #43 )
+INFO  17:54:25,982 - #46 {
+INFO  17:54:25,982 - #48 local1
+INFO  17:54:25,982 - #35 =
+INFO  17:54:25,983 - #48 local2
+INFO  17:54:25,983 - #24 *
+INFO  17:54:25,983 - #49 20
+INFO  17:54:25,983 - #38 ;
+INFO  17:54:25,983 - #47 }
+INFO  17:54:25,983 - #6 else
+INFO  17:54:25,983 - #46 {
+INFO  17:54:25,983 - #48 local1
+INFO  17:54:25,983 - #35 =
+INFO  17:54:25,983 - #48 local2
+INFO  17:54:25,984 - #24 *
+INFO  17:54:25,984 - #42 (
+INFO  17:54:25,984 - #23 -
+INFO  17:54:25,984 - #49 5
+INFO  17:54:25,985 - #43 )
+INFO  17:54:25,985 - #38 ;
+INFO  17:54:25,985 - #47 }
+INFO  17:54:25,985 - #12 print
+INFO  17:54:25,985 - #42 (
+INFO  17:54:25,985 - #48 local1
+INFO  17:54:25,985 - #43 )
+INFO  17:54:25,986 - #38 ;
+INFO  17:54:25,986 - #8 if
+INFO  17:54:25,987 - #42 (
+INFO  17:54:25,987 - #48 local1
+INFO  17:54:25,987 - #29 >
+INFO  17:54:25,987 - #23 -
+INFO  17:54:25,987 - #49 5
+INFO  17:54:25,987 - #22 +
+INFO  17:54:25,987 - #48 local1
+INFO  17:54:25,989 - #23 -
+INFO  17:54:25,989 - #49 2
+INFO  17:54:25,990 - #43 )
+INFO  17:54:25,991 - #46 {
+INFO  17:54:25,991 - #12 print
+INFO  17:54:25,991 - #42 (
+INFO  17:54:25,991 - #48 local2
+INFO  17:54:25,991 - #43 )
+INFO  17:54:25,991 - #38 ;
+INFO  17:54:25,991 - #47 }
+INFO  17:54:25,992 - #13 read
+INFO  17:54:25,993 - #42 (
+INFO  17:54:25,993 - #48 array1
+INFO  17:54:25,993 - #44 [
+INFO  17:54:25,993 - #48 x
+INFO  17:54:25,993 - #45 ]
+INFO  17:54:25,993 - #43 )
+INFO  17:54:25,994 - #38 ;
+INFO  17:54:25,994 - #48 local1
+INFO  17:54:25,994 - #35 =
+INFO  17:54:25,994 - #48 function2
+INFO  17:54:25,994 - #42 (
+INFO  17:54:25,994 - #48 array1
+INFO  17:54:25,994 - #40 ,
+INFO  17:54:25,994 - #48 local2
+INFO  17:54:25,994 - #43 )
+INFO  17:54:25,995 - #38 ;
+INFO  17:54:25,995 - #12 print
+INFO  17:54:25,995 - #42 (
+INFO  17:54:25,995 - #48 local1
+INFO  17:54:25,995 - #43 )
+INFO  17:54:25,995 - #38 ;
+INFO  17:54:25,995 - #14 return
+INFO  17:54:25,995 - #48 local1
+ERROR 17:54:25,996 - 
+Syntax error! at line 25
+INFO  17:54:25,996 - #38 ;
+INFO  17:54:25,996 - #47 }
+INFO  17:54:25,996 - #48 int
+INFO  17:54:25,996 - #48 function2
+INFO  17:54:25,997 - #42 (
+INFO  17:54:25,997 - #48 int
+INFO  17:54:25,997 - #48 param1
+INFO  17:54:25,997 - #44 [
+INFO  17:54:25,997 - #45 ]
+INFO  17:54:25,997 - #40 ,
+INFO  17:54:25,997 - #48 int
+INFO  17:54:25,997 - #48 param2
+INFO  17:54:25,997 - #43 )
+ERROR 17:54:25,997 - Syntax error in DECLARING FORMAL PARAMETER at line 6
+INFO  17:54:25,998 - #48 int
+INFO  17:54:25,998 - #48 local1
+INFO  17:54:25,998 - #38 ;
+INFO  17:54:25,998 - #48 bool
+INFO  17:54:25,999 - #48 local2
+INFO  17:54:25,999 - #44 [
+INFO  17:54:25,999 - #45 ]
+INFO  17:54:25,999 - #38 ;
+INFO  17:54:25,999 - #46 {
+INFO  17:54:25,999 - #47 }
+INFO  17:54:25,999 - #48 int
+INFO  17:54:25,999 - #48 sum
+INFO  17:54:25,999 - #42 (
+INFO  17:54:25,999 - #48 int
+INFO  17:54:25,999 - #48 z
+INFO  17:54:25,999 - #40 ,
+INFO  17:54:25,999 - #48 int
+INFO  17:54:26,000 - #48 d
+INFO  17:54:26,000 - #43 )
+INFO  17:54:26,000 - #46 {
+INFO  17:54:26,000 - #47 }
+INFO  17:54:26,000 - #47 }
+INFO  17:54:26,003 - Program(
+ p
+  ProgramVariablesList(
+    ProgramVariablesList(
+      ProgramVariablesList(
+        EmptyProgramVariablesList(
+        ) [EmptyProgramVariablesList]
+        ProgramConstants(
+          ConstantsClass(
+            TypeClass(
+             int
+            ) [TypeClass]
+            SingleConstantList(
+              ConstantDeclaration(
+               x
+                NumConstClass(
+                  NumberConstant(
+                   10
+                  ) [NumberConstant]
+                ) [NumConstClass]
+              ) [ConstantDeclaration]
+            ) [SingleConstantList]
+          ) [ConstantsClass]
+        ) [ProgramConstants]
+      ) [ProgramVariablesList]
+      ProgramVariables(
+        GlobalVariables(
+          TypeClass(
+           int
+          ) [TypeClass]
+          MultipleGlobalVariablesList(
+            SingleGlobalVariableList(
+              GlobalVariableDeclaration(
+               y
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [GlobalVariableDeclaration]
+            ) [SingleGlobalVariableList]
+            GlobalVariableDeclaration(
+             z
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [GlobalVariableDeclaration]
+          ) [MultipleGlobalVariablesList]
+        ) [GlobalVariables]
+      ) [ProgramVariables]
+    ) [ProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        TypeClass(
+         bool
+        ) [TypeClass]
+        SingleGlobalVariableList(
+          GlobalVariableDeclaration(
+           b
+            VarIsNotArray(
+            ) [VarIsNotArray]
+          ) [GlobalVariableDeclaration]
+        ) [SingleGlobalVariableList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  ProgramMethodsList(
+    ProgramMethodsList(
+      EmptyProgramMethodsList(
+      ) [EmptyProgramMethodsList]
+      MethodDeclaration(
+        MethodTypeNotVoid(
+          TypeClass(
+           char
+          ) [TypeClass]
+        ) [MethodTypeNotVoid]
+       function
+        FormalParametersList(
+          MultipleFormalParameters(
+            SingleFormalParameter(
+              FormalParameterError(
+              ) [FormalParameterError]
+            ) [SingleFormalParameter]
+            FormalParameter(
+              TypeClass(
+               int
+              ) [TypeClass]
+             param2
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [FormalParameter]
+          ) [MultipleFormalParameters]
+        ) [FormalParametersList]
+        VariablesDeclarationList(
+          VariablesDeclarationList(
+            EmptyVariablesDeclarationList(
+            ) [EmptyVariablesDeclarationList]
+            LocalVariables(
+              TypeClass(
+               int
+              ) [TypeClass]
+              SingleLocalVariableList(
+                VariableDeclaration(
+                 local1
+                  VarIsNotArray(
+                  ) [VarIsNotArray]
+                ) [VariableDeclaration]
+              ) [SingleLocalVariableList]
+            ) [LocalVariables]
+          ) [VariablesDeclarationList]
+          LocalVariables(
+            TypeClass(
+             bool
+            ) [TypeClass]
+            SingleLocalVariableList(
+              VariableDeclaration(
+               local2
+                VarIsArray(
+                ) [VarIsArray]
+              ) [VariableDeclaration]
+            ) [SingleLocalVariableList]
+          ) [LocalVariables]
+        ) [VariablesDeclarationList]
+        EmptyStatementList(
+        ) [EmptyStatementList]
+      ) [MethodDeclaration]
+    ) [ProgramMethodsList]
+    MethodDeclaration(
+      MethodTypeNotVoid(
+        TypeClass(
+         int
+        ) [TypeClass]
+      ) [MethodTypeNotVoid]
+     sum
+      FormalParametersList(
+        MultipleFormalParameters(
+          SingleFormalParameter(
+            FormalParameter(
+              TypeClass(
+               int
+              ) [TypeClass]
+             z
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [FormalParameter]
+          ) [SingleFormalParameter]
+          FormalParameter(
+            TypeClass(
+             int
+            ) [TypeClass]
+           d
+            VarIsNotArray(
+            ) [VarIsNotArray]
+          ) [FormalParameter]
+        ) [MultipleFormalParameters]
+      ) [FormalParametersList]
+      EmptyVariablesDeclarationList(
+      ) [EmptyVariablesDeclarationList]
+      EmptyStatementList(
+      ) [EmptyStatementList]
+    ) [MethodDeclaration]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  17:54:26,003 - ===================================
+ERROR 17:54:26,003 - Parsing did not complete due to error.

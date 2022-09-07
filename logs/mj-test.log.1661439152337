@@ -1,0 +1,189 @@
+INFO  16:14:20,613 - Starting compilation of a file test/test4.mj
+INFO  16:14:20,613 - Starting lexical analysis....
+INFO  16:14:20,616 - Lexical analysis finished successfully!
+INFO  16:14:20,616 - =========================================
+INFO  16:14:20,616 - Starting syntax analysis....
+INFO  16:14:20,720 - #2 program
+INFO  16:14:20,720 - #48 Test4
+INFO  16:14:20,720 - #7 const
+INFO  16:14:20,721 - #48 int
+INFO  16:14:20,722 - #48 N
+INFO  16:14:20,723 - #35 =
+INFO  16:14:20,723 - #49 50
+INFO  16:14:20,723 - #38 ;
+INFO  16:14:20,724 - #48 int
+INFO  16:14:20,725 - #48 x
+INFO  16:14:20,725 - #40 ,
+INFO  16:14:20,727 - #48 y
+INFO  16:14:20,728 - #38 ;
+INFO  16:14:20,728 - #46 {
+INFO  16:14:20,728 - #15 void
+INFO  16:14:20,733 - #48 main
+INFO  16:14:20,734 - #42 (
+INFO  16:14:20,735 - #43 )
+INFO  16:14:20,736 - #46 {
+INFO  16:14:20,737 - #12 print
+INFO  16:14:20,738 - #42 (
+INFO  16:14:20,739 - #48 N
+INFO  16:14:20,741 - #43 )
+INFO  16:14:20,746 - #38 ;
+INFO  16:14:20,746 - #12 print
+INFO  16:14:20,747 - #42 (
+INFO  16:14:20,747 - #50  
+INFO  16:14:20,747 - #43 )
+INFO  16:14:20,748 - #38 ;
+INFO  16:14:20,748 - #12 print
+INFO  16:14:20,748 - #42 (
+INFO  16:14:20,748 - #49 2
+INFO  16:14:20,748 - #43 )
+INFO  16:14:20,748 - #38 ;
+INFO  16:14:20,748 - #47 }
+INFO  16:14:20,749 - #47 }
+INFO  16:14:20,752 - Syntax analysis finished successfully!
+INFO  16:14:20,752 - Syntax tree: 
+INFO  16:14:20,754 - Program(
+  ProgramName(
+   Test4
+  ) [ProgramName]
+  ProgramVariablesList(
+    ProgramVariablesList(
+      EmptyProgramVariablesList(
+      ) [EmptyProgramVariablesList]
+      ProgramConstants(
+        ConstantsClass(
+          Type(
+           int
+          ) [Type]
+          SingleConstantList(
+            ConstantDeclaration(
+             N
+              NumConstClass(
+                NumberConstant(
+                 50
+                ) [NumberConstant]
+              ) [NumConstClass]
+            ) [ConstantDeclaration]
+          ) [SingleConstantList]
+        ) [ConstantsClass]
+      ) [ProgramConstants]
+    ) [ProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        Type(
+         int
+        ) [Type]
+        MultipleGlobalVariablesList(
+          SingleGlobalVariableList(
+            GlobalVariableDeclaration(
+             x
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [GlobalVariableDeclaration]
+          ) [SingleGlobalVariableList]
+          GlobalVariableDeclaration(
+           y
+            VarIsNotArray(
+            ) [VarIsNotArray]
+          ) [GlobalVariableDeclaration]
+        ) [MultipleGlobalVariablesList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  ProgramMethodsList(
+    EmptyProgramMethodsList(
+    ) [EmptyProgramMethodsList]
+    MethodDeclaration(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      EmptyFormalParametersList(
+      ) [EmptyFormalParametersList]
+      EmptyVariablesDeclarationList(
+      ) [EmptyVariablesDeclarationList]
+      StatementListClass(
+        StatementListClass(
+          StatementListClass(
+            EmptyStatementList(
+            ) [EmptyStatementList]
+            SingleStatementClass(
+              PrintStatement(
+                Expr(
+                  ExpressionClass(
+                    ExpressionPositive(
+                    ) [ExpressionPositive]
+                    Terminal(
+                      FactorDesignator(
+                        Designator(
+                         N
+                          DesignatorNotArray(
+                          ) [DesignatorNotArray]
+                        ) [Designator]
+                        FactorNoFunctionCall(
+                        ) [FactorNoFunctionCall]
+                      ) [FactorDesignator]
+                    ) [Terminal]
+                  ) [ExpressionClass]
+                ) [Expr]
+                HasNotPrintConstant(
+                ) [HasNotPrintConstant]
+              ) [PrintStatement]
+            ) [SingleStatementClass]
+          ) [StatementListClass]
+          SingleStatementClass(
+            PrintStatement(
+              Expr(
+                ExpressionClass(
+                  ExpressionPositive(
+                  ) [ExpressionPositive]
+                  Terminal(
+                    FactorCharacterConstant(
+                      CharacterConstant(
+                        
+                      ) [CharacterConstant]
+                    ) [FactorCharacterConstant]
+                  ) [Terminal]
+                ) [ExpressionClass]
+              ) [Expr]
+              HasNotPrintConstant(
+              ) [HasNotPrintConstant]
+            ) [PrintStatement]
+          ) [SingleStatementClass]
+        ) [StatementListClass]
+        SingleStatementClass(
+          PrintStatement(
+            Expr(
+              ExpressionClass(
+                ExpressionPositive(
+                ) [ExpressionPositive]
+                Terminal(
+                  FactorNumberConstant(
+                    NumberConstant(
+                     2
+                    ) [NumberConstant]
+                  ) [FactorNumberConstant]
+                ) [Terminal]
+              ) [ExpressionClass]
+            ) [Expr]
+            HasNotPrintConstant(
+            ) [HasNotPrintConstant]
+          ) [PrintStatement]
+        ) [SingleStatementClass]
+      ) [StatementListClass]
+    ) [MethodDeclaration]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  16:14:20,755 - =========================================
+INFO  16:14:20,755 - Starting semantic analysis....
+INFO  16:14:20,780 - Constant N declared  at line 2
+INFO  16:14:20,780 - Global variable x declared at line 3
+INFO  16:14:20,781 - Global variable y declared at line 3
+INFO  16:14:20,781 - Function main is being parsed  at line 5
+INFO  16:14:20,781 - Semantic analysis completed.
+INFO  16:14:20,781 - Semantic analysis finished successfully!
+INFO  16:14:20,781 - Symbol table: 
+INFO  16:14:20,783 - =========================================
+INFO  16:14:20,783 - Started generating code....
+INFO  16:14:20,791 - Code generated successfully!
+INFO  16:14:20,792 - Compiling file successfully completed!

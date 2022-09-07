@@ -1,0 +1,109 @@
+INFO  15:37:58,582 - Compiling source file: C:\Users\Andrej\eclipse-workspace\MJCompiler\test\test2.mj
+INFO  15:37:58,644 - #2 program
+INFO  15:37:58,644 - #48 p
+INFO  15:37:58,644 - #7 const
+INFO  15:37:58,646 - #48 int
+INFO  15:37:58,646 - #48 x
+INFO  15:37:58,646 - #35 =
+INFO  15:37:58,646 - #49 10
+INFO  15:37:58,646 - #38 ;
+INFO  15:37:58,647 - #48 int
+INFO  15:37:58,647 - #48 y
+INFO  15:37:58,647 - #40 ,
+INFO  15:37:58,650 - #48 z
+INFO  15:37:58,650 - #38 ;
+INFO  15:37:58,651 - #48 bool
+INFO  15:37:58,651 - #48 b
+INFO  15:37:58,651 - #38 ;
+INFO  15:37:58,652 - #46 {
+INFO  15:37:58,652 - #48 char
+INFO  15:37:58,654 - #48 function
+INFO  15:37:58,654 - #42 (
+INFO  15:37:58,654 - #43 )
+INFO  15:37:58,656 - #46 {
+INFO  15:37:58,658 - #35 =
+INFO  15:37:58,658 - #47 }
+INFO  15:37:58,661 - #47 }
+INFO  15:37:58,664 - Program(
+ p
+  ProgramVariablesList(
+    ProgramVariablesList(
+      ProgramVariablesList(
+        EmptyProgramVariablesList(
+        ) [EmptyProgramVariablesList]
+        ProgramConstants(
+          ConstantsClass(
+            TypeClass(
+             int
+            ) [TypeClass]
+            SingleConstantList(
+              ConstantDeclaration(
+               x
+                NumConstClass(
+                  NumberConstant(
+                   10
+                  ) [NumberConstant]
+                ) [NumConstClass]
+              ) [ConstantDeclaration]
+            ) [SingleConstantList]
+          ) [ConstantsClass]
+        ) [ProgramConstants]
+      ) [ProgramVariablesList]
+      ProgramVariables(
+        GlobalVariables(
+          TypeClass(
+           int
+          ) [TypeClass]
+          MultipleGlobalVariablesList(
+            SingleGlobalVariableList(
+              GlobalVariableDeclaration(
+               y
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [GlobalVariableDeclaration]
+            ) [SingleGlobalVariableList]
+            GlobalVariableDeclaration(
+             z
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [GlobalVariableDeclaration]
+          ) [MultipleGlobalVariablesList]
+        ) [GlobalVariables]
+      ) [ProgramVariables]
+    ) [ProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        TypeClass(
+         bool
+        ) [TypeClass]
+        SingleGlobalVariableList(
+          GlobalVariableDeclaration(
+           b
+            VarIsNotArray(
+            ) [VarIsNotArray]
+          ) [GlobalVariableDeclaration]
+        ) [SingleGlobalVariableList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  ProgramMethodsList(
+    EmptyProgramMethodsList(
+    ) [EmptyProgramMethodsList]
+    MethodDeclDerived1(
+      MethodTypeNotVoid(
+        TypeClass(
+         char
+        ) [TypeClass]
+      ) [MethodTypeNotVoid]
+     function
+      EmptyFormalParametersList(
+      ) [EmptyFormalParametersList]
+      EmptyVariablesDeclarationList(
+      ) [EmptyVariablesDeclarationList]
+      StatementClass(
+      ) [StatementClass]
+    ) [MethodDeclDerived1]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  15:37:58,664 - ===================================
+INFO  15:37:58,664 - Parsing completed successfully!.

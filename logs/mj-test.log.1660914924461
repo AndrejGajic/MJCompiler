@@ -1,0 +1,166 @@
+INFO  15:14:09,592 - Compiling source file: C:\Users\Andrej\eclipse-workspace\MJCompiler\test\test2.mj
+INFO  15:14:09,619 - #2 program
+INFO  15:14:09,619 - #48 p
+INFO  15:14:09,619 - #7 const
+INFO  15:14:09,620 - #48 int
+INFO  15:14:09,620 - #48 x
+INFO  15:14:09,620 - #35 =
+INFO  15:14:09,620 - #49 10
+INFO  15:14:09,621 - #38 ;
+INFO  15:14:09,621 - #7 const
+INFO  15:14:09,621 - #48 int
+INFO  15:14:09,621 - #48 y
+INFO  15:14:09,621 - #35 =
+INFO  15:14:09,621 - #49 20
+INFO  15:14:09,621 - #38 ;
+INFO  15:14:09,622 - #7 const
+INFO  15:14:09,622 - #48 char
+INFO  15:14:09,622 - #48 c
+INFO  15:14:09,622 - #35 =
+INFO  15:14:09,622 - #49 1
+INFO  15:14:09,622 - #40 ,
+INFO  15:14:09,622 - #48 c2
+INFO  15:14:09,622 - #35 =
+INFO  15:14:09,626 - #49 2
+INFO  15:14:09,626 - #40 ,
+INFO  15:14:09,626 - #48 c3
+INFO  15:14:09,626 - #35 =
+INFO  15:14:09,626 - #49 3
+INFO  15:14:09,626 - #38 ;
+INFO  15:14:09,627 - #48 int
+INFO  15:14:09,627 - #48 x1
+INFO  15:14:09,627 - #44 [
+INFO  15:14:09,627 - #45 ]
+INFO  15:14:09,627 - #40 ,
+INFO  15:14:09,628 - #48 y1
+INFO  15:14:09,628 - #38 ;
+INFO  15:14:09,629 - #48 bool
+INFO  15:14:09,629 - #48 b
+INFO  15:14:09,629 - #38 ;
+INFO  15:14:09,629 - #46 {
+INFO  15:14:09,629 - #47 }
+INFO  15:14:09,632 - Program(
+ p
+  ProgramVariablesList(
+    ProgramVariablesList(
+      ProgramVariablesList(
+        ProgramVariablesList(
+          ProgramVariablesList(
+            EmptyProgramVariablesList(
+            ) [EmptyProgramVariablesList]
+            ProgramConstants(
+              ConstantsClass(
+                TypeClass(
+                 int
+                ) [TypeClass]
+                SingleConstantList(
+                  ConstantDeclaration(
+                   x
+                    NumConstClass(
+                      NumberConstant(
+                       10
+                      ) [NumberConstant]
+                    ) [NumConstClass]
+                  ) [ConstantDeclaration]
+                ) [SingleConstantList]
+              ) [ConstantsClass]
+            ) [ProgramConstants]
+          ) [ProgramVariablesList]
+          ProgramConstants(
+            ConstantsClass(
+              TypeClass(
+               int
+              ) [TypeClass]
+              SingleConstantList(
+                ConstantDeclaration(
+                 y
+                  NumConstClass(
+                    NumberConstant(
+                     20
+                    ) [NumberConstant]
+                  ) [NumConstClass]
+                ) [ConstantDeclaration]
+              ) [SingleConstantList]
+            ) [ConstantsClass]
+          ) [ProgramConstants]
+        ) [ProgramVariablesList]
+        ProgramConstants(
+          ConstantsClass(
+            TypeClass(
+             char
+            ) [TypeClass]
+            MultipleConstantsList(
+              MultipleConstantsList(
+                SingleConstantList(
+                  ConstantDeclaration(
+                   c
+                    NumConstClass(
+                      NumberConstant(
+                       1
+                      ) [NumberConstant]
+                    ) [NumConstClass]
+                  ) [ConstantDeclaration]
+                ) [SingleConstantList]
+                ConstantDeclaration(
+                 c2
+                  NumConstClass(
+                    NumberConstant(
+                     2
+                    ) [NumberConstant]
+                  ) [NumConstClass]
+                ) [ConstantDeclaration]
+              ) [MultipleConstantsList]
+              ConstantDeclaration(
+               c3
+                NumConstClass(
+                  NumberConstant(
+                   3
+                  ) [NumberConstant]
+                ) [NumConstClass]
+              ) [ConstantDeclaration]
+            ) [MultipleConstantsList]
+          ) [ConstantsClass]
+        ) [ProgramConstants]
+      ) [ProgramVariablesList]
+      ProgramVariables(
+        GlobalVariables(
+          TypeClass(
+           int
+          ) [TypeClass]
+          MultipleGlobalVariablesList(
+            SingleGlobalVariableList(
+              GlobalVariableDeclaration(
+               x1
+                VarIsArray(
+                ) [VarIsArray]
+              ) [GlobalVariableDeclaration]
+            ) [SingleGlobalVariableList]
+            GlobalVariableDeclaration(
+             y1
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [GlobalVariableDeclaration]
+          ) [MultipleGlobalVariablesList]
+        ) [GlobalVariables]
+      ) [ProgramVariables]
+    ) [ProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        TypeClass(
+         bool
+        ) [TypeClass]
+        SingleGlobalVariableList(
+          GlobalVariableDeclaration(
+           b
+            VarIsNotArray(
+            ) [VarIsNotArray]
+          ) [GlobalVariableDeclaration]
+        ) [SingleGlobalVariableList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  EmptyProgramMethodList(
+  ) [EmptyProgramMethodList]
+) [Program]
+INFO  15:14:09,633 - ===================================
+INFO  15:14:09,633 - Parsing completed successfully!.

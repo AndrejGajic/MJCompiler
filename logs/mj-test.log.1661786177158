@@ -1,0 +1,136 @@
+INFO  17:16:05,674 - Starting compilation of a file test/test1.mj
+INFO  17:16:05,675 - Starting lexical analysis....
+INFO  17:16:05,685 - Lexical analysis finished successfully!
+INFO  17:16:05,686 - =========================================
+INFO  17:16:05,686 - Starting syntax analysis....
+INFO  17:16:05,895 - #2 program
+INFO  17:16:05,896 - #52 P
+INFO  17:16:05,896 - #52 int
+INFO  17:16:05,898 - #52 x
+INFO  17:16:05,899 - #40 ,
+INFO  17:16:05,902 - #52 y
+INFO  17:16:05,902 - #38 ;
+INFO  17:16:05,903 - #7 const
+INFO  17:16:05,904 - #52 int
+INFO  17:16:05,904 - #52 N
+INFO  17:16:05,905 - #35 =
+INFO  17:16:05,905 - #53 5
+INFO  17:16:05,905 - #38 ;
+INFO  17:16:05,907 - #52 int
+INFO  17:16:05,907 - #52 arr
+INFO  17:16:05,912 - #44 [
+INFO  17:16:05,912 - #45 ]
+INFO  17:16:05,912 - #51 #
+INFO  17:16:05,912 - #53 5
+INFO  17:16:05,912 - #38 ;
+INFO  17:16:05,913 - #46 {
+INFO  17:16:05,913 - #15 void
+INFO  17:16:05,915 - #52 main
+INFO  17:16:05,916 - #42 (
+INFO  17:16:05,918 - #43 )
+INFO  17:16:05,919 - #46 {
+INFO  17:16:05,921 - #47 }
+INFO  17:16:05,922 - #47 }
+INFO  17:16:05,925 - Syntax analysis finished successfully!
+INFO  17:16:05,925 - Syntax tree: 
+INFO  17:16:05,926 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ProgramVariablesList(
+    ProgramVariablesList(
+      ProgramVariablesList(
+        EmptyProgramVariablesList(
+        ) [EmptyProgramVariablesList]
+        ProgramVariables(
+          GlobalVariables(
+            Type(
+             int
+            ) [Type]
+            MultipleGlobalVariablesList(
+              SingleGlobalVariableList(
+                GlobalVariableDeclaration(
+                 x
+                  VarIsNotArray(
+                  ) [VarIsNotArray]
+                ) [GlobalVariableDeclaration]
+              ) [SingleGlobalVariableList]
+              GlobalVariableDeclaration(
+               y
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [GlobalVariableDeclaration]
+            ) [MultipleGlobalVariablesList]
+          ) [GlobalVariables]
+        ) [ProgramVariables]
+      ) [ProgramVariablesList]
+      ProgramConstants(
+        ConstantsClass(
+          Type(
+           int
+          ) [Type]
+          SingleConstantList(
+            ConstantDeclaration(
+             N
+              NumConstClass(
+                NumberConstant(
+                 5
+                ) [NumberConstant]
+              ) [NumConstClass]
+            ) [ConstantDeclaration]
+          ) [SingleConstantList]
+        ) [ConstantsClass]
+      ) [ProgramConstants]
+    ) [ProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        Type(
+         int
+        ) [Type]
+        SingleGlobalVariableList(
+          GlobalVariableDeclaration(
+           arr
+            VarIsArray(
+              HasArrayIncrement(
+                NumberConstant(
+                 5
+                ) [NumberConstant]
+              ) [HasArrayIncrement]
+            ) [VarIsArray]
+          ) [GlobalVariableDeclaration]
+        ) [SingleGlobalVariableList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  ProgramMethodsList(
+    EmptyProgramMethodsList(
+    ) [EmptyProgramMethodsList]
+    MethodDeclaration(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      EmptyFormalParametersList(
+      ) [EmptyFormalParametersList]
+      EmptyVariablesDeclarationList(
+      ) [EmptyVariablesDeclarationList]
+      EmptyStatementList(
+      ) [EmptyStatementList]
+    ) [MethodDeclaration]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  17:16:05,927 - =========================================
+INFO  17:16:05,928 - Starting semantic analysis....
+INFO  17:16:06,003 - Global variable x declared at line 2
+INFO  17:16:06,004 - Global variable y declared at line 2
+INFO  17:16:06,005 - Constant N declared  at line 3
+INFO  17:16:06,005 - Global array arr[] declared at line 4
+INFO  17:16:06,005 - Function main is being parsed  at line 6
+INFO  17:16:06,008 - Semantic analysis completed.
+INFO  17:16:06,009 - Semantic analysis finished successfully!
+INFO  17:16:06,010 - Symbol table: 
+INFO  17:16:06,011 - =========================================
+INFO  17:16:06,012 - Started generating code....
+INFO  17:16:06,047 - Code generated successfully!
+INFO  17:16:06,047 - Compiling file successfully completed!

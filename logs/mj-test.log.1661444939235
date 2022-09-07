@@ -1,0 +1,209 @@
+INFO  18:28:29,327 - Starting compilation of a file test/test301.mj
+INFO  18:28:29,327 - Starting lexical analysis....
+INFO  18:28:29,330 - Lexical analysis finished successfully!
+INFO  18:28:29,331 - =========================================
+INFO  18:28:29,331 - Starting syntax analysis....
+INFO  18:28:29,425 - #2 program
+INFO  18:28:29,425 - #48 test301
+INFO  18:28:29,425 - #7 const
+INFO  18:28:29,426 - #48 int
+INFO  18:28:29,427 - #48 nula
+INFO  18:28:29,428 - #35 =
+INFO  18:28:29,428 - #49 0
+INFO  18:28:29,428 - #38 ;
+INFO  18:28:29,429 - #7 const
+INFO  18:28:29,429 - #48 int
+INFO  18:28:29,429 - #48 jedan
+INFO  18:28:29,430 - #35 =
+INFO  18:28:29,430 - #49 1
+INFO  18:28:29,430 - #38 ;
+INFO  18:28:29,430 - #7 const
+INFO  18:28:29,434 - #48 int
+INFO  18:28:29,434 - #48 pet
+INFO  18:28:29,434 - #35 =
+INFO  18:28:29,434 - #49 5
+INFO  18:28:29,434 - #38 ;
+INFO  18:28:29,435 - #48 int
+INFO  18:28:29,435 - #48 niz
+INFO  18:28:29,435 - #44 [
+INFO  18:28:29,435 - #45 ]
+INFO  18:28:29,435 - #38 ;
+INFO  18:28:29,436 - #48 char
+INFO  18:28:29,437 - #48 nizch
+INFO  18:28:29,437 - #44 [
+INFO  18:28:29,437 - #45 ]
+INFO  18:28:29,437 - #38 ;
+INFO  18:28:29,437 - #46 {
+INFO  18:28:29,437 - #15 void
+INFO  18:28:29,438 - #48 main
+INFO  18:28:29,439 - #42 (
+INFO  18:28:29,440 - #43 )
+INFO  18:28:29,441 - #48 int
+INFO  18:28:29,442 - #48 bodovi
+INFO  18:28:29,442 - #38 ;
+INFO  18:28:29,443 - #48 bool
+INFO  18:28:29,444 - #48 bt
+INFO  18:28:29,444 - #38 ;
+INFO  18:28:29,444 - #46 {
+INFO  18:28:29,444 - #47 }
+INFO  18:28:29,445 - #47 }
+INFO  18:28:29,446 - Syntax analysis finished successfully!
+INFO  18:28:29,447 - Syntax tree: 
+INFO  18:28:29,447 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ProgramVariablesList(
+    ProgramVariablesList(
+      ProgramVariablesList(
+        ProgramVariablesList(
+          ProgramVariablesList(
+            EmptyProgramVariablesList(
+            ) [EmptyProgramVariablesList]
+            ProgramConstants(
+              ConstantsClass(
+                Type(
+                 int
+                ) [Type]
+                SingleConstantList(
+                  ConstantDeclaration(
+                   nula
+                    NumConstClass(
+                      NumberConstant(
+                       0
+                      ) [NumberConstant]
+                    ) [NumConstClass]
+                  ) [ConstantDeclaration]
+                ) [SingleConstantList]
+              ) [ConstantsClass]
+            ) [ProgramConstants]
+          ) [ProgramVariablesList]
+          ProgramConstants(
+            ConstantsClass(
+              Type(
+               int
+              ) [Type]
+              SingleConstantList(
+                ConstantDeclaration(
+                 jedan
+                  NumConstClass(
+                    NumberConstant(
+                     1
+                    ) [NumberConstant]
+                  ) [NumConstClass]
+                ) [ConstantDeclaration]
+              ) [SingleConstantList]
+            ) [ConstantsClass]
+          ) [ProgramConstants]
+        ) [ProgramVariablesList]
+        ProgramConstants(
+          ConstantsClass(
+            Type(
+             int
+            ) [Type]
+            SingleConstantList(
+              ConstantDeclaration(
+               pet
+                NumConstClass(
+                  NumberConstant(
+                   5
+                  ) [NumberConstant]
+                ) [NumConstClass]
+              ) [ConstantDeclaration]
+            ) [SingleConstantList]
+          ) [ConstantsClass]
+        ) [ProgramConstants]
+      ) [ProgramVariablesList]
+      ProgramVariables(
+        GlobalVariables(
+          Type(
+           int
+          ) [Type]
+          SingleGlobalVariableList(
+            GlobalVariableDeclaration(
+             niz
+              VarIsArray(
+              ) [VarIsArray]
+            ) [GlobalVariableDeclaration]
+          ) [SingleGlobalVariableList]
+        ) [GlobalVariables]
+      ) [ProgramVariables]
+    ) [ProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        Type(
+         char
+        ) [Type]
+        SingleGlobalVariableList(
+          GlobalVariableDeclaration(
+           nizch
+            VarIsArray(
+            ) [VarIsArray]
+          ) [GlobalVariableDeclaration]
+        ) [SingleGlobalVariableList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  ProgramMethodsList(
+    EmptyProgramMethodsList(
+    ) [EmptyProgramMethodsList]
+    MethodDeclaration(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      EmptyFormalParametersList(
+      ) [EmptyFormalParametersList]
+      VariablesDeclarationList(
+        VariablesDeclarationList(
+          EmptyVariablesDeclarationList(
+          ) [EmptyVariablesDeclarationList]
+          LocalVariables(
+            Type(
+             int
+            ) [Type]
+            SingleLocalVariableList(
+              VariableDeclaration(
+               bodovi
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [VariableDeclaration]
+            ) [SingleLocalVariableList]
+          ) [LocalVariables]
+        ) [VariablesDeclarationList]
+        LocalVariables(
+          Type(
+           bool
+          ) [Type]
+          SingleLocalVariableList(
+            VariableDeclaration(
+             bt
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [VariableDeclaration]
+          ) [SingleLocalVariableList]
+        ) [LocalVariables]
+      ) [VariablesDeclarationList]
+      EmptyStatementList(
+      ) [EmptyStatementList]
+    ) [MethodDeclaration]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  18:28:29,448 - =========================================
+INFO  18:28:29,448 - Starting semantic analysis....
+INFO  18:28:29,460 - Constant nula declared  at line 5
+INFO  18:28:29,461 - Constant jedan declared  at line 6
+INFO  18:28:29,461 - Constant pet declared  at line 7
+INFO  18:28:29,461 - Global array niz[] declared at line 9
+INFO  18:28:29,461 - Global array nizch[] declared at line 10
+INFO  18:28:29,461 - Function main is being parsed  at line 13
+INFO  18:28:29,461 - Local variable bodovi declared at line 14
+INFO  18:28:29,461 - Local variable bt declared at line 15
+INFO  18:28:29,461 - Semantic analysis completed.
+INFO  18:28:29,462 - Semantic analysis finished successfully!
+INFO  18:28:29,462 - Symbol table: 
+INFO  18:28:29,463 - =========================================
+INFO  18:28:29,463 - Started generating code....
+INFO  18:28:29,475 - Code generated successfully!
+INFO  18:28:29,475 - Compiling file successfully completed!

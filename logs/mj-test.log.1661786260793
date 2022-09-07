@@ -1,0 +1,127 @@
+INFO  17:16:17,167 - Starting compilation of a file test/test1.mj
+INFO  17:16:17,168 - Starting lexical analysis....
+INFO  17:16:17,183 - Lexical analysis finished successfully!
+INFO  17:16:17,184 - =========================================
+INFO  17:16:17,184 - Starting syntax analysis....
+INFO  17:16:17,383 - #2 program
+INFO  17:16:17,383 - #52 P
+INFO  17:16:17,383 - #52 int
+INFO  17:16:17,385 - #52 x
+INFO  17:16:17,386 - #40 ,
+INFO  17:16:17,388 - #52 y
+INFO  17:16:17,389 - #38 ;
+INFO  17:16:17,389 - #7 const
+INFO  17:16:17,390 - #52 int
+INFO  17:16:17,390 - #52 N
+INFO  17:16:17,390 - #35 =
+INFO  17:16:17,390 - #53 5
+INFO  17:16:17,391 - #38 ;
+INFO  17:16:17,391 - #52 int
+INFO  17:16:17,392 - #52 arr
+INFO  17:16:17,396 - #44 [
+INFO  17:16:17,396 - #45 ]
+INFO  17:16:17,396 - #51 #
+INFO  17:16:17,397 - #53 5
+INFO  17:16:17,397 - #38 ;
+INFO  17:16:17,397 - #46 {
+INFO  17:16:17,398 - #15 void
+INFO  17:16:17,399 - #52 main
+INFO  17:16:17,401 - #42 (
+INFO  17:16:17,402 - #43 )
+INFO  17:16:17,404 - #46 {
+INFO  17:16:17,405 - #47 }
+INFO  17:16:17,407 - #47 }
+INFO  17:16:17,410 - Syntax analysis finished successfully!
+INFO  17:16:17,410 - Syntax tree: 
+INFO  17:16:17,411 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ProgramVariablesList(
+    ProgramVariablesList(
+      ProgramVariablesList(
+        EmptyProgramVariablesList(
+        ) [EmptyProgramVariablesList]
+        ProgramVariables(
+          GlobalVariables(
+            Type(
+             int
+            ) [Type]
+            MultipleGlobalVariablesList(
+              SingleGlobalVariableList(
+                GlobalVariableDeclaration(
+                 x
+                  VarIsNotArray(
+                  ) [VarIsNotArray]
+                ) [GlobalVariableDeclaration]
+              ) [SingleGlobalVariableList]
+              GlobalVariableDeclaration(
+               y
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [GlobalVariableDeclaration]
+            ) [MultipleGlobalVariablesList]
+          ) [GlobalVariables]
+        ) [ProgramVariables]
+      ) [ProgramVariablesList]
+      ProgramConstants(
+        ConstantsClass(
+          Type(
+           int
+          ) [Type]
+          SingleConstantList(
+            ConstantDeclaration(
+             N
+              NumConstClass(
+                NumberConstant(
+                 5
+                ) [NumberConstant]
+              ) [NumConstClass]
+            ) [ConstantDeclaration]
+          ) [SingleConstantList]
+        ) [ConstantsClass]
+      ) [ProgramConstants]
+    ) [ProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        Type(
+         int
+        ) [Type]
+        SingleGlobalVariableList(
+          GlobalVariableDeclaration(
+           arr
+            VarIsArray(
+              HasArrayIncrement(
+                NumberConstant(
+                 5
+                ) [NumberConstant]
+              ) [HasArrayIncrement]
+            ) [VarIsArray]
+          ) [GlobalVariableDeclaration]
+        ) [SingleGlobalVariableList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  ProgramMethodsList(
+    EmptyProgramMethodsList(
+    ) [EmptyProgramMethodsList]
+    MethodDeclaration(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      EmptyFormalParametersList(
+      ) [EmptyFormalParametersList]
+      EmptyVariablesDeclarationList(
+      ) [EmptyVariablesDeclarationList]
+      EmptyStatementList(
+      ) [EmptyStatementList]
+    ) [MethodDeclaration]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  17:16:17,412 - =========================================
+INFO  17:16:17,413 - Starting semantic analysis....
+INFO  17:16:17,468 - Global variable x declared at line 2
+INFO  17:16:17,469 - Global variable y declared at line 2
+INFO  17:16:17,469 - Constant N declared  at line 3

@@ -1,0 +1,57 @@
+INFO  15:33:58,987 - Compiling source file: C:\Users\Andrej\eclipse-workspace\MJCompiler\test\test2.mj
+INFO  15:33:59,023 - #2 program
+INFO  15:33:59,023 - #48 p
+INFO  15:33:59,024 - #7 const
+INFO  15:33:59,025 - #48 int
+INFO  15:33:59,025 - #48 x
+INFO  15:33:59,025 - #35 =
+INFO  15:33:59,025 - #49 10
+INFO  15:33:59,025 - #38 ;
+INFO  15:33:59,026 - #7 const
+INFO  15:33:59,026 - #48 int
+INFO  15:33:59,026 - #48 y
+INFO  15:33:59,026 - #35 =
+INFO  15:33:59,026 - #49 20
+INFO  15:33:59,026 - #38 ;
+INFO  15:33:59,026 - #7 const
+INFO  15:33:59,026 - #48 char
+INFO  15:33:59,026 - #48 c
+INFO  15:33:59,027 - #35 =
+INFO  15:33:59,027 - #49 1
+INFO  15:33:59,027 - #40 ,
+INFO  15:33:59,027 - #48 c2
+INFO  15:33:59,027 - #35 =
+INFO  15:33:59,031 - #49 2
+INFO  15:33:59,031 - #40 ,
+INFO  15:33:59,031 - #48 c3
+INFO  15:33:59,031 - #35 =
+INFO  15:33:59,031 - #49 3
+INFO  15:33:59,031 - #38 ;
+INFO  15:33:59,031 - #48 int
+INFO  15:33:59,032 - #48 x1
+INFO  15:33:59,032 - #44 [
+INFO  15:33:59,032 - #45 ]
+INFO  15:33:59,032 - #40 ,
+INFO  15:33:59,033 - #48 y1
+INFO  15:33:59,033 - #38 ;
+INFO  15:33:59,034 - #48 bool
+INFO  15:33:59,034 - #48 b
+INFO  15:33:59,034 - #35 =
+ERROR 15:33:59,035 - 
+Syntax error! at line 6
+INFO  15:33:59,035 - #49 1
+INFO  15:33:59,035 - #40 ,
+INFO  15:33:59,035 - #48 b2
+INFO  15:33:59,036 - #38 ;
+INFO  15:33:59,036 - #7 const
+ERROR 15:33:59,036 - Syntax error in DEFINING GLOBAL VARIABLE at line 6
+INFO  15:33:59,037 - #48 int
+INFO  15:33:59,037 - #48 i
+INFO  15:33:59,038 - #35 =
+INFO  15:33:59,038 - #49 40
+INFO  15:33:59,038 - #38 ;
+INFO  15:33:59,038 - #46 {
+INFO  15:33:59,038 - #35 =
+ERROR 15:33:59,038 - 
+Syntax error! at line 9
+ERROR 15:33:59,038 - Fatal error, parsing cannot continue! at line 9

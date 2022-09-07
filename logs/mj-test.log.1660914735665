@@ -1,0 +1,117 @@
+INFO  13:54:55,829 - Compiling source file: C:\Users\Andrej\eclipse-workspace\MJCompiler\test\test2.mj
+INFO  13:54:55,866 - #2 program
+INFO  13:54:55,867 - #48 p
+INFO  13:54:55,867 - #7 const
+INFO  13:54:55,869 - #48 int
+INFO  13:54:55,869 - #48 x
+INFO  13:54:55,869 - #35 =
+INFO  13:54:55,869 - #49 10
+INFO  13:54:55,869 - #38 ;
+INFO  13:54:55,869 - #7 const
+INFO  13:54:55,870 - #48 int
+INFO  13:54:55,870 - #48 y
+INFO  13:54:55,870 - #35 =
+INFO  13:54:55,870 - #49 20
+INFO  13:54:55,870 - #38 ;
+INFO  13:54:55,870 - #7 const
+INFO  13:54:55,870 - #48 char
+INFO  13:54:55,870 - #48 c
+INFO  13:54:55,870 - #35 =
+INFO  13:54:55,871 - #49 1
+INFO  13:54:55,871 - #40 ,
+INFO  13:54:55,871 - #48 c2
+INFO  13:54:55,871 - #35 =
+INFO  13:54:55,871 - #49 2
+INFO  13:54:55,871 - #40 ,
+INFO  13:54:55,872 - #48 c3
+INFO  13:54:55,872 - #35 =
+INFO  13:54:55,872 - #49 3
+INFO  13:54:55,872 - #38 ;
+INFO  13:54:55,872 - #46 {
+INFO  13:54:55,872 - #47 }
+INFO  13:54:55,876 - Program(
+ p
+  ProgramVariablesList(
+    ProgramVariablesList(
+      ProgramVariablesList(
+        EmptyProgramVariablesList(
+        ) [EmptyProgramVariablesList]
+        ProgramConstants(
+          ConstantsClass(
+            TypeClass(
+             int
+            ) [TypeClass]
+            SingleConstantList(
+              ConstantDeclaration(
+               x
+                NumConstClass(
+                  NumberConstant(
+                   10
+                  ) [NumberConstant]
+                ) [NumConstClass]
+              ) [ConstantDeclaration]
+            ) [SingleConstantList]
+          ) [ConstantsClass]
+        ) [ProgramConstants]
+      ) [ProgramVariablesList]
+      ProgramConstants(
+        ConstantsClass(
+          TypeClass(
+           int
+          ) [TypeClass]
+          SingleConstantList(
+            ConstantDeclaration(
+             y
+              NumConstClass(
+                NumberConstant(
+                 20
+                ) [NumberConstant]
+              ) [NumConstClass]
+            ) [ConstantDeclaration]
+          ) [SingleConstantList]
+        ) [ConstantsClass]
+      ) [ProgramConstants]
+    ) [ProgramVariablesList]
+    ProgramConstants(
+      ConstantsClass(
+        TypeClass(
+         char
+        ) [TypeClass]
+        MultipleConstantsList(
+          MultipleConstantsList(
+            SingleConstantList(
+              ConstantDeclaration(
+               c
+                NumConstClass(
+                  NumberConstant(
+                   1
+                  ) [NumberConstant]
+                ) [NumConstClass]
+              ) [ConstantDeclaration]
+            ) [SingleConstantList]
+            ConstantDeclaration(
+             c2
+              NumConstClass(
+                NumberConstant(
+                 2
+                ) [NumberConstant]
+              ) [NumConstClass]
+            ) [ConstantDeclaration]
+          ) [MultipleConstantsList]
+          ConstantDeclaration(
+           c3
+            NumConstClass(
+              NumberConstant(
+               3
+              ) [NumberConstant]
+            ) [NumConstClass]
+          ) [ConstantDeclaration]
+        ) [MultipleConstantsList]
+      ) [ConstantsClass]
+    ) [ProgramConstants]
+  ) [ProgramVariablesList]
+  EmptyProgramMethodList(
+  ) [EmptyProgramMethodList]
+) [Program]
+INFO  13:54:55,876 - ===================================
+INFO  13:54:55,876 - Parsing completed successfully!.

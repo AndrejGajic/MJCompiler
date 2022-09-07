@@ -1,0 +1,492 @@
+INFO  16:36:21,407 - Starting compilation of a file test/test1.mj
+INFO  16:36:21,407 - Starting lexical analysis....
+INFO  16:36:21,411 - Lexical analysis finished successfully!
+INFO  16:36:21,411 - =========================================
+INFO  16:36:21,412 - Starting syntax analysis....
+INFO  16:36:21,541 - #2 program
+INFO  16:36:21,541 - #51 P
+INFO  16:36:21,542 - #51 int
+INFO  16:36:21,543 - #51 x
+INFO  16:36:21,544 - #40 ,
+INFO  16:36:21,546 - #51 y
+INFO  16:36:21,546 - #38 ;
+INFO  16:36:21,547 - #51 int
+INFO  16:36:21,548 - #51 arr
+INFO  16:36:21,548 - #44 [
+INFO  16:36:21,548 - #45 ]
+INFO  16:36:21,548 - #38 ;
+INFO  16:36:21,549 - #46 {
+INFO  16:36:21,550 - #15 void
+INFO  16:36:21,552 - #51 main
+INFO  16:36:21,557 - #42 (
+INFO  16:36:21,558 - #43 )
+INFO  16:36:21,560 - #46 {
+INFO  16:36:21,562 - #51 arr
+INFO  16:36:21,563 - #35 =
+INFO  16:36:21,564 - #11 new
+INFO  16:36:21,569 - #51 int
+INFO  16:36:21,569 - #44 [
+INFO  16:36:21,569 - #52 5
+INFO  16:36:21,569 - #45 ]
+INFO  16:36:21,573 - #38 ;
+INFO  16:36:21,574 - #51 arr
+INFO  16:36:21,575 - #44 [
+INFO  16:36:21,575 - #52 0
+INFO  16:36:21,575 - #45 ]
+INFO  16:36:21,575 - #35 =
+INFO  16:36:21,575 - #52 1
+INFO  16:36:21,575 - #38 ;
+INFO  16:36:21,576 - #51 arr
+INFO  16:36:21,576 - #44 [
+INFO  16:36:21,576 - #52 1
+INFO  16:36:21,576 - #45 ]
+INFO  16:36:21,576 - #35 =
+INFO  16:36:21,576 - #52 2
+INFO  16:36:21,576 - #38 ;
+INFO  16:36:21,576 - #51 arr
+INFO  16:36:21,577 - #44 [
+INFO  16:36:21,577 - #52 2
+INFO  16:36:21,577 - #45 ]
+INFO  16:36:21,577 - #35 =
+INFO  16:36:21,577 - #52 3
+INFO  16:36:21,577 - #38 ;
+INFO  16:36:21,578 - #51 arr
+INFO  16:36:21,578 - #44 [
+INFO  16:36:21,578 - #52 3
+INFO  16:36:21,578 - #45 ]
+INFO  16:36:21,579 - #35 =
+INFO  16:36:21,579 - #52 4
+INFO  16:36:21,579 - #38 ;
+INFO  16:36:21,579 - #51 arr
+INFO  16:36:21,579 - #44 [
+INFO  16:36:21,580 - #52 4
+INFO  16:36:21,580 - #45 ]
+INFO  16:36:21,580 - #35 =
+INFO  16:36:21,580 - #52 5
+INFO  16:36:21,580 - #38 ;
+INFO  16:36:21,580 - #12 print
+INFO  16:36:21,581 - #42 (
+INFO  16:36:21,581 - #51 arr
+INFO  16:36:21,581 - #43 )
+INFO  16:36:21,585 - #38 ;
+INFO  16:36:21,585 - #47 }
+INFO  16:36:21,585 - #47 }
+INFO  16:36:21,588 - Syntax analysis finished successfully!
+INFO  16:36:21,588 - Syntax tree: 
+INFO  16:36:21,591 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ProgramVariablesList(
+    ProgramVariablesList(
+      EmptyProgramVariablesList(
+      ) [EmptyProgramVariablesList]
+      ProgramVariables(
+        GlobalVariables(
+          Type(
+           int
+          ) [Type]
+          MultipleGlobalVariablesList(
+            SingleGlobalVariableList(
+              GlobalVariableDeclaration(
+               x
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [GlobalVariableDeclaration]
+            ) [SingleGlobalVariableList]
+            GlobalVariableDeclaration(
+             y
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [GlobalVariableDeclaration]
+          ) [MultipleGlobalVariablesList]
+        ) [GlobalVariables]
+      ) [ProgramVariables]
+    ) [ProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        Type(
+         int
+        ) [Type]
+        SingleGlobalVariableList(
+          GlobalVariableDeclaration(
+           arr
+            VarIsArray(
+            ) [VarIsArray]
+          ) [GlobalVariableDeclaration]
+        ) [SingleGlobalVariableList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  ProgramMethodsList(
+    EmptyProgramMethodsList(
+    ) [EmptyProgramMethodsList]
+    MethodDeclaration(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      EmptyFormalParametersList(
+      ) [EmptyFormalParametersList]
+      EmptyVariablesDeclarationList(
+      ) [EmptyVariablesDeclarationList]
+      StatementListClass(
+        StatementListClass(
+          StatementListClass(
+            StatementListClass(
+              StatementListClass(
+                StatementListClass(
+                  StatementListClass(
+                    EmptyStatementList(
+                    ) [EmptyStatementList]
+                    SingleStatementClass(
+                      SSDesignatorStatement(
+                        DesignatorStatementClass(
+                          DesignatorClass(
+                           arr
+                          ) [DesignatorClass]
+                          DesignatorAssign(
+                            DesignatorAssignOperation(
+                              AssignOperation(
+                              ) [AssignOperation]
+                              Expr(
+                                ExpressionClass(
+                                  ExpressionPositive(
+                                  ) [ExpressionPositive]
+                                  Terminal(
+                                    FactorNewOperation(
+                                      Type(
+                                       int
+                                      ) [Type]
+                                      Expr(
+                                        ExpressionClass(
+                                          ExpressionPositive(
+                                          ) [ExpressionPositive]
+                                          Terminal(
+                                            FactorNumberConstant(
+                                              NumberConstant(
+                                               5
+                                              ) [NumberConstant]
+                                            ) [FactorNumberConstant]
+                                          ) [Terminal]
+                                        ) [ExpressionClass]
+                                        HasNotExprBinary(
+                                        ) [HasNotExprBinary]
+                                      ) [Expr]
+                                    ) [FactorNewOperation]
+                                  ) [Terminal]
+                                ) [ExpressionClass]
+                                HasNotExprBinary(
+                                ) [HasNotExprBinary]
+                              ) [Expr]
+                            ) [DesignatorAssignOperation]
+                          ) [DesignatorAssign]
+                        ) [DesignatorStatementClass]
+                      ) [SSDesignatorStatement]
+                    ) [SingleStatementClass]
+                  ) [StatementListClass]
+                  SingleStatementClass(
+                    SSDesignatorStatement(
+                      DesignatorStatementClass(
+                        DesignatorArray(
+                          DesignatorClass(
+                           arr
+                          ) [DesignatorClass]
+                          Expr(
+                            ExpressionClass(
+                              ExpressionPositive(
+                              ) [ExpressionPositive]
+                              Terminal(
+                                FactorNumberConstant(
+                                  NumberConstant(
+                                   0
+                                  ) [NumberConstant]
+                                ) [FactorNumberConstant]
+                              ) [Terminal]
+                            ) [ExpressionClass]
+                            HasNotExprBinary(
+                            ) [HasNotExprBinary]
+                          ) [Expr]
+                        ) [DesignatorArray]
+                        DesignatorAssign(
+                          DesignatorAssignOperation(
+                            AssignOperation(
+                            ) [AssignOperation]
+                            Expr(
+                              ExpressionClass(
+                                ExpressionPositive(
+                                ) [ExpressionPositive]
+                                Terminal(
+                                  FactorNumberConstant(
+                                    NumberConstant(
+                                     1
+                                    ) [NumberConstant]
+                                  ) [FactorNumberConstant]
+                                ) [Terminal]
+                              ) [ExpressionClass]
+                              HasNotExprBinary(
+                              ) [HasNotExprBinary]
+                            ) [Expr]
+                          ) [DesignatorAssignOperation]
+                        ) [DesignatorAssign]
+                      ) [DesignatorStatementClass]
+                    ) [SSDesignatorStatement]
+                  ) [SingleStatementClass]
+                ) [StatementListClass]
+                SingleStatementClass(
+                  SSDesignatorStatement(
+                    DesignatorStatementClass(
+                      DesignatorArray(
+                        DesignatorClass(
+                         arr
+                        ) [DesignatorClass]
+                        Expr(
+                          ExpressionClass(
+                            ExpressionPositive(
+                            ) [ExpressionPositive]
+                            Terminal(
+                              FactorNumberConstant(
+                                NumberConstant(
+                                 1
+                                ) [NumberConstant]
+                              ) [FactorNumberConstant]
+                            ) [Terminal]
+                          ) [ExpressionClass]
+                          HasNotExprBinary(
+                          ) [HasNotExprBinary]
+                        ) [Expr]
+                      ) [DesignatorArray]
+                      DesignatorAssign(
+                        DesignatorAssignOperation(
+                          AssignOperation(
+                          ) [AssignOperation]
+                          Expr(
+                            ExpressionClass(
+                              ExpressionPositive(
+                              ) [ExpressionPositive]
+                              Terminal(
+                                FactorNumberConstant(
+                                  NumberConstant(
+                                   2
+                                  ) [NumberConstant]
+                                ) [FactorNumberConstant]
+                              ) [Terminal]
+                            ) [ExpressionClass]
+                            HasNotExprBinary(
+                            ) [HasNotExprBinary]
+                          ) [Expr]
+                        ) [DesignatorAssignOperation]
+                      ) [DesignatorAssign]
+                    ) [DesignatorStatementClass]
+                  ) [SSDesignatorStatement]
+                ) [SingleStatementClass]
+              ) [StatementListClass]
+              SingleStatementClass(
+                SSDesignatorStatement(
+                  DesignatorStatementClass(
+                    DesignatorArray(
+                      DesignatorClass(
+                       arr
+                      ) [DesignatorClass]
+                      Expr(
+                        ExpressionClass(
+                          ExpressionPositive(
+                          ) [ExpressionPositive]
+                          Terminal(
+                            FactorNumberConstant(
+                              NumberConstant(
+                               2
+                              ) [NumberConstant]
+                            ) [FactorNumberConstant]
+                          ) [Terminal]
+                        ) [ExpressionClass]
+                        HasNotExprBinary(
+                        ) [HasNotExprBinary]
+                      ) [Expr]
+                    ) [DesignatorArray]
+                    DesignatorAssign(
+                      DesignatorAssignOperation(
+                        AssignOperation(
+                        ) [AssignOperation]
+                        Expr(
+                          ExpressionClass(
+                            ExpressionPositive(
+                            ) [ExpressionPositive]
+                            Terminal(
+                              FactorNumberConstant(
+                                NumberConstant(
+                                 3
+                                ) [NumberConstant]
+                              ) [FactorNumberConstant]
+                            ) [Terminal]
+                          ) [ExpressionClass]
+                          HasNotExprBinary(
+                          ) [HasNotExprBinary]
+                        ) [Expr]
+                      ) [DesignatorAssignOperation]
+                    ) [DesignatorAssign]
+                  ) [DesignatorStatementClass]
+                ) [SSDesignatorStatement]
+              ) [SingleStatementClass]
+            ) [StatementListClass]
+            SingleStatementClass(
+              SSDesignatorStatement(
+                DesignatorStatementClass(
+                  DesignatorArray(
+                    DesignatorClass(
+                     arr
+                    ) [DesignatorClass]
+                    Expr(
+                      ExpressionClass(
+                        ExpressionPositive(
+                        ) [ExpressionPositive]
+                        Terminal(
+                          FactorNumberConstant(
+                            NumberConstant(
+                             3
+                            ) [NumberConstant]
+                          ) [FactorNumberConstant]
+                        ) [Terminal]
+                      ) [ExpressionClass]
+                      HasNotExprBinary(
+                      ) [HasNotExprBinary]
+                    ) [Expr]
+                  ) [DesignatorArray]
+                  DesignatorAssign(
+                    DesignatorAssignOperation(
+                      AssignOperation(
+                      ) [AssignOperation]
+                      Expr(
+                        ExpressionClass(
+                          ExpressionPositive(
+                          ) [ExpressionPositive]
+                          Terminal(
+                            FactorNumberConstant(
+                              NumberConstant(
+                               4
+                              ) [NumberConstant]
+                            ) [FactorNumberConstant]
+                          ) [Terminal]
+                        ) [ExpressionClass]
+                        HasNotExprBinary(
+                        ) [HasNotExprBinary]
+                      ) [Expr]
+                    ) [DesignatorAssignOperation]
+                  ) [DesignatorAssign]
+                ) [DesignatorStatementClass]
+              ) [SSDesignatorStatement]
+            ) [SingleStatementClass]
+          ) [StatementListClass]
+          SingleStatementClass(
+            SSDesignatorStatement(
+              DesignatorStatementClass(
+                DesignatorArray(
+                  DesignatorClass(
+                   arr
+                  ) [DesignatorClass]
+                  Expr(
+                    ExpressionClass(
+                      ExpressionPositive(
+                      ) [ExpressionPositive]
+                      Terminal(
+                        FactorNumberConstant(
+                          NumberConstant(
+                           4
+                          ) [NumberConstant]
+                        ) [FactorNumberConstant]
+                      ) [Terminal]
+                    ) [ExpressionClass]
+                    HasNotExprBinary(
+                    ) [HasNotExprBinary]
+                  ) [Expr]
+                ) [DesignatorArray]
+                DesignatorAssign(
+                  DesignatorAssignOperation(
+                    AssignOperation(
+                    ) [AssignOperation]
+                    Expr(
+                      ExpressionClass(
+                        ExpressionPositive(
+                        ) [ExpressionPositive]
+                        Terminal(
+                          FactorNumberConstant(
+                            NumberConstant(
+                             5
+                            ) [NumberConstant]
+                          ) [FactorNumberConstant]
+                        ) [Terminal]
+                      ) [ExpressionClass]
+                      HasNotExprBinary(
+                      ) [HasNotExprBinary]
+                    ) [Expr]
+                  ) [DesignatorAssignOperation]
+                ) [DesignatorAssign]
+              ) [DesignatorStatementClass]
+            ) [SSDesignatorStatement]
+          ) [SingleStatementClass]
+        ) [StatementListClass]
+        SingleStatementClass(
+          PrintStatement(
+            Expr(
+              ExpressionClass(
+                ExpressionPositive(
+                ) [ExpressionPositive]
+                Terminal(
+                  FactorDesignator(
+                    DesignatorClass(
+                     arr
+                    ) [DesignatorClass]
+                    NoDesignatorAdditional(
+                    ) [NoDesignatorAdditional]
+                  ) [FactorDesignator]
+                ) [Terminal]
+              ) [ExpressionClass]
+              HasNotExprBinary(
+              ) [HasNotExprBinary]
+            ) [Expr]
+            HasNotPrintConstant(
+            ) [HasNotPrintConstant]
+          ) [PrintStatement]
+        ) [SingleStatementClass]
+      ) [StatementListClass]
+    ) [MethodDeclaration]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  16:36:21,592 - =========================================
+INFO  16:36:21,592 - Starting semantic analysis....
+INFO  16:36:21,622 - Global variable x declared at line 2
+INFO  16:36:21,622 - Global variable y declared at line 2
+INFO  16:36:21,622 - Global array arr[] declared at line 3
+INFO  16:36:21,622 - Function main is being parsed  at line 5
+INFO  16:36:21,622 - Global variable arr accessed at line 6
+INFO  16:36:21,623 - 	[Var arr: Arr of int, 2, 0 ]
+INFO  16:36:21,623 - Global variable arr accessed at line 7
+INFO  16:36:21,624 - 	[Var arr: Arr of int, 2, 0 ]
+INFO  16:36:21,624 - Element in array arr[] accessed at line 7
+INFO  16:36:21,624 - 	[arr: int, -1, -1 ]
+INFO  16:36:21,624 - Global variable arr accessed at line 8
+INFO  16:36:21,624 - 	[Var arr: Arr of int, 2, 0 ]
+INFO  16:36:21,624 - Element in array arr[] accessed at line 8
+INFO  16:36:21,624 - 	[arr: int, -1, -1 ]
+INFO  16:36:21,624 - Global variable arr accessed at line 9
+INFO  16:36:21,624 - 	[Var arr: Arr of int, 2, 0 ]
+INFO  16:36:21,625 - Element in array arr[] accessed at line 9
+INFO  16:36:21,625 - 	[arr: int, -1, -1 ]
+INFO  16:36:21,625 - Global variable arr accessed at line 10
+INFO  16:36:21,625 - 	[Var arr: Arr of int, 2, 0 ]
+INFO  16:36:21,625 - Element in array arr[] accessed at line 10
+INFO  16:36:21,625 - 	[arr: int, -1, -1 ]
+INFO  16:36:21,625 - Global variable arr accessed at line 11
+INFO  16:36:21,625 - 	[Var arr: Arr of int, 2, 0 ]
+INFO  16:36:21,625 - Element in array arr[] accessed at line 11
+INFO  16:36:21,626 - 	[arr: int, -1, -1 ]
+INFO  16:36:21,626 - Global variable arr accessed at line 12
+INFO  16:36:21,626 - 	[Var arr: Arr of int, 2, 0 ]
+INFO  16:36:21,626 - Semantic analysis completed.
+INFO  16:36:21,626 - Semantic analysis finished successfully!
+INFO  16:36:21,627 - Symbol table: 
+INFO  16:36:21,627 - =========================================
+INFO  16:36:21,628 - Started generating code....
+INFO  16:36:21,638 - Code generated successfully!
+INFO  16:36:21,638 - Compiling file successfully completed!

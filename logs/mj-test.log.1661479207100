@@ -1,0 +1,286 @@
+INFO  03:58:30,218 - Starting compilation of a file test/test4.mj
+INFO  03:58:30,218 - Starting lexical analysis....
+INFO  03:58:30,225 - Lexical analysis finished successfully!
+INFO  03:58:30,225 - =========================================
+INFO  03:58:30,225 - Starting syntax analysis....
+INFO  03:58:30,479 - #2 program
+INFO  03:58:30,479 - #48 Test4
+INFO  03:58:30,479 - #7 const
+INFO  03:58:30,481 - #48 int
+INFO  03:58:30,481 - #48 N
+INFO  03:58:30,483 - #35 =
+INFO  03:58:30,484 - #49 50
+INFO  03:58:30,484 - #38 ;
+INFO  03:58:30,484 - #48 int
+INFO  03:58:30,486 - #48 x
+INFO  03:58:30,486 - #40 ,
+INFO  03:58:30,489 - #48 y
+INFO  03:58:30,489 - #40 ,
+INFO  03:58:30,490 - #48 arr
+INFO  03:58:30,490 - #44 [
+INFO  03:58:30,494 - #45 ]
+INFO  03:58:30,494 - #38 ;
+INFO  03:58:30,495 - #46 {
+INFO  03:58:30,496 - #48 int
+INFO  03:58:30,498 - #48 sum
+INFO  03:58:30,498 - #42 (
+INFO  03:58:30,500 - #48 int
+INFO  03:58:30,501 - #48 a
+INFO  03:58:30,501 - #35 =
+INFO  03:58:30,501 - #49 5
+INFO  03:58:30,501 - #40 ,
+INFO  03:58:30,501 - #48 int
+INFO  03:58:30,501 - #48 b
+INFO  03:58:30,501 - #35 =
+INFO  03:58:30,502 - #49 10
+INFO  03:58:30,502 - #43 )
+INFO  03:58:30,502 - #46 {
+INFO  03:58:30,504 - #14 return
+INFO  03:58:30,506 - #48 a
+INFO  03:58:30,509 - #22 +
+INFO  03:58:30,510 - #48 b
+INFO  03:58:30,513 - #38 ;
+INFO  03:58:30,516 - #47 }
+INFO  03:58:30,517 - #15 void
+INFO  03:58:30,517 - #48 main
+INFO  03:58:30,519 - #42 (
+INFO  03:58:30,519 - #43 )
+INFO  03:58:30,522 - #46 {
+INFO  03:58:30,522 - #48 x
+INFO  03:58:30,522 - #35 =
+INFO  03:58:30,522 - #48 sum
+INFO  03:58:30,525 - #42 (
+INFO  03:58:30,526 - #43 )
+INFO  03:58:30,528 - #38 ;
+INFO  03:58:30,528 - #12 print
+INFO  03:58:30,529 - #42 (
+INFO  03:58:30,529 - #48 x
+INFO  03:58:30,529 - #43 )
+INFO  03:58:30,531 - #38 ;
+INFO  03:58:30,531 - #47 }
+INFO  03:58:30,532 - #47 }
+INFO  03:58:30,538 - Syntax analysis finished successfully!
+INFO  03:58:30,538 - Syntax tree: 
+INFO  03:58:30,543 - Program(
+  ProgramName(
+   Test4
+  ) [ProgramName]
+  ProgramVariablesList(
+    ProgramVariablesList(
+      EmptyProgramVariablesList(
+      ) [EmptyProgramVariablesList]
+      ProgramConstants(
+        ConstantsClass(
+          Type(
+           int
+          ) [Type]
+          SingleConstantList(
+            ConstantDeclaration(
+             N
+              NumConstClass(
+                NumberConstant(
+                 50
+                ) [NumberConstant]
+              ) [NumConstClass]
+            ) [ConstantDeclaration]
+          ) [SingleConstantList]
+        ) [ConstantsClass]
+      ) [ProgramConstants]
+    ) [ProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        Type(
+         int
+        ) [Type]
+        MultipleGlobalVariablesList(
+          MultipleGlobalVariablesList(
+            SingleGlobalVariableList(
+              GlobalVariableDeclaration(
+               x
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [GlobalVariableDeclaration]
+            ) [SingleGlobalVariableList]
+            GlobalVariableDeclaration(
+             y
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [GlobalVariableDeclaration]
+          ) [MultipleGlobalVariablesList]
+          GlobalVariableDeclaration(
+           arr
+            VarIsArray(
+            ) [VarIsArray]
+          ) [GlobalVariableDeclaration]
+        ) [MultipleGlobalVariablesList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  ProgramMethodsList(
+    ProgramMethodsList(
+      EmptyProgramMethodsList(
+      ) [EmptyProgramMethodsList]
+      MethodDeclaration(
+        MethodTypeNotVoid(
+          Type(
+           int
+          ) [Type]
+        ) [MethodTypeNotVoid]
+        MethodName(
+         sum
+        ) [MethodName]
+        OptionalArgumentsList(
+          MultipleOptionalArguments(
+            SingleOptionalArgument(
+              OptionalArgument(
+                Type(
+                 int
+                ) [Type]
+               a
+                NumConstClass(
+                  NumberConstant(
+                   5
+                  ) [NumberConstant]
+                ) [NumConstClass]
+              ) [OptionalArgument]
+            ) [SingleOptionalArgument]
+            OptionalArgument(
+              Type(
+               int
+              ) [Type]
+             b
+              NumConstClass(
+                NumberConstant(
+                 10
+                ) [NumberConstant]
+              ) [NumConstClass]
+            ) [OptionalArgument]
+          ) [MultipleOptionalArguments]
+        ) [OptionalArgumentsList]
+        EmptyVariablesDeclarationList(
+        ) [EmptyVariablesDeclarationList]
+        StatementListClass(
+          EmptyStatementList(
+          ) [EmptyStatementList]
+          SingleStatementClass(
+            ReturnStatement(
+              HasReturnExpression(
+                Expr(
+                  ExpressionAddop(
+                    ExpressionClass(
+                      ExpressionPositive(
+                      ) [ExpressionPositive]
+                      Terminal(
+                        FactorDesignator(
+                          DesignatorClass(
+                           a
+                          ) [DesignatorClass]
+                        ) [FactorDesignator]
+                      ) [Terminal]
+                    ) [ExpressionClass]
+                    AdditionOperation(
+                    ) [AdditionOperation]
+                    Terminal(
+                      FactorDesignator(
+                        DesignatorClass(
+                         b
+                        ) [DesignatorClass]
+                      ) [FactorDesignator]
+                    ) [Terminal]
+                  ) [ExpressionAddop]
+                ) [Expr]
+              ) [HasReturnExpression]
+            ) [ReturnStatement]
+          ) [SingleStatementClass]
+        ) [StatementListClass]
+      ) [MethodDeclaration]
+    ) [ProgramMethodsList]
+    MethodDeclaration(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      EmptyFormalParametersList(
+      ) [EmptyFormalParametersList]
+      EmptyVariablesDeclarationList(
+      ) [EmptyVariablesDeclarationList]
+      StatementListClass(
+        StatementListClass(
+          EmptyStatementList(
+          ) [EmptyStatementList]
+          SingleStatementClass(
+            SSDesignatorStatement(
+              DesignatorStatementClass(
+                DesignatorClass(
+                 x
+                ) [DesignatorClass]
+                DesignatorAssign(
+                  DesignatorAssignOperation(
+                    AssignOperation(
+                    ) [AssignOperation]
+                    Expr(
+                      ExpressionClass(
+                        ExpressionPositive(
+                        ) [ExpressionPositive]
+                        Terminal(
+                          FactorFunctionCall(
+                            DesignatorClass(
+                             sum
+                            ) [DesignatorClass]
+                            FunctionCallNoArguments(
+                            ) [FunctionCallNoArguments]
+                          ) [FactorFunctionCall]
+                        ) [Terminal]
+                      ) [ExpressionClass]
+                    ) [Expr]
+                  ) [DesignatorAssignOperation]
+                ) [DesignatorAssign]
+              ) [DesignatorStatementClass]
+            ) [SSDesignatorStatement]
+          ) [SingleStatementClass]
+        ) [StatementListClass]
+        SingleStatementClass(
+          PrintStatement(
+            Expr(
+              ExpressionClass(
+                ExpressionPositive(
+                ) [ExpressionPositive]
+                Terminal(
+                  FactorDesignator(
+                    DesignatorClass(
+                     x
+                    ) [DesignatorClass]
+                  ) [FactorDesignator]
+                ) [Terminal]
+              ) [ExpressionClass]
+            ) [Expr]
+            HasNotPrintConstant(
+            ) [HasNotPrintConstant]
+          ) [PrintStatement]
+        ) [SingleStatementClass]
+      ) [StatementListClass]
+    ) [MethodDeclaration]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  03:58:30,546 - =========================================
+INFO  03:58:30,551 - Starting semantic analysis....
+INFO  03:58:30,576 - Constant N declared  at line 2
+INFO  03:58:30,576 - Global variable x declared at line 3
+INFO  03:58:30,577 - Global variable y declared at line 3
+INFO  03:58:30,577 - Global array arr[] declared at line 3
+INFO  03:58:30,577 - Function sum is being parsed  at line 6
+INFO  03:58:30,588 - Default parameter a declared at line 6
+INFO  03:58:30,588 - Default parameter b declared at line 6
+INFO  03:58:30,589 - Function parameter a accessed at line 7
+INFO  03:58:30,589 - Function parameter b accessed at line 7
+INFO  03:58:30,589 - Function main is being parsed  at line 10
+INFO  03:58:30,589 - Global variable x accessed at line 11
+INFO  03:58:30,589 - Function sum is called at line 11
+INFO  03:58:30,589 - Global variable x accessed at line 12
+INFO  03:58:30,589 - Semantic analysis completed.
+INFO  03:58:30,589 - Semantic analysis finished successfully!
+INFO  03:58:30,589 - Symbol table: 
+INFO  03:58:30,590 - =========================================
+INFO  03:58:30,591 - Started generating code....
+ERROR 03:59:39,778 - An error occured while generating code!

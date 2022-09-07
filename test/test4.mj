@@ -1,0 +1,12 @@
+program Test4
+int x, y;
+{
+
+	void main() {
+		
+		x = 1000;
+		y = 0;
+		y = (x ?? 2) ?? 3;
+		print(y);
+	}
+}

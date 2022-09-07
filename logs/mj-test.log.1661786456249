@@ -1,0 +1,71 @@
+INFO  17:20:04,297 - Starting compilation of a file test/test1.mj
+INFO  17:20:04,297 - Starting lexical analysis....
+INFO  17:20:04,304 - Lexical analysis finished successfully!
+INFO  17:20:04,304 - =========================================
+INFO  17:20:04,304 - Starting syntax analysis....
+INFO  17:20:04,544 - #2 program
+INFO  17:20:04,545 - #52 P
+INFO  17:20:04,545 - #52 int
+INFO  17:20:04,547 - #52 arr
+INFO  17:20:04,550 - #44 [
+INFO  17:20:04,550 - #45 ]
+INFO  17:20:04,551 - #51 #
+INFO  17:20:04,551 - #53 5
+INFO  17:20:04,551 - #38 ;
+INFO  17:20:04,553 - #46 {
+INFO  17:20:04,554 - #15 void
+INFO  17:20:04,557 - #52 main
+INFO  17:20:04,559 - #42 (
+INFO  17:20:04,561 - #43 )
+INFO  17:20:04,563 - #46 {
+INFO  17:20:04,569 - #47 }
+INFO  17:20:04,571 - #47 }
+INFO  17:20:04,574 - Syntax analysis finished successfully!
+INFO  17:20:04,574 - Syntax tree: 
+INFO  17:20:04,575 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ProgramVariablesList(
+    EmptyProgramVariablesList(
+    ) [EmptyProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        Type(
+         int
+        ) [Type]
+        SingleGlobalVariableList(
+          GlobalVariableDeclaration(
+           arr
+            VarIsArray(
+              HasArrayIncrement(
+                NumberConstant(
+                 5
+                ) [NumberConstant]
+              ) [HasArrayIncrement]
+            ) [VarIsArray]
+          ) [GlobalVariableDeclaration]
+        ) [SingleGlobalVariableList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  ProgramMethodsList(
+    EmptyProgramMethodsList(
+    ) [EmptyProgramMethodsList]
+    MethodDeclaration(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      EmptyFormalParametersList(
+      ) [EmptyFormalParametersList]
+      EmptyVariablesDeclarationList(
+      ) [EmptyVariablesDeclarationList]
+      EmptyStatementList(
+      ) [EmptyStatementList]
+    ) [MethodDeclaration]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  17:20:04,575 - =========================================
+INFO  17:20:04,575 - Starting semantic analysis....

@@ -1,0 +1,94 @@
+INFO  12:27:04,262 - Compiling source file: C:\Users\Andrej\eclipse-workspace\MJCompiler\test\test3.mj
+INFO  12:27:04,389 - #2 program
+INFO  12:27:04,390 - #48 p
+INFO  12:27:04,390 - #7 const
+INFO  12:27:04,392 - #48 int
+INFO  12:27:04,392 - #48 x
+INFO  12:27:04,393 - #35 =
+INFO  12:27:04,394 - #49 50
+INFO  12:27:04,394 - #38 ;
+INFO  12:27:04,394 - #48 int
+INFO  12:27:04,395 - #48 i1
+INFO  12:27:04,395 - #40 ,
+INFO  12:27:04,398 - #48 arr
+INFO  12:27:04,398 - #44 [
+INFO  12:27:04,399 - #45 ]
+INFO  12:27:04,399 - #38 ;
+INFO  12:27:04,400 - #48 int
+INFO  12:27:04,401 - #48 i2
+INFO  12:27:04,401 - #38 ;
+INFO  12:27:04,401 - #46 {
+INFO  12:27:04,401 - #47 }
+INFO  12:27:04,404 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  ProgramVariablesList(
+    ProgramVariablesList(
+      ProgramVariablesList(
+        EmptyProgramVariablesList(
+        ) [EmptyProgramVariablesList]
+        ProgramConstants(
+          ConstantsClass(
+            Type(
+             int
+            ) [Type]
+            SingleConstantList(
+              ConstantDeclaration(
+               x
+                NumConstClass(
+                  NumberConstant(
+                   50
+                  ) [NumberConstant]
+                ) [NumConstClass]
+              ) [ConstantDeclaration]
+            ) [SingleConstantList]
+          ) [ConstantsClass]
+        ) [ProgramConstants]
+      ) [ProgramVariablesList]
+      ProgramVariables(
+        GlobalVariables(
+          Type(
+           int
+          ) [Type]
+          MultipleGlobalVariablesList(
+            SingleGlobalVariableList(
+              GlobalVariableDeclaration(
+               i1
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [GlobalVariableDeclaration]
+            ) [SingleGlobalVariableList]
+            GlobalVariableDeclaration(
+             arr
+              VarIsArray(
+              ) [VarIsArray]
+            ) [GlobalVariableDeclaration]
+          ) [MultipleGlobalVariablesList]
+        ) [GlobalVariables]
+      ) [ProgramVariables]
+    ) [ProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        Type(
+         int
+        ) [Type]
+        SingleGlobalVariableList(
+          GlobalVariableDeclaration(
+           i2
+            VarIsNotArray(
+            ) [VarIsNotArray]
+          ) [GlobalVariableDeclaration]
+        ) [SingleGlobalVariableList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  EmptyProgramMethodsList(
+  ) [EmptyProgramMethodsList]
+) [Program]
+INFO  12:27:04,405 - ===================================
+INFO  12:27:04,405 - Parsing completed successfully!.
+INFO  12:27:04,430 - Constant x declared  at line 2
+INFO  12:27:04,431 - Global variable i1 declared at line 3
+INFO  12:27:04,431 - Global array arr[] declared at line 3
+INFO  12:27:04,431 - Global variable i2 declared at line 4

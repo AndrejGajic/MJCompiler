@@ -1,0 +1,133 @@
+INFO  16:09:11,817 - Starting compilation of a file test/test4.mj
+INFO  16:09:11,817 - Starting lexical analysis....
+INFO  16:09:11,820 - Lexical analysis finished successfully!
+INFO  16:09:11,820 - =========================================
+INFO  16:09:11,820 - Starting syntax analysis....
+INFO  16:09:11,935 - #2 program
+INFO  16:09:11,935 - #48 Test4
+INFO  16:09:11,935 - #7 const
+INFO  16:09:11,937 - #48 int
+INFO  16:09:11,937 - #48 N
+INFO  16:09:11,938 - #35 =
+INFO  16:09:11,939 - #49 50
+INFO  16:09:11,939 - #38 ;
+INFO  16:09:11,939 - #46 {
+INFO  16:09:11,940 - #15 void
+INFO  16:09:11,941 - #48 main
+INFO  16:09:11,942 - #42 (
+INFO  16:09:11,944 - #43 )
+INFO  16:09:11,946 - #46 {
+INFO  16:09:11,947 - #12 print
+INFO  16:09:11,952 - #42 (
+INFO  16:09:11,952 - #48 N
+INFO  16:09:11,954 - #43 )
+INFO  16:09:11,959 - #38 ;
+INFO  16:09:11,960 - #12 print
+INFO  16:09:11,961 - #42 (
+INFO  16:09:11,961 - #49 2
+INFO  16:09:11,961 - #43 )
+INFO  16:09:11,962 - #38 ;
+INFO  16:09:11,962 - #47 }
+INFO  16:09:11,962 - #47 }
+INFO  16:09:11,964 - Syntax analysis finished successfully!
+INFO  16:09:11,964 - Syntax tree: 
+INFO  16:09:11,965 - Program(
+  ProgramName(
+   Test4
+  ) [ProgramName]
+  ProgramVariablesList(
+    EmptyProgramVariablesList(
+    ) [EmptyProgramVariablesList]
+    ProgramConstants(
+      ConstantsClass(
+        Type(
+         int
+        ) [Type]
+        SingleConstantList(
+          ConstantDeclaration(
+           N
+            NumConstClass(
+              NumberConstant(
+               50
+              ) [NumberConstant]
+            ) [NumConstClass]
+          ) [ConstantDeclaration]
+        ) [SingleConstantList]
+      ) [ConstantsClass]
+    ) [ProgramConstants]
+  ) [ProgramVariablesList]
+  ProgramMethodsList(
+    EmptyProgramMethodsList(
+    ) [EmptyProgramMethodsList]
+    MethodDeclaration(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      EmptyFormalParametersList(
+      ) [EmptyFormalParametersList]
+      EmptyVariablesDeclarationList(
+      ) [EmptyVariablesDeclarationList]
+      StatementListClass(
+        StatementListClass(
+          EmptyStatementList(
+          ) [EmptyStatementList]
+          SingleStatementClass(
+            PrintStatement(
+              Expr(
+                ExpressionClass(
+                  ExpressionPositive(
+                  ) [ExpressionPositive]
+                  Terminal(
+                    FactorDesignator(
+                      Designator(
+                       N
+                        DesignatorNotArray(
+                        ) [DesignatorNotArray]
+                      ) [Designator]
+                      FactorNoFunctionCall(
+                      ) [FactorNoFunctionCall]
+                    ) [FactorDesignator]
+                  ) [Terminal]
+                ) [ExpressionClass]
+              ) [Expr]
+              HasNotPrintConstant(
+              ) [HasNotPrintConstant]
+            ) [PrintStatement]
+          ) [SingleStatementClass]
+        ) [StatementListClass]
+        SingleStatementClass(
+          PrintStatement(
+            Expr(
+              ExpressionClass(
+                ExpressionPositive(
+                ) [ExpressionPositive]
+                Terminal(
+                  FactorNumberConstant(
+                    NumberConstant(
+                     2
+                    ) [NumberConstant]
+                  ) [FactorNumberConstant]
+                ) [Terminal]
+              ) [ExpressionClass]
+            ) [Expr]
+            HasNotPrintConstant(
+            ) [HasNotPrintConstant]
+          ) [PrintStatement]
+        ) [SingleStatementClass]
+      ) [StatementListClass]
+    ) [MethodDeclaration]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  16:09:11,965 - =========================================
+INFO  16:09:11,966 - Starting semantic analysis....
+INFO  16:09:11,986 - Constant N declared  at line 2
+INFO  16:09:11,987 - Function main is being parsed  at line 4
+INFO  16:09:11,987 - Semantic analysis completed.
+INFO  16:09:11,987 - Semantic analysis finished successfully!
+INFO  16:09:11,988 - Symbol table: 
+INFO  16:09:11,989 - =========================================
+INFO  16:09:11,989 - Started generating code....
+INFO  16:09:11,998 - Code generated successfully!
+INFO  16:09:11,998 - Compiling file successfully completed!

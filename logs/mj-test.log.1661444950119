@@ -1,0 +1,24 @@
+INFO  18:28:59,240 - Starting compilation of a file test/test301.mj
+INFO  18:28:59,240 - Starting lexical analysis....
+INFO  18:28:59,244 - Lexical analysis finished successfully!
+INFO  18:28:59,244 - =========================================
+INFO  18:28:59,244 - Starting syntax analysis....
+INFO  18:28:59,348 - #2 program
+INFO  18:28:59,348 - #48 P
+INFO  18:28:59,348 - #46 {
+INFO  18:28:59,350 - #47 }
+INFO  18:28:59,352 - Syntax analysis finished successfully!
+INFO  18:28:59,352 - Syntax tree: 
+INFO  18:28:59,352 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  EmptyProgramVariablesList(
+  ) [EmptyProgramVariablesList]
+  EmptyProgramMethodsList(
+  ) [EmptyProgramMethodsList]
+) [Program]
+INFO  18:28:59,352 - =========================================
+INFO  18:28:59,356 - Starting semantic analysis....
+INFO  18:28:59,375 - Error! Main is not declared in program!
+ERROR 18:28:59,375 - An error occured in semantic analysis!

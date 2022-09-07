@@ -1,0 +1,168 @@
+INFO  15:15:53,931 - Compiling source file: C:\Users\Andrej\eclipse-workspace\MJCompiler\test\test2.mj
+INFO  15:15:53,972 - #2 program
+INFO  15:15:53,972 - #48 p
+INFO  15:15:53,973 - #7 const
+INFO  15:15:53,974 - #48 int
+INFO  15:15:53,974 - #48 x
+INFO  15:15:53,974 - #35 =
+INFO  15:15:53,975 - #49 10
+INFO  15:15:53,975 - #38 ;
+INFO  15:15:53,975 - #7 const
+INFO  15:15:53,975 - #48 int
+INFO  15:15:53,976 - #48 y
+INFO  15:15:53,976 - #35 =
+INFO  15:15:53,976 - #49 20
+INFO  15:15:53,976 - #38 ;
+INFO  15:15:53,976 - #7 const
+INFO  15:15:53,976 - #48 char
+INFO  15:15:53,976 - #48 c
+INFO  15:15:53,977 - #35 =
+INFO  15:15:53,978 - #49 1
+INFO  15:15:53,978 - #40 ,
+INFO  15:15:53,978 - #48 c2
+INFO  15:15:53,978 - #35 =
+INFO  15:15:53,982 - #49 2
+INFO  15:15:53,982 - #40 ,
+INFO  15:15:53,982 - #48 c3
+INFO  15:15:53,982 - #35 =
+INFO  15:15:53,982 - #49 3
+INFO  15:15:53,983 - #38 ;
+INFO  15:15:53,983 - #48 int
+INFO  15:15:53,983 - #48 x1
+INFO  15:15:53,983 - #44 [
+INFO  15:15:53,983 - #45 ]
+INFO  15:15:53,983 - #40 ,
+INFO  15:15:53,985 - #48 y1
+INFO  15:15:53,985 - #38 ;
+INFO  15:15:53,986 - #48 bool
+INFO  15:15:53,986 - #48 b
+INFO  15:15:53,986 - #35 =
+ERROR 15:15:53,986 - 
+Syntax error! at line 6
+INFO  15:15:53,986 - #49 1
+INFO  15:15:53,986 - #38 ;
+INFO  15:15:53,986 - #46 {
+INFO  15:15:53,987 - #47 }
+ERROR 15:15:53,987 - Syntax error in DEFINING GLOBAL VARIABLE at line 6
+INFO  15:15:53,991 - Program(
+ p
+  ProgramVariablesList(
+    ProgramVariablesList(
+      ProgramVariablesList(
+        ProgramVariablesList(
+          ProgramVariablesList(
+            EmptyProgramVariablesList(
+            ) [EmptyProgramVariablesList]
+            ProgramConstants(
+              ConstantsClass(
+                TypeClass(
+                 int
+                ) [TypeClass]
+                SingleConstantList(
+                  ConstantDeclaration(
+                   x
+                    NumConstClass(
+                      NumberConstant(
+                       10
+                      ) [NumberConstant]
+                    ) [NumConstClass]
+                  ) [ConstantDeclaration]
+                ) [SingleConstantList]
+              ) [ConstantsClass]
+            ) [ProgramConstants]
+          ) [ProgramVariablesList]
+          ProgramConstants(
+            ConstantsClass(
+              TypeClass(
+               int
+              ) [TypeClass]
+              SingleConstantList(
+                ConstantDeclaration(
+                 y
+                  NumConstClass(
+                    NumberConstant(
+                     20
+                    ) [NumberConstant]
+                  ) [NumConstClass]
+                ) [ConstantDeclaration]
+              ) [SingleConstantList]
+            ) [ConstantsClass]
+          ) [ProgramConstants]
+        ) [ProgramVariablesList]
+        ProgramConstants(
+          ConstantsClass(
+            TypeClass(
+             char
+            ) [TypeClass]
+            MultipleConstantsList(
+              MultipleConstantsList(
+                SingleConstantList(
+                  ConstantDeclaration(
+                   c
+                    NumConstClass(
+                      NumberConstant(
+                       1
+                      ) [NumberConstant]
+                    ) [NumConstClass]
+                  ) [ConstantDeclaration]
+                ) [SingleConstantList]
+                ConstantDeclaration(
+                 c2
+                  NumConstClass(
+                    NumberConstant(
+                     2
+                    ) [NumberConstant]
+                  ) [NumConstClass]
+                ) [ConstantDeclaration]
+              ) [MultipleConstantsList]
+              ConstantDeclaration(
+               c3
+                NumConstClass(
+                  NumberConstant(
+                   3
+                  ) [NumberConstant]
+                ) [NumConstClass]
+              ) [ConstantDeclaration]
+            ) [MultipleConstantsList]
+          ) [ConstantsClass]
+        ) [ProgramConstants]
+      ) [ProgramVariablesList]
+      ProgramVariables(
+        GlobalVariables(
+          TypeClass(
+           int
+          ) [TypeClass]
+          MultipleGlobalVariablesList(
+            SingleGlobalVariableList(
+              GlobalVariableDeclaration(
+               x1
+                VarIsArray(
+                ) [VarIsArray]
+              ) [GlobalVariableDeclaration]
+            ) [SingleGlobalVariableList]
+            GlobalVariableDeclaration(
+             y1
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [GlobalVariableDeclaration]
+          ) [MultipleGlobalVariablesList]
+        ) [GlobalVariables]
+      ) [ProgramVariables]
+    ) [ProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        TypeClass(
+         bool
+        ) [TypeClass]
+        SingleGlobalVariableList(
+          GlobalVariableDeclarationError(
+          ) [GlobalVariableDeclarationError]
+        ) [SingleGlobalVariableList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  EmptyProgramMethodList(
+  ) [EmptyProgramMethodList]
+) [Program]
+INFO  15:15:53,992 - ===================================
+ERROR 15:15:53,992 - Parsing did not complete due to error.

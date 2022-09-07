@@ -1,0 +1,366 @@
+INFO  08:34:36,773 - Starting compilation of a file test/test4.mj
+INFO  08:34:36,774 - Starting lexical analysis....
+INFO  08:34:36,780 - Lexical analysis finished successfully!
+INFO  08:34:36,780 - =========================================
+INFO  08:34:36,781 - Starting syntax analysis....
+INFO  08:34:36,916 - #2 program
+INFO  08:34:36,916 - #48 Test4
+INFO  08:34:36,916 - #48 int
+INFO  08:34:36,918 - #48 x
+INFO  08:34:36,920 - #40 ,
+INFO  08:34:36,921 - #48 y
+INFO  08:34:36,922 - #38 ;
+INFO  08:34:36,922 - #46 {
+INFO  08:34:36,922 - #15 void
+INFO  08:34:36,923 - #48 main
+INFO  08:34:36,924 - #42 (
+INFO  08:34:36,926 - #43 )
+INFO  08:34:36,927 - #46 {
+INFO  08:34:36,929 - #48 x
+INFO  08:34:36,931 - #35 =
+INFO  08:34:36,931 - #49 1
+INFO  08:34:36,936 - #38 ;
+INFO  08:34:36,938 - #9 do
+INFO  08:34:36,939 - #46 {
+INFO  08:34:36,950 - #12 print
+INFO  08:34:36,950 - #42 (
+INFO  08:34:36,950 - #48 x
+INFO  08:34:36,950 - #43 )
+INFO  08:34:36,952 - #38 ;
+INFO  08:34:36,952 - #48 y
+INFO  08:34:36,952 - #35 =
+INFO  08:34:36,952 - #48 x
+INFO  08:34:36,952 - #38 ;
+INFO  08:34:36,953 - #9 do
+INFO  08:34:36,953 - #46 {
+INFO  08:34:36,953 - #12 print
+INFO  08:34:36,953 - #42 (
+INFO  08:34:36,953 - #48 y
+INFO  08:34:36,953 - #43 )
+INFO  08:34:36,953 - #38 ;
+INFO  08:34:36,953 - #48 y
+INFO  08:34:36,954 - #36 ++
+INFO  08:34:36,954 - #38 ;
+INFO  08:34:36,955 - #47 }
+INFO  08:34:36,956 - #10 while
+INFO  08:34:36,956 - #42 (
+INFO  08:34:36,960 - #48 y
+INFO  08:34:36,961 - #31 <
+INFO  08:34:36,961 - #49 5
+INFO  08:34:36,964 - #43 )
+INFO  08:34:36,965 - #38 ;
+INFO  08:34:36,965 - #48 x
+INFO  08:34:36,966 - #36 ++
+INFO  08:34:36,966 - #38 ;
+INFO  08:34:36,966 - #47 }
+INFO  08:34:36,966 - #10 while
+INFO  08:34:36,966 - #42 (
+INFO  08:34:36,966 - #48 x
+INFO  08:34:36,966 - #31 <
+INFO  08:34:36,967 - #49 10
+INFO  08:34:36,967 - #43 )
+INFO  08:34:36,967 - #38 ;
+INFO  08:34:36,967 - #47 }
+INFO  08:34:36,968 - #47 }
+INFO  08:34:36,972 - Syntax analysis finished successfully!
+INFO  08:34:36,972 - Syntax tree: 
+INFO  08:34:36,973 - Program(
+  ProgramName(
+   Test4
+  ) [ProgramName]
+  ProgramVariablesList(
+    EmptyProgramVariablesList(
+    ) [EmptyProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        Type(
+         int
+        ) [Type]
+        MultipleGlobalVariablesList(
+          SingleGlobalVariableList(
+            GlobalVariableDeclaration(
+             x
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [GlobalVariableDeclaration]
+          ) [SingleGlobalVariableList]
+          GlobalVariableDeclaration(
+           y
+            VarIsNotArray(
+            ) [VarIsNotArray]
+          ) [GlobalVariableDeclaration]
+        ) [MultipleGlobalVariablesList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  ProgramMethodsList(
+    EmptyProgramMethodsList(
+    ) [EmptyProgramMethodsList]
+    MethodDeclaration(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      EmptyFormalParametersList(
+      ) [EmptyFormalParametersList]
+      EmptyVariablesDeclarationList(
+      ) [EmptyVariablesDeclarationList]
+      StatementListClass(
+        StatementListClass(
+          EmptyStatementList(
+          ) [EmptyStatementList]
+          SingleStatementClass(
+            SSDesignatorStatement(
+              DesignatorStatementClass(
+                DesignatorClass(
+                 x
+                ) [DesignatorClass]
+                DesignatorAssign(
+                  DesignatorAssignOperation(
+                    AssignOperation(
+                    ) [AssignOperation]
+                    Expr(
+                      ExpressionClass(
+                        ExpressionPositive(
+                        ) [ExpressionPositive]
+                        Terminal(
+                          FactorNumberConstant(
+                            NumberConstant(
+                             1
+                            ) [NumberConstant]
+                          ) [FactorNumberConstant]
+                        ) [Terminal]
+                      ) [ExpressionClass]
+                    ) [Expr]
+                  ) [DesignatorAssignOperation]
+                ) [DesignatorAssign]
+              ) [DesignatorStatementClass]
+            ) [SSDesignatorStatement]
+          ) [SingleStatementClass]
+        ) [StatementListClass]
+        SingleStatementClass(
+          DoWhileStatement(
+            DoWhileStartClass(
+            ) [DoWhileStartClass]
+            MultipleStatements(
+              StatementClass(
+                StatementListClass(
+                  StatementListClass(
+                    StatementListClass(
+                      StatementListClass(
+                        EmptyStatementList(
+                        ) [EmptyStatementList]
+                        SingleStatementClass(
+                          PrintStatement(
+                            Expr(
+                              ExpressionClass(
+                                ExpressionPositive(
+                                ) [ExpressionPositive]
+                                Terminal(
+                                  FactorDesignator(
+                                    DesignatorClass(
+                                     x
+                                    ) [DesignatorClass]
+                                  ) [FactorDesignator]
+                                ) [Terminal]
+                              ) [ExpressionClass]
+                            ) [Expr]
+                            HasNotPrintConstant(
+                            ) [HasNotPrintConstant]
+                          ) [PrintStatement]
+                        ) [SingleStatementClass]
+                      ) [StatementListClass]
+                      SingleStatementClass(
+                        SSDesignatorStatement(
+                          DesignatorStatementClass(
+                            DesignatorClass(
+                             y
+                            ) [DesignatorClass]
+                            DesignatorAssign(
+                              DesignatorAssignOperation(
+                                AssignOperation(
+                                ) [AssignOperation]
+                                Expr(
+                                  ExpressionClass(
+                                    ExpressionPositive(
+                                    ) [ExpressionPositive]
+                                    Terminal(
+                                      FactorDesignator(
+                                        DesignatorClass(
+                                         x
+                                        ) [DesignatorClass]
+                                      ) [FactorDesignator]
+                                    ) [Terminal]
+                                  ) [ExpressionClass]
+                                ) [Expr]
+                              ) [DesignatorAssignOperation]
+                            ) [DesignatorAssign]
+                          ) [DesignatorStatementClass]
+                        ) [SSDesignatorStatement]
+                      ) [SingleStatementClass]
+                    ) [StatementListClass]
+                    SingleStatementClass(
+                      DoWhileStatement(
+                        DoWhileStartClass(
+                        ) [DoWhileStartClass]
+                        MultipleStatements(
+                          StatementClass(
+                            StatementListClass(
+                              StatementListClass(
+                                EmptyStatementList(
+                                ) [EmptyStatementList]
+                                SingleStatementClass(
+                                  PrintStatement(
+                                    Expr(
+                                      ExpressionClass(
+                                        ExpressionPositive(
+                                        ) [ExpressionPositive]
+                                        Terminal(
+                                          FactorDesignator(
+                                            DesignatorClass(
+                                             y
+                                            ) [DesignatorClass]
+                                          ) [FactorDesignator]
+                                        ) [Terminal]
+                                      ) [ExpressionClass]
+                                    ) [Expr]
+                                    HasNotPrintConstant(
+                                    ) [HasNotPrintConstant]
+                                  ) [PrintStatement]
+                                ) [SingleStatementClass]
+                              ) [StatementListClass]
+                              SingleStatementClass(
+                                SSDesignatorStatement(
+                                  DesignatorStatementClass(
+                                    DesignatorClass(
+                                     y
+                                    ) [DesignatorClass]
+                                    DesignatorIncrement(
+                                    ) [DesignatorIncrement]
+                                  ) [DesignatorStatementClass]
+                                ) [SSDesignatorStatement]
+                              ) [SingleStatementClass]
+                            ) [StatementListClass]
+                          ) [StatementClass]
+                        ) [MultipleStatements]
+                        DoWhileConditionStart(
+                        ) [DoWhileConditionStart]
+                        DoWhileCondition(
+                          SingleCondition(
+                            SingleConditionTerm(
+                              ConditionFactRelop(
+                                Expr(
+                                  ExpressionClass(
+                                    ExpressionPositive(
+                                    ) [ExpressionPositive]
+                                    Terminal(
+                                      FactorDesignator(
+                                        DesignatorClass(
+                                         y
+                                        ) [DesignatorClass]
+                                      ) [FactorDesignator]
+                                    ) [Terminal]
+                                  ) [ExpressionClass]
+                                ) [Expr]
+                                RelationLess(
+                                ) [RelationLess]
+                                Expr(
+                                  ExpressionClass(
+                                    ExpressionPositive(
+                                    ) [ExpressionPositive]
+                                    Terminal(
+                                      FactorNumberConstant(
+                                        NumberConstant(
+                                         5
+                                        ) [NumberConstant]
+                                      ) [FactorNumberConstant]
+                                    ) [Terminal]
+                                  ) [ExpressionClass]
+                                ) [Expr]
+                              ) [ConditionFactRelop]
+                            ) [SingleConditionTerm]
+                          ) [SingleCondition]
+                        ) [DoWhileCondition]
+                      ) [DoWhileStatement]
+                    ) [SingleStatementClass]
+                  ) [StatementListClass]
+                  SingleStatementClass(
+                    SSDesignatorStatement(
+                      DesignatorStatementClass(
+                        DesignatorClass(
+                         x
+                        ) [DesignatorClass]
+                        DesignatorIncrement(
+                        ) [DesignatorIncrement]
+                      ) [DesignatorStatementClass]
+                    ) [SSDesignatorStatement]
+                  ) [SingleStatementClass]
+                ) [StatementListClass]
+              ) [StatementClass]
+            ) [MultipleStatements]
+            DoWhileConditionStart(
+            ) [DoWhileConditionStart]
+            DoWhileCondition(
+              SingleCondition(
+                SingleConditionTerm(
+                  ConditionFactRelop(
+                    Expr(
+                      ExpressionClass(
+                        ExpressionPositive(
+                        ) [ExpressionPositive]
+                        Terminal(
+                          FactorDesignator(
+                            DesignatorClass(
+                             x
+                            ) [DesignatorClass]
+                          ) [FactorDesignator]
+                        ) [Terminal]
+                      ) [ExpressionClass]
+                    ) [Expr]
+                    RelationLess(
+                    ) [RelationLess]
+                    Expr(
+                      ExpressionClass(
+                        ExpressionPositive(
+                        ) [ExpressionPositive]
+                        Terminal(
+                          FactorNumberConstant(
+                            NumberConstant(
+                             10
+                            ) [NumberConstant]
+                          ) [FactorNumberConstant]
+                        ) [Terminal]
+                      ) [ExpressionClass]
+                    ) [Expr]
+                  ) [ConditionFactRelop]
+                ) [SingleConditionTerm]
+              ) [SingleCondition]
+            ) [DoWhileCondition]
+          ) [DoWhileStatement]
+        ) [SingleStatementClass]
+      ) [StatementListClass]
+    ) [MethodDeclaration]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  08:34:36,974 - =========================================
+INFO  08:34:36,979 - Starting semantic analysis....
+INFO  08:34:37,001 - Global variable x declared at line 2
+INFO  08:34:37,001 - Global variable y declared at line 2
+INFO  08:34:37,001 - Function main is being parsed  at line 5
+INFO  08:34:37,002 - Global variable x accessed at line 7
+INFO  08:34:37,002 - Global variable x accessed at line 9
+INFO  08:34:37,002 - Global variable y accessed at line 10
+INFO  08:34:37,002 - Global variable x accessed at line 10
+INFO  08:34:37,002 - Global variable y accessed at line 12
+INFO  08:34:37,002 - Global variable y accessed at line 13
+INFO  08:34:37,002 - Global variable y accessed at line 14
+INFO  08:34:37,002 - Global variable x accessed at line 15
+INFO  08:34:37,002 - Global variable x accessed at line 16
+INFO  08:34:37,002 - Semantic analysis completed.
+INFO  08:34:37,002 - Semantic analysis finished successfully!
+INFO  08:34:37,002 - Symbol table: 
+INFO  08:34:37,003 - =========================================
+INFO  08:34:37,003 - Started generating code....
+INFO  08:34:37,019 - Code generated successfully!
+INFO  08:34:37,020 - Compiling file successfully completed!

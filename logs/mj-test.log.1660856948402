@@ -1,0 +1,83 @@
+INFO  23:08:51,320 - Compiling source file: C:\Users\Andrej\eclipse-workspace\MJCompiler\test\test2.mj
+INFO  23:08:51,350 - #2 program
+INFO  23:08:51,351 - #48 p
+INFO  23:08:51,351 - #7 const
+INFO  23:08:51,352 - #48 int
+INFO  23:08:51,352 - #48 x
+INFO  23:08:51,352 - #35 =
+INFO  23:08:51,352 - #49 10
+INFO  23:08:51,352 - #38 ;
+INFO  23:08:51,352 - #7 const
+INFO  23:08:51,353 - #48 int
+INFO  23:08:51,353 - #48 y
+INFO  23:08:51,353 - #35 =
+INFO  23:08:51,353 - #49 20
+INFO  23:08:51,354 - #38 ;
+INFO  23:08:51,354 - #7 const
+INFO  23:08:51,354 - #48 char
+INFO  23:08:51,354 - #48 c
+INFO  23:08:51,354 - #35 =
+INFO  23:08:51,354 - #49 1
+INFO  23:08:51,354 - #38 ;
+INFO  23:08:51,355 - #46 {
+INFO  23:08:51,355 - #47 }
+INFO  23:08:51,361 - Program(
+ p
+  ProgramDeclarationsList(
+    ProgramDeclarationsList(
+      ProgramDeclarationsList(
+        EmptyProgramDeclarationsList(
+        ) [EmptyProgramDeclarationsList]
+        ProgramConstant(
+          SingleConstantList(
+            ConstantDeclaration(
+              TypeClass(
+               int
+              ) [TypeClass]
+             x
+              NumberConst(
+                NumberConstant(
+                 10
+                ) [NumberConstant]
+              ) [NumberConst]
+            ) [ConstantDeclaration]
+          ) [SingleConstantList]
+        ) [ProgramConstant]
+      ) [ProgramDeclarationsList]
+      ProgramConstant(
+        SingleConstantList(
+          ConstantDeclaration(
+            TypeClass(
+             int
+            ) [TypeClass]
+           y
+            NumberConst(
+              NumberConstant(
+               20
+              ) [NumberConstant]
+            ) [NumberConst]
+          ) [ConstantDeclaration]
+        ) [SingleConstantList]
+      ) [ProgramConstant]
+    ) [ProgramDeclarationsList]
+    ProgramConstant(
+      SingleConstantList(
+        ConstantDeclaration(
+          TypeClass(
+           char
+          ) [TypeClass]
+         c
+          NumberConst(
+            NumberConstant(
+             1
+            ) [NumberConstant]
+          ) [NumberConst]
+        ) [ConstantDeclaration]
+      ) [SingleConstantList]
+    ) [ProgramConstant]
+  ) [ProgramDeclarationsList]
+  EmptyProgMethList(
+  ) [EmptyProgMethList]
+) [Program]
+INFO  23:08:51,361 - ===================================
+INFO  23:08:51,361 - Parsing completed successfully!.

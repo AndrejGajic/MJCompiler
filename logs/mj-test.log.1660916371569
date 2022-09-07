@@ -1,0 +1,151 @@
+INFO  15:38:52,891 - Compiling source file: C:\Users\Andrej\eclipse-workspace\MJCompiler\test\test2.mj
+INFO  15:38:52,972 - #2 program
+INFO  15:38:52,972 - #48 p
+INFO  15:38:52,972 - #7 const
+INFO  15:38:52,974 - #48 int
+INFO  15:38:52,974 - #48 x
+INFO  15:38:52,974 - #35 =
+INFO  15:38:52,975 - #49 10
+INFO  15:38:52,975 - #38 ;
+INFO  15:38:52,975 - #48 int
+INFO  15:38:52,976 - #48 y
+INFO  15:38:52,976 - #40 ,
+INFO  15:38:52,979 - #48 z
+INFO  15:38:52,980 - #38 ;
+INFO  15:38:52,980 - #48 bool
+INFO  15:38:52,980 - #48 b
+INFO  15:38:52,981 - #38 ;
+INFO  15:38:52,981 - #46 {
+INFO  15:38:52,981 - #15 void
+INFO  15:38:52,982 - #48 function
+INFO  15:38:52,984 - #42 (
+INFO  15:38:52,984 - #43 )
+INFO  15:38:52,985 - #48 int
+INFO  15:38:52,991 - #48 local1
+INFO  15:38:52,991 - #44 [
+INFO  15:38:52,991 - #45 ]
+INFO  15:38:52,991 - #40 ,
+INFO  15:38:52,993 - #48 local2
+INFO  15:38:52,993 - #38 ;
+INFO  15:38:52,993 - #48 bool
+INFO  15:38:52,994 - #48 local3
+INFO  15:38:52,994 - #38 ;
+INFO  15:38:52,994 - #46 {
+INFO  15:38:52,994 - #35 =
+INFO  15:38:52,994 - #47 }
+INFO  15:38:52,996 - #47 }
+INFO  15:38:52,999 - Program(
+ p
+  ProgramVariablesList(
+    ProgramVariablesList(
+      ProgramVariablesList(
+        EmptyProgramVariablesList(
+        ) [EmptyProgramVariablesList]
+        ProgramConstants(
+          ConstantsClass(
+            TypeClass(
+             int
+            ) [TypeClass]
+            SingleConstantList(
+              ConstantDeclaration(
+               x
+                NumConstClass(
+                  NumberConstant(
+                   10
+                  ) [NumberConstant]
+                ) [NumConstClass]
+              ) [ConstantDeclaration]
+            ) [SingleConstantList]
+          ) [ConstantsClass]
+        ) [ProgramConstants]
+      ) [ProgramVariablesList]
+      ProgramVariables(
+        GlobalVariables(
+          TypeClass(
+           int
+          ) [TypeClass]
+          MultipleGlobalVariablesList(
+            SingleGlobalVariableList(
+              GlobalVariableDeclaration(
+               y
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [GlobalVariableDeclaration]
+            ) [SingleGlobalVariableList]
+            GlobalVariableDeclaration(
+             z
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [GlobalVariableDeclaration]
+          ) [MultipleGlobalVariablesList]
+        ) [GlobalVariables]
+      ) [ProgramVariables]
+    ) [ProgramVariablesList]
+    ProgramVariables(
+      GlobalVariables(
+        TypeClass(
+         bool
+        ) [TypeClass]
+        SingleGlobalVariableList(
+          GlobalVariableDeclaration(
+           b
+            VarIsNotArray(
+            ) [VarIsNotArray]
+          ) [GlobalVariableDeclaration]
+        ) [SingleGlobalVariableList]
+      ) [GlobalVariables]
+    ) [ProgramVariables]
+  ) [ProgramVariablesList]
+  ProgramMethodsList(
+    EmptyProgramMethodsList(
+    ) [EmptyProgramMethodsList]
+    MethodDeclDerived1(
+      MethodTypeVoid(
+      ) [MethodTypeVoid]
+     function
+      EmptyFormalParametersList(
+      ) [EmptyFormalParametersList]
+      VariablesDeclarationList(
+        VariablesDeclarationList(
+          EmptyVariablesDeclarationList(
+          ) [EmptyVariablesDeclarationList]
+          LocalVariables(
+            TypeClass(
+             int
+            ) [TypeClass]
+            MultipleLocalVariablesList(
+              SingleLocalVariableList(
+                VariableDeclaration(
+                 local1
+                  VarIsArray(
+                  ) [VarIsArray]
+                ) [VariableDeclaration]
+              ) [SingleLocalVariableList]
+              VariableDeclaration(
+               local2
+                VarIsNotArray(
+                ) [VarIsNotArray]
+              ) [VariableDeclaration]
+            ) [MultipleLocalVariablesList]
+          ) [LocalVariables]
+        ) [VariablesDeclarationList]
+        LocalVariables(
+          TypeClass(
+           bool
+          ) [TypeClass]
+          SingleLocalVariableList(
+            VariableDeclaration(
+             local3
+              VarIsNotArray(
+              ) [VarIsNotArray]
+            ) [VariableDeclaration]
+          ) [SingleLocalVariableList]
+        ) [LocalVariables]
+      ) [VariablesDeclarationList]
+      StatementClass(
+      ) [StatementClass]
+    ) [MethodDeclDerived1]
+  ) [ProgramMethodsList]
+) [Program]
+INFO  15:38:53,000 - ===================================
+INFO  15:38:53,000 - Parsing completed successfully!.
